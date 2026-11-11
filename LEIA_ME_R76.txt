@@ -1,0 +1,28 @@
+# VEILFALL R76 — Primeira calibração da progressão
+
+Baseada na **R75**. Esta é uma revisão de balanceamento inicial, não uma certificação do endgame.
+
+## Alterações
+- Prestígios do **Mundo I entre as fases 55 e 249** concedem um multiplicador decrescente de relíquias; começa em ×7 na fase 55 e chega a ×1 na 250. Não altera os Mundos II–V nem prestígios do Mundo I de fase 250+. A recompensa antiga já recebida não é modificada.
+- **Dano de contato de inimigos no Mundo I, fases 56–250:** crescimento progressivo ancorado na ameaça da fase 55 e na vida esperada do cavaleiro. Elimina o salto de dano da fase 55→56 e evita atingir cedo demais o limite proporcional à vida. Atributos de vida e defesa passam a ter relevância nessa faixa. Não altera a vida de monstros, ouro, XP, dano do cavaleiro, limite de cura ou habilidades.
+- Interface e números de versão atualizados para R76.
+
+## O que NÃO mudou
+Assets, sprites, áudio, animações aprovadas, HUD, árvore de passivas, itens, qualidades, drop único, chefes obrigatórios, economia de Mimics, Clãs e Raids. Fórmulas dos mundos posteriores e de todas as fases acima de 250 permanecem iguais à R75.
+
+## Como abrir
+Extraia o ZIP e use `ABRIR_JOGO.bat` ou abra `VEILFALL.html` diretamente. Clãs e Raids online dependem do servidor Node.js incluído e de conectividade entre os jogadores.
+
+## Salvamentos
+A R76 mantém o formato de salvamento da R75; a correção é aplicada no cálculo, sem zerar progresso. Faça **Exportar Save** antes de instalar outra revisão e use **Importar Save** se o navegador não encontrar seu progresso ao abrir em outra pasta.
+
+## Testes e limitações
+`node tests/r76-core.cjs` verifica curva de relíquias, fronteiras, dano de contato, atributos defensivos e preservação das regras não relacionadas. Os testes anteriores podem ser executados por `npm run test:current` e `npm test`; `npm run build && npm run check` valida o HTML portátil.
+
+Duas sementes (17 e 47), duas horas simuladas, agente com prestígios:
+- R75: recordes 72/68, nove prestígios em ambas.
+- R76: recordes 121/140, quatro prestígios em ambas.
+
+**Não** foi simulado ou validado integralmente o progresso de 120.000 fases, nem todas as estratégias de build, economias de mundos avançados ou uso real no Windows. Consulte `docs/REVISAO_76.md` e `docs/BALANCE_R76_CAMPANHA.json`.
+
+As notas e ferramentas históricas da R75 permanecem no pacote.

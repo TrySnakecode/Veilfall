@@ -1,0 +1,13 @@
+/* R75 — HUD sem distrações; sem alteração de sprites ou mecânicas. */
+.r75 .battle-top{position:relative;isolation:isolate;min-height:36px;height:36px;flex:none}
+/* O guardião aparece NA BARRA SUPERIOR, fora da área jogável. */
+.r75 .battle-top .battle-boss{position:absolute;top:3px;left:50%;transform:translateX(-50%);width:min(280px,32%);max-width:none;min-width:175px;height:30px;padding:3px 8px;border:1px solid #8f6e52a0;border-radius:3px;z-index:3;background:linear-gradient(125deg,#2a2028ee,#151923f5);box-shadow:0 1px 7px #0007;pointer-events:none;overflow:hidden}
+.r75 .battle-top .battle-boss span{display:block;max-width:100%;font:700 9px/12px Georgia,serif;letter-spacing:.045em;color:#edcb9c;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.r75 .battle-top .battle-boss .bar-track.boss{height:5px;margin:3px 0 0;border:0;border-radius:2px}
+.r75 .battle-top .battle-boss .bar-track.boss>div{height:100%;background:linear-gradient(90deg,#b44653,#f5ab69)}
+/* Mensagens continuam acessíveis em Registros, mas não se sobrepõem à arena. */
+.r75 #combat-feed,.r75 #combat-msg{display:none!important}
+.r75 #toast-root{pointer-events:none;max-width:min(350px,55vw)}
+.r75 #toast-root .toast{font-size:11px;line-height:1.35;padding:8px 12px}
+@media(max-width:1100px){.r75 .battle-top .battle-boss{width:30%;min-width:145px}.r75 .battle-top:has(.battle-boss:not(.hidden)) #battle-head-right{visibility:hidden}}
+@media(max-width:650px){.r75 .battle-top:has(.battle-boss:not(.hidden)) .region-tag{visibility:hidden}.r75 .battle-top .battle-boss{width:70%;min-width:155px;max-width:230px}.r75 .battle-top .battle-boss span{font-size:8px}}

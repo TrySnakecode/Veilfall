@@ -1,0 +1,94 @@
+{
+  "revision": 54,
+  "total": 14,
+  "pass": 14,
+  "fail": 0,
+  "reproduction": {
+    "count": 42,
+    "totalLevels": 92987,
+    "pct": 293.1636102437691
+  },
+  "migration": {
+    "loaded": true,
+    "before": 11.899279682287823,
+    "after": 11.899279682287823,
+    "art": 12000,
+    "vers": 2,
+    "recorded": true
+  },
+  "checks": [
+    {
+      "name": "106 artefatos no catalogo",
+      "pass": true
+    },
+    {
+      "name": "Relíquia primeira jornada mantém prestígio viável",
+      "pass": true
+    },
+    {
+      "name": "Relíquias fase1170 reduzem 12+ ordens de grandeza",
+      "pass": true,
+      "log10": 12.696193078824962
+    },
+    {
+      "name": "All Artifact Damage aditivo",
+      "pass": true
+    },
+    {
+      "name": "Ressonancia experimental removida",
+      "pass": true
+    },
+    {
+      "name": "HP por etapa apos2000 e maior que remuneração das reliquias",
+      "pass": true
+    },
+    {
+      "name": "Aumento longo de HP na fase5000",
+      "pass": true
+    },
+    {
+      "name": "Teste1170 não desbloqueia105 artefatos",
+      "pass": true,
+      "count": 42
+    },
+    {
+      "name": "Teste1170 não eleva 1 milhão de níveis",
+      "pass": true,
+      "levels": 92987
+    },
+    {
+      "name": "Dano de todos os artefatos mantido como %",
+      "pass": true,
+      "percent": 29316.361024376907
+    },
+    {
+      "name": "Save R53 convertido sem perder armas ou niveis",
+      "pass": true,
+      "loaded": true,
+      "before": 11.899279682287823,
+      "after": 11.899279682287823,
+      "art": 12000,
+      "vers": 2,
+      "recorded": true
+    },
+    {
+      "name": "Saldo R53 da fase1170 normalizado pela fase do último prestígio",
+      "pass": true,
+      "log10": 11.899279682287823
+    },
+    {
+      "name": "Migração idempotente (não reaplica ao carregar)",
+      "pass": true,
+      "loaded": true,
+      "before": 11.899279682287823,
+      "after": 11.899279682287823,
+      "art": 12000,
+      "vers": 2,
+      "recorded": true
+    },
+    {
+      "name": "Golpe das Sombras sem recarga por tick explosiva",
+      "pass": true
+    }
+  ]
+}

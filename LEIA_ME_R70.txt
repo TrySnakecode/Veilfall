@@ -1,0 +1,31 @@
+VEILFALL R70 — GUARDIÕES OBRIGATÓRIOS E EQUIPAMENTOS ÚNICOS
+
+COMO ABRIR
+1. Extraia o ZIP inteiro.
+2. Execute ABRIR_JOGO.bat na pasta VEILFALL_R70, ou abra VEILFALL.html.
+3. Antes de atualizar, exporte o salvamento da R69.
+4. Se a nova pasta não localizar seu save, importe-o pelo menu Configurações.
+
+O QUE MUDOU
+- Todas as fases exigem matar inimigos e o Guardião da Fase para avançar.
+- Cada 250 fases continua existindo o Guardião de Limiar.
+- Dano dos monstros agora continua escalando após a fase 350.
+- Roubo de vida não permite curar toda a barra instantaneamente.
+- Equipamentos caem somente em fases inéditas, máximo de um item de monstros por fase.
+- Guardiões de equipamentos (múltiplos de 15) têm apenas uma tentativa de drop por fase inédita.
+- Repetir marcos, voltar de fase ou prestigiar NÃO permite novos drops em fases já conquistadas.
+- Ouro e EXP continuam disponíveis para farm em fases antigas.
+- Para mudar de mundo, é preciso derrotar o Guardião da fase 24.000.
+
+PRESERVADO
+- 210 talentos multinível e transformações da árvore.
+- Nove habilidades ativas sem níveis comprados.
+- Clãs, Raids, Armas de Heróis e todos os sprites/áudios antigos.
+
+SERVIDOR ONLINE
+- INICIAR_SERVIDOR.bat (Node.js >= 24). Campanha offline não exige Node.
+
+IMPORTANTE
+- Faça BACKUP do save antes de atualizar: o ajuste da dificuldade é intencional.
+- Foram feitos testes de lógica, regressão, servidor e simulações curtas, mas NÃO um
+  teste de todos os mundos até 24.000 ou teste manual em Windows.

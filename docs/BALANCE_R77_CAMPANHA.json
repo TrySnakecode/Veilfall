@@ -1,0 +1,59 @@
+{
+  "revisao": 77,
+  "base": "VEILFALL_R76(1).zip (integra)",
+  "objetivo": "Recuperar desafio e prestígios frequentes sem salto abrupto fase 55/56",
+  "alteracoes": {
+    "reliquias": "Multiplicador Mundo I <=249: 1+0.75*((250-max(55,stage))/195)^2. Na fase 55 1.75x, fase 250 1x; antes 7x na 55.",
+    "contato": "Dano de contato Mundo I fases 56–250: fórmula da R76 multiplicada por 1+4.2*p*(1-p)^2, p=(stage-55)/195. Fora desse intervalo permanece igual à R76."
+  },
+  "comparacoes": {
+    "pelo_menos_uma_seed_17": [
+      {
+        "duracao_simulada_min": 60,
+        "revisao": 76,
+        "fase_maxima": 114,
+        "prestigios": 2,
+        "mortes": 3,
+        "arquivo_log": "tools/prestige-r76.cjs"
+      },
+      {
+        "duracao_simulada_min": 60,
+        "revisao": 77,
+        "fase_maxima": 77,
+        "prestigios": 3,
+        "mortes": 4,
+        "arquivo_log": "tools/prestige-r76.cjs"
+      },
+      {
+        "duracao_simulada_min": 120,
+        "revisao": 76,
+        "fase_maxima": 121,
+        "prestigios": 4,
+        "mortes": 5,
+        "arquivo_log": "docs/BALANCE_R76_CAMPANHA.json"
+      },
+      {
+        "duracao_simulada_min": 120,
+        "revisao": 77,
+        "fase_maxima": 93,
+        "prestigios": 6,
+        "mortes": 7,
+        "arquivo_log": "tools/prestige-r76.cjs"
+      }
+    ]
+  },
+  "limitacoes": [
+    "Simulador simplificado com seed 17; progressão de qualquer build humana não garantida",
+    "Não prova duração nem viabilidade do endgame de cinco mundos",
+    "Não foram alterados HP, XP, ouro, custos de artefatos, combate em outros mundos ou lógica de salvamento",
+    "Testes em Windows real e com jogadores ainda necessários"
+  ],
+  "integridade": {
+    "regressao_r77": "9 PASS",
+    "regressoes_r72_r71_r70": "40 PASS",
+    "tests_server": "18 PASS",
+    "build": "21 scripts, 16 PNG, 3 WAV, nenhum recurso externo",
+    "chromium": "sem erros de página; campanha inicia normalmente",
+    "arquivos_preservados": "32 hashes SHA-256 comparados com R76 para sprites/áudio/raids/servidores e arquivos críticos"
+  }
+}

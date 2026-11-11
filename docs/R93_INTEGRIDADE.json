@@ -1,0 +1,43 @@
+{
+  "base": "VEILFALL_R92_CONJUNTOS_UNICOS_TT2_WINDOWS.zip",
+  "revision": "R93",
+  "base_files": 292,
+  "unchanged_base_files": 281,
+  "changed_base_files": [
+    "README.md",
+    "VEILFALL.html",
+    "index.html",
+    "package.json",
+    "src/game.js",
+    "src/r75-ui.js",
+    "tests/r78-core.cjs",
+    "tests/r79-core.cjs",
+    "tests/r80-core.cjs",
+    "tests/r81-core.cjs",
+    "tests/r82-core.cjs"
+  ],
+  "removed_base_files": [],
+  "protected_files": 25,
+  "protected_changed": [],
+  "media_sha256": {
+    "assets/audio/sound-0.wav": "59f9cf4dd1e7e19c1466a63637436cba58af1ee7b0c78d6b207929f7a30d732e",
+    "assets/audio/sound-1.wav": "d3e079b01b3d57ce811063fdb93e6faf50efb09ca34adb302c20e464613bb140",
+    "assets/audio/sound-2.wav": "ba8a92072c8c12cfcaf23738153629faa44f0e72dc085d418791106f92865476",
+    "assets/characters/bosses.png": "fa2e94c7f37de91515662359b3ec1c9d22de5b8e5e6ce14b94eb3fdc0138b821",
+    "assets/characters/enemies.png": "fa78c5974f7d2c45c32acbb9b1c005b44e572680855ee143258d9e46a8f932f7",
+    "assets/characters/knight.png": "e68d371feab99131e085d79ff9fcc29f6999ab6c0f36e01978f160abfec09fd9",
+    "assets/environment/arena.png": "e76343d3c6b4465bef558b7c74e3a4d279a3fb3c325e7bff5385da15dac8ed1f",
+    "assets/raids/abyss.png": "c023cc96b31a419ffaf2f2e8bce7b31b880d450a126957d62566d69bf136719d",
+    "assets/raids/archon.png": "8c9f687c9945d19734b3f8ef5c9d7631575cd956bd2dc5da425ecaf9cc212389",
+    "assets/raids/arena.png": "b53f8888f5367586091c3e0a0525ec21fc60abf8c341225daab60070184c9487",
+    "assets/raids/heraldry.png": "a62cc08961a5f1db2d0211ffa05f4eab95dd6234ec0b4d33ccebe4fee74470b1",
+    "assets/raids/sentinel.png": "18ea9288a06cf0e93ba3b6afe5cfd776c711582ae97e7675c5c73ebf7797a65f",
+    "assets/raids/techniques.png": "4a5b2d8b46714de888c48dfe750e308fc0446af6fa27ccd17a3736723460f9fa",
+    "assets/raids/weapons-1.png": "7e9f831c82f797ee879d89599947c9d77fb8b5a4a183f8695d6233d6e4b554fb",
+    "assets/raids/weapons-2.png": "5020fdb6ebee5578b4f50870d173f1ceb483996d1f08bca16173769a3686197d",
+    "assets/ui/companions.png": "8e1efd1db84c4ef53a128666eafd3233d25f0ba9a89168ceceb19d40de44bf8d",
+    "assets/ui/icons.png": "0c38b023ed55169fcf129eadafc4ac7293e6375cab7a799e8d2d56080cd0a955",
+    "assets/ui/relics1.png": "6912f650ee101ebbd8d55b3862068822af19b4b6a4aa2d5307afe6fcab24ed56",
+    "assets/ui/relics2.png": "a36287a1ffd15988a7d6bd8c87f773d09b56b7b892be703baba5d2418965c3e5"
+  }
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "seconds": 1800,
+    "seed": 11,
+    "strategy": "balanced",
+    "peak": 84,
+    "stage": 84,
+    "level": 44,
+    "deaths": 8,
+    "prestiges": 0,
+    "kills": 1936,
+    "artifacts": 0,
+    "heroCount": 5,
+    "snapshots": [
+      {
+        "sec": 300,
+        "stage": 23,
+        "peak": 23,
+        "lv": 16,
+        "deaths": 0,
+        "prestiges": 0,
+        "gold": 2.083501082163764,
+        "art": 0
+      },
+      {
+        "sec": 900,
+        "stage": 57,
+        "peak": 57,
+        "lv": 33,
+        "deaths": 0,
+        "prestiges": 0,
+        "gold": 1.6095421366705458,
+        "art": 0
+      }
+    ],
+    "cpuMs": 6350
+  },
+  {
+    "seconds": 1800,
+    "seed": 13,
+    "strategy": "balanced",
+    "peak": 89,
+    "stage": 88,
+    "level": 45,
+    "deaths": 9,
+    "prestiges": 0,
+    "kills": 2010,
+    "artifacts": 0,
+    "heroCount": 5,
+    "snapshots": [
+      {
+        "sec": 300,
+        "stage": 22,
+        "peak": 22,
+        "lv": 16,
+        "deaths": 0,
+        "prestiges": 0,
+        "gold": 1.6140565701486511,
+        "art": 0
+      },
+      {
+        "sec": 900,
+        "stage": 57,
+        "peak": 57,
+        "lv": 32,
+        "deaths": 0,
+        "prestiges": 0,
+        "gold": 1.5329264187215905,
+        "art": 0
+      }
+    ],
+    "cpuMs": 5826
+  },
+  {
+    "seconds": 1800,
+    "seed": 17,
+    "strategy": "balanced",
+    "peak": 90,
+    "stage": 89,
+    "level": 46,
+    "deaths": 8,
+    "prestiges": 0,
+    "kills": 2021,
+    "artifacts": 0,
+    "heroCount": 5,
+    "snapshots": [
+      {
+        "sec": 300,
+        "stage": 23,
+        "peak": 23,
+        "lv": 16,
+        "deaths": 0,
+        "prestiges": 0,
+        "gold": 1.4894781820041396,
+        "art": 0
+      },
+      {
+        "sec": 900,
+        "stage": 58,
+        "peak": 58,
+        "lv": 33,
+        "deaths": 0,
+        "prestiges": 0,
+        "gold": 1.71610197925321,
+        "art": 0
+      }
+    ],
+    "cpuMs": 5616
+  },
+  {
+    "seconds": 1800,
+    "seed": 23,
+    "strategy": "balanced",
+    "peak": 84,
+    "stage": 83,
+    "level": 43,
+    "deaths": 6,
+    "prestiges": 0,
+    "kills": 1827,
+    "artifacts": 0,
+    "heroCount": 4,
+    "snapshots": [
+      {
+        "sec": 300,
+        "stage": 23,
+        "peak": 23,
+        "lv": 16,
+        "deaths": 0,
+        "prestiges": 0,
+        "gold": 2.9336089266727834,
+        "art": 0
+      },
+      {
+        "sec": 900,
+        "stage": 57,
+        "peak": 57,
+        "lv": 32,
+        "deaths": 0,
+        "prestiges": 0,
+        "gold": 2.142565396798484,
+        "art": 0
+      }
+    ],
+    "cpuMs": 5752
+  }
+]

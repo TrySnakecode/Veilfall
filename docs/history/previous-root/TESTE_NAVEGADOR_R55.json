@@ -1,0 +1,73 @@
+{
+  "revision": 55,
+  "checks": [
+    {
+      "name": "tela inicial",
+      "pass": true
+    },
+    {
+      "name": "campanha iniciou",
+      "pass": true
+    },
+    {
+      "name": "descoberta de Artefatos visível",
+      "pass": true
+    },
+    {
+      "name": "primeiras quatro descobertas usam categorias iniciais",
+      "pass": true
+    },
+    {
+      "name": "quinta descoberta garantida",
+      "pass": true
+    },
+    {
+      "name": "duas relíquias na coleção",
+      "pass": true
+    },
+    {
+      "name": "Anel do Abismo efeito alterado",
+      "pass": true
+    },
+    {
+      "name": "sem erros JavaScript",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "first_five": [
+    {
+      "name": "Tratado das Lâminas",
+      "id": "a020",
+      "effect": "physical",
+      "count": 1
+    },
+    {
+      "name": "Eco do Abismo",
+      "id": "a064",
+      "effect": "gold_monsters",
+      "count": 2
+    },
+    {
+      "name": "Fragmento do Juramento",
+      "id": "a002",
+      "effect": "physical",
+      "count": 3
+    },
+    {
+      "name": "Véu da Ruína",
+      "id": "a075",
+      "effect": "defense",
+      "count": 4
+    },
+    {
+      "name": "Memória do Retorno",
+      "id": "a014",
+      "effect": "relic",
+      "count": 5
+    }
+  ],
+  "passed": 8,
+  "total": 8,
+  "failed": 0
+}

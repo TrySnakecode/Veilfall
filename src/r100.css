@@ -1,0 +1,27 @@
+/* R100 connected account and leaderboard */
+.r100-cloud{border:1px solid #758da04d;background:linear-gradient(145deg,#141c2a,#10141f)}
+.r100-slots{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:18px 0}
+.r100-slot{padding:16px;border:1px solid #8faac038;background:#090f1bcc;border-radius:10px;display:flex;flex-direction:column;gap:9px}
+.r100-slot>b{color:#e6d1a5;letter-spacing:.06em}
+.r100-slot>small{display:block;color:#a9bbca}
+.r100-actions{display:flex;flex-wrap:wrap;gap:9px;align-items:center;margin:12px 0}
+.r100-actions .r52-btn{flex:0 1 auto}
+.r100-table{max-width:100%;overflow:auto}
+.r100-table table{width:100%;border-collapse:collapse;min-width:500px;text-align:left}
+.r100-table th,.r100-table td{padding:12px 10px;border-bottom:1px solid #9cb3c02d}
+.r100-table th{font-size:.77em;letter-spacing:.08em;color:#b9d0db;text-transform:uppercase}
+.r100-table tbody tr:first-child td{color:#e4bf83}
+.r100-name{border:0;background:transparent;color:#bad7f1;text-align:left;cursor:pointer;font:inherit;text-decoration:underline;text-decoration-color:#7fa4b060}
+.r100-warning{padding:12px 15px;border-left:3px solid #c59a58;background:#bc924f1a;color:#ead8b4}
+@media(max-width:720px){.r100-slots{grid-template-columns:1fr}.r100-table table{font-size:12px}}
+
+.r100-podium{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin:20px 0}
+.r100-podium-card{text-align:center;padding:22px 12px;min-height:170px;display:flex;align-items:center;flex-direction:column;justify-content:center;gap:9px;background:linear-gradient(150deg,#172536,#10141f 65%);border:1px solid #c3a77533;border-radius:12px;box-shadow:0 12px 28px #03080f33}
+.r100-podium-card:first-child{background:radial-gradient(circle at 50% 0,#8d6a2c55,transparent 65%),linear-gradient(160deg,#243447,#0e1420);border-color:#c3a7758e;transform:translateY(-7px)}
+.r100-podium-card small{letter-spacing:.15em;color:#d5b57f}
+.r100-podium-card b{font-size:1.04rem;word-break:break-word;color:#f0e8d8}
+.r100-podium-card span{color:#a9bbcf;font-size:.83em}
+.r100-podium-crest{display:grid;place-items:center;width:52px;height:52px;border:1px solid #bc9f70a0;transform:rotate(45deg);font-size:26px;color:#d6bd8d;margin:12px}
+.r100-podium-crest::first-letter{transform:rotate(-45deg)}
+.r100-connect{font-size:10px;letter-spacing:.09em;white-space:nowrap;color:#b6c7d3;align-self:center}
+@media(max-width:600px){.r100-podium{grid-template-columns:1fr}.r100-podium-card:first-child{transform:none}}

@@ -1,0 +1,6 @@
+const fs=require('node:fs'),path=require('node:path'),root=path.resolve(__dirname,'..');
+let html=fs.readFileSync(path.join(root,'index.html'),'utf8');
+const scripts=['tests/qa.js','tests/r52-browser.js'].map(p=>'<script>\n'+fs.readFileSync(path.join(root,p),'utf8').replace(/<\/script/gi,'<\\/script')+'\n</script>').join('\n');
+fs.writeFileSync(path.join(root,'qa-r52.html'),html.replace('</body>',scripts+'</body>'));
+fs.writeFileSync(path.join(root,'qa-layout-r52.html'),'<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>VEILFALL R52 · Layout</title><style>body{background:#050b13;color:#eee;font:14px Arial;margin:14px}button{padding:10px;margin:4px;background:#233246;color:#eee;border:1px solid #69819b}iframe{display:block;border:1px solid #697c8e;height:820px;margin-top:10px;max-width:100%}</style><h1>Teste de layout R52</h1><button onclick="document.querySelector(\'iframe\').style.width=\'390px\'">390 px</button><button onclick="document.querySelector(\'iframe\').style.width=\'768px\'">768 px</button><button onclick="document.querySelector(\'iframe\').style.width=\'1280px\'">1280 px</button><iframe title="Jogo responsivo" src="index.html" style="width:390px"></iframe></html>');
+console.log('QA R52 gerado.');

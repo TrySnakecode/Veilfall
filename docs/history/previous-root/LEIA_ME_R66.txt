@@ -1,0 +1,46 @@
+VEILFALL R66 — INTERFACE E EFEITOS
+
+COMO ABRIR NO WINDOWS
+1. Clique com o botão direito no ZIP e escolha "Extrair tudo".
+2. Abra a pasta VEILFALL_R66 extraída.
+3. Abra VEILFALL.html, ou dê dois cliques em ABRIR_JOGO.bat.
+
+A campanha e o treinamento de raids funcionam sem instalar dependências.
+O HTML contém as imagens, o áudio e o código necessários para jogar.
+
+CLÃS, CONTAS E RAIDS COM SERVIDOR
+Use INICIAR_SERVIDOR.bat com Node.js 24 ou superior instalado.
+O inicializador abre um servidor local e o navegador. Mantenha a janela aberta.
+Se a porta padrão estiver ocupada, ele escolhe outra porta local livre.
+O servidor local não publica o jogo na internet.
+
+SEU PROGRESSO
+O formato de save da R65 foi preservado. Se o navegador não encontrar a campanha
+ao abrir a nova pasta/endereço, exporte o save na versão anterior e importe-o
+em Configurações > Importar save na R66. Não é preciso recomeçar a campanha.
+O laboratório é temporário: não grava progresso na campanha.
+
+O QUE MUDOU
+- Navegação por Jornada, Coleções, Santuário, Cooperativo e Histórico.
+- Busca global de painéis com Ctrl+K.
+- Busca por nome/atributo nas coleções e por arma/herói no Arsenal.
+- Painéis com textos maiores, detalhes recolhíveis e rolagem preservada.
+- Barra de habilidades fora do canvas, com estados de mana e recarga claros.
+- Foco no combate pela tecla F; painéis podem ser ampliados.
+- Menu lateral e ações adaptados a telas menores.
+- Novos cortes, explosões, brasas, runas, asas de luz e manifestações espectrais.
+- Efeitos nas técnicas de raid e contornos de perigo acima da magia.
+- Configurações: efeitos Discretos, Equilibrados ou Épicos; texto ampliado.
+
+ATALHOS
+1–4: habilidades da campanha. 1–3: técnicas durante uma raid.
+WASD: movimento. Espaço: pausar. F: foco no combate. Ctrl+K: buscar painel.
+Os atalhos de combate são suspensos enquanto você digita em um campo.
+
+O balanceamento, a economia, a progressão e as regras de raid da R65 foram
+preservados. A R66 concentra as alterações na interface e na apresentação.
+
+O pacote contém o jogo, o código, as imagens e os sons usados durante a partida.
+Imagens brutas de desenvolvimento e capturas de revisões antigas foram omitidas
+para reduzir o download. Os relatórios anteriores continuam como histórico.
+As notas desta revisão estão em docs/REVISAO_66.md.

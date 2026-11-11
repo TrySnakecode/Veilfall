@@ -1,0 +1,8 @@
+VEILFALL R71 — Capacetes de heróis e Qualidade de Equipamentos
+
+Execute ABRIR_JOGO.bat para campanha local ou INICIAR_SERVIDOR.bat para Clãs/Raids.
+Faça backup do salvamento R70 antes de atualizar.
+Capacetes agora reforçam os buffs passivos de Guerreiros, Magos ou Sacerdotes.
+Qualidade (Imperfeita até Perfeita) é independente de raridade; itens anteriores recebem qualidade Perfeita.
+As regras de drops de fase única da R70 continuam valendo.
+Detalhes: docs/REVISAO_71.md

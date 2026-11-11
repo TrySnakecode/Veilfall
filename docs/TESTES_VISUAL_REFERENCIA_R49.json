@@ -1,0 +1,200 @@
+{
+  "revision": 49,
+  "started": "2026-10-26T16:08:45.469Z",
+  "completed": "2026-10-26T16:08:47.030Z",
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "viewport": [
+    1363,
+    936
+  ],
+  "results": [
+    {
+      "name": "Oito imagens de execução carregadas",
+      "pass": true
+    },
+    {
+      "name": "48 quadros do cavaleiro com bordas transparentes e corpo conectado",
+      "pass": true
+    },
+    {
+      "name": "Cadência de inimigos limitada a 1,9–3,6 quadros por segundo",
+      "pass": true
+    },
+    {
+      "name": "Caminhada dos chefes não usa a pose de preparação",
+      "pass": true
+    },
+    {
+      "name": "Efeito e conjuração aceitos: grace",
+      "pass": true
+    },
+    {
+      "name": "Resultado de grace idêntico à lógica R48",
+      "pass": true
+    },
+    {
+      "name": "Efeito e conjuração aceitos: fury",
+      "pass": true
+    },
+    {
+      "name": "Resultado de fury idêntico à lógica R48",
+      "pass": true
+    },
+    {
+      "name": "Efeito e conjuração aceitos: curse",
+      "pass": true
+    },
+    {
+      "name": "Resultado de curse idêntico à lógica R48",
+      "pass": true
+    },
+    {
+      "name": "Efeito e conjuração aceitos: demons",
+      "pass": true
+    },
+    {
+      "name": "Resultado de demons idêntico à lógica R48",
+      "pass": true
+    },
+    {
+      "name": "Efeito e conjuração aceitos: shadow",
+      "pass": true
+    },
+    {
+      "name": "Resultado de shadow idêntico à lógica R48",
+      "pass": true
+    },
+    {
+      "name": "Efeito e conjuração aceitos: flame_nova",
+      "pass": true
+    },
+    {
+      "name": "Resultado de flame_nova idêntico à lógica R48",
+      "pass": true
+    },
+    {
+      "name": "Efeito e conjuração aceitos: thunderstorm",
+      "pass": true
+    },
+    {
+      "name": "Resultado de thunderstorm idêntico à lógica R48",
+      "pass": true
+    },
+    {
+      "name": "Efeito e conjuração aceitos: holy_spear",
+      "pass": true
+    },
+    {
+      "name": "Resultado de holy_spear idêntico à lógica R48",
+      "pass": true
+    },
+    {
+      "name": "Efeito e conjuração aceitos: arcane_focus",
+      "pass": true
+    },
+    {
+      "name": "Resultado de arcane_focus idêntico à lógica R48",
+      "pass": true
+    },
+    {
+      "name": "Nova desenha uma área e impactos menores por alvo",
+      "pass": true
+    },
+    {
+      "name": "Shadow desenha somente os trajetos dos alvos atingidos",
+      "pass": true
+    },
+    {
+      "name": "Cooldown rejeitado não consome mana nem cria VFX",
+      "pass": true
+    },
+    {
+      "name": "Mana insuficiente não conjura",
+      "pass": true
+    },
+    {
+      "name": "HUD distingue falta de mana de habilidade pronta",
+      "pass": true
+    },
+    {
+      "name": "Todas as 12 abas renderizam",
+      "pass": true
+    },
+    {
+      "name": "Novas seções de Almas mantêm dados e ações",
+      "pass": true
+    },
+    {
+      "name": "36 Ecos, pesquisa por 12 invocações e 24 Runas preservados",
+      "pass": true
+    },
+    {
+      "name": "Save restaura Almas, Runas e preferência de recuo",
+      "pass": true
+    },
+    {
+      "name": "Migração legada de Reza e Runas é idempotente",
+      "pass": true
+    },
+    {
+      "name": "Laboratório preserva a campanha",
+      "pass": true
+    },
+    {
+      "name": "Qualidades gráficas não mudam o combate",
+      "pass": true
+    },
+    {
+      "name": "Compra MAX de herói mantém custo e níveis",
+      "pass": true
+    },
+    {
+      "name": "Equipar, remover e vender item continuam funcionando",
+      "pass": true
+    },
+    {
+      "name": "Cap da horda e limites de VFX",
+      "pass": true
+    },
+    {
+      "name": "Três chefes e avisos visuais desenham sem erro",
+      "pass": true
+    },
+    {
+      "name": "Sessão de 5 minutos simulados sem NaN ou excesso de inimigos",
+      "pass": true
+    },
+    {
+      "name": "Nenhum erro JavaScript capturado",
+      "pass": true
+    }
+  ],
+  "performance": [
+    {
+      "enemies": 5,
+      "medianMs": 0.2,
+      "p95Ms": 0.4
+    },
+    {
+      "enemies": 50,
+      "medianMs": 0.9,
+      "p95Ms": 2.3
+    },
+    {
+      "enemies": 150,
+      "medianMs": 0.9,
+      "p95Ms": 2.4
+    },
+    {
+      "enemies": 320,
+      "medianMs": 1.1,
+      "p95Ms": 9.2
+    }
+  ],
+  "errors": [],
+  "notes": [
+    "Tempo de CPU por chamada de desenho; não representa FPS nem inclui toda composição da GPU.",
+    "Testes usam campanha sintética em memória.",
+    "Lógica e catálogo R48 também conferidos por hash fora do navegador."
+  ]
+}

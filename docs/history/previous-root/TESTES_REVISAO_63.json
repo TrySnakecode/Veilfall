@@ -1,0 +1,389 @@
+{
+  "revision": 63,
+  "base": 62,
+  "tests": [
+    {
+      "test": "catálogo e talentos",
+      "result": "OK",
+      "data": {
+        "names": [
+          "Coração de Brasas · Catalisador Ígneo",
+          "Ceifa do Véu · Réquiem Profano"
+        ],
+        "ids": [
+          "grace",
+          "fury",
+          "curse",
+          "demons",
+          "shadow",
+          "flame_nova",
+          "thunderstorm",
+          "holy_spear",
+          "arcane_focus"
+        ],
+        "tree": [
+          "physical",
+          "magic",
+          "faith"
+        ],
+        "nodes": 165
+      }
+    },
+    {
+      "test": "7 cenários de sinergia",
+      "result": "OK",
+      "cases": [
+        {
+          "key": "ceifa_solo",
+          "casts": [
+            "holy_spear"
+          ],
+          "states": [
+            {
+              "id": "holy_spear",
+              "ok": true,
+              "cursed": 19,
+              "exposed": 19,
+              "burning": 0,
+              "marked": 0,
+              "veilBurst": 0,
+              "emberBurst": 0,
+              "shadowLinks": 0,
+              "hp": 22,
+              "visual": 0
+            }
+          ],
+          "final": {
+            "cursed": 19,
+            "exposed": 19,
+            "burning": 0,
+            "marked": 0,
+            "veilBurst": 0,
+            "emberBurst": 0,
+            "shadowLinks": 0,
+            "hp": 22,
+            "visual": 0
+          },
+          "hits": 19,
+          "by": {
+            "holy_spear": 19
+          }
+        },
+        {
+          "key": "curse_then_ceifa",
+          "casts": [
+            "curse",
+            "holy_spear"
+          ],
+          "states": [
+            {
+              "id": "curse",
+              "ok": true,
+              "cursed": 22,
+              "exposed": 0,
+              "burning": 0,
+              "marked": 0,
+              "veilBurst": 0,
+              "emberBurst": 0,
+              "shadowLinks": 0,
+              "hp": 22,
+              "visual": 0
+            },
+            {
+              "id": "holy_spear",
+              "ok": true,
+              "cursed": 22,
+              "exposed": 19,
+              "burning": 0,
+              "marked": 0,
+              "veilBurst": 2,
+              "emberBurst": 0,
+              "shadowLinks": 2,
+              "hp": 22,
+              "visual": 4
+            }
+          ],
+          "final": {
+            "cursed": 22,
+            "exposed": 19,
+            "burning": 0,
+            "marked": 0,
+            "veilBurst": 0,
+            "emberBurst": 0,
+            "shadowLinks": 0,
+            "hp": 22,
+            "visual": 4
+          },
+          "hits": 66,
+          "by": {
+            "base": 17,
+            "holy_spear": 27,
+            "curse": 22
+          }
+        },
+        {
+          "key": "ceifa_then_curse",
+          "casts": [
+            "holy_spear",
+            "curse"
+          ],
+          "states": [
+            {
+              "id": "holy_spear",
+              "ok": true,
+              "cursed": 19,
+              "exposed": 19,
+              "burning": 0,
+              "marked": 0,
+              "veilBurst": 0,
+              "emberBurst": 0,
+              "shadowLinks": 0,
+              "hp": 22,
+              "visual": 0
+            },
+            {
+              "id": "curse",
+              "ok": true,
+              "cursed": 22,
+              "exposed": 19,
+              "burning": 0,
+              "marked": 0,
+              "veilBurst": 0,
+              "emberBurst": 0,
+              "shadowLinks": 0,
+              "hp": 22,
+              "visual": 0
+            }
+          ],
+          "final": {
+            "cursed": 22,
+            "exposed": 19,
+            "burning": 0,
+            "marked": 0,
+            "veilBurst": 0,
+            "emberBurst": 0,
+            "shadowLinks": 0,
+            "hp": 22,
+            "visual": 0
+          },
+          "hits": 58,
+          "by": {
+            "holy_spear": 19,
+            "base": 17,
+            "curse": 22
+          }
+        },
+        {
+          "key": "brasas_solo",
+          "casts": [
+            "thunderstorm"
+          ],
+          "states": [
+            {
+              "id": "thunderstorm",
+              "ok": true,
+              "cursed": 0,
+              "exposed": 0,
+              "burning": 8,
+              "marked": 8,
+              "veilBurst": 0,
+              "emberBurst": 0,
+              "shadowLinks": 0,
+              "hp": 22,
+              "visual": 16
+            }
+          ],
+          "final": {
+            "cursed": 0,
+            "exposed": 0,
+            "burning": 8,
+            "marked": 8,
+            "veilBurst": 0,
+            "emberBurst": 0,
+            "shadowLinks": 0,
+            "hp": 22,
+            "visual": 16
+          },
+          "hits": 16,
+          "by": {
+            "thunderstorm": 8,
+            "flame_nova": 8
+          }
+        },
+        {
+          "key": "nova_solo",
+          "casts": [
+            "flame_nova"
+          ],
+          "states": [
+            {
+              "id": "flame_nova",
+              "ok": true,
+              "cursed": 0,
+              "exposed": 0,
+              "burning": 19,
+              "marked": 0,
+              "veilBurst": 0,
+              "emberBurst": 0,
+              "shadowLinks": 0,
+              "hp": 22,
+              "visual": 5
+            }
+          ],
+          "final": {
+            "cursed": 0,
+            "exposed": 0,
+            "burning": 19,
+            "marked": 0,
+            "veilBurst": 0,
+            "emberBurst": 0,
+            "shadowLinks": 0,
+            "hp": 22,
+            "visual": 33
+          },
+          "hits": 86,
+          "by": {
+            "flame_nova": 86
+          }
+        },
+        {
+          "key": "brasas_then_nova",
+          "casts": [
+            "thunderstorm",
+            "flame_nova"
+          ],
+          "states": [
+            {
+              "id": "thunderstorm",
+              "ok": true,
+              "cursed": 0,
+              "exposed": 0,
+              "burning": 8,
+              "marked": 8,
+              "veilBurst": 0,
+              "emberBurst": 0,
+              "shadowLinks": 0,
+              "hp": 22,
+              "visual": 16
+            },
+            {
+              "id": "flame_nova",
+              "ok": true,
+              "cursed": 0,
+              "exposed": 0,
+              "burning": 19,
+              "marked": 4,
+              "veilBurst": 0,
+              "emberBurst": 4,
+              "shadowLinks": 0,
+              "hp": 22,
+              "visual": 25
+            }
+          ],
+          "final": {
+            "cursed": 0,
+            "exposed": 0,
+            "burning": 19,
+            "marked": 4,
+            "veilBurst": 0,
+            "emberBurst": 0,
+            "shadowLinks": 0,
+            "hp": 22,
+            "visual": 53
+          },
+          "hits": 114,
+          "by": {
+            "thunderstorm": 28,
+            "flame_nova": 86
+          }
+        },
+        {
+          "key": "nova_then_brasas",
+          "casts": [
+            "flame_nova",
+            "thunderstorm"
+          ],
+          "states": [
+            {
+              "id": "flame_nova",
+              "ok": true,
+              "cursed": 0,
+              "exposed": 0,
+              "burning": 19,
+              "marked": 0,
+              "veilBurst": 0,
+              "emberBurst": 0,
+              "shadowLinks": 0,
+              "hp": 22,
+              "visual": 5
+            },
+            {
+              "id": "thunderstorm",
+              "ok": true,
+              "cursed": 0,
+              "exposed": 0,
+              "burning": 19,
+              "marked": 5,
+              "veilBurst": 0,
+              "emberBurst": 3,
+              "shadowLinks": 0,
+              "hp": 22,
+              "visual": 24
+            }
+          ],
+          "final": {
+            "cursed": 0,
+            "exposed": 0,
+            "burning": 19,
+            "marked": 5,
+            "veilBurst": 0,
+            "emberBurst": 0,
+            "shadowLinks": 0,
+            "hp": 22,
+            "visual": 52
+          },
+          "hits": 106,
+          "by": {
+            "flame_nova": 86,
+            "thunderstorm": 20
+          }
+        }
+      ]
+    },
+    {
+      "test": "árvore contínua em três afinidades",
+      "result": "OK"
+    },
+    {
+      "test": "identificadores e investimentos anteriores mantidos",
+      "result": "OK",
+      "state": {
+        "ids": [
+          "holy_spear",
+          "thunderstorm",
+          "flame_nova",
+          "curse"
+        ],
+        "levels": [
+          48,
+          37
+        ],
+        "talents": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "test": "laboratório R62 preservado",
+      "result": "OK",
+      "maxed": 165
+    },
+    {
+      "test": "erros de JavaScript",
+      "result": "OK",
+      "errors": []
+    }
+  ],
+  "errors": []
+}

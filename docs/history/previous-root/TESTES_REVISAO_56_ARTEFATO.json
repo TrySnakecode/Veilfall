@@ -1,0 +1,54 @@
+{
+  "revision": 56,
+  "base": "R55",
+  "scope": "a073 relic => boss gold only",
+  "total": 11,
+  "passed": 11,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "catalog unchanged: 106 artifacts",
+      "pass": true
+    },
+    {
+      "name": "only Memória do Retorno produces Relíquias",
+      "pass": true
+    },
+    {
+      "name": "Memória do Retorno remains guaranteed 5th artifact",
+      "pass": true
+    },
+    {
+      "name": "Fêmur ID and old economy statistics retained",
+      "pass": true
+    },
+    {
+      "name": "Fêmur now boosts boss gold only",
+      "pass": true
+    },
+    {
+      "name": "Fêmur accessible before 25th discovery when applicable",
+      "pass": true
+    },
+    {
+      "name": "Fêmur still uses existing owned level and increases boss payouts",
+      "pass": true
+    },
+    {
+      "name": "Fêmur does not improve prestige Relíquias",
+      "pass": true
+    },
+    {
+      "name": "Memória still improves prestige Relíquias",
+      "pass": true
+    },
+    {
+      "name": "other gold sources not modified by Fêmur",
+      "pass": true
+    },
+    {
+      "name": "no gold specialization user controls added",
+      "pass": true
+    }
+  ]
+}

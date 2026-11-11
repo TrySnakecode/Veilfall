@@ -1,0 +1,1594 @@
+{
+  "revision": 52,
+  "kind": "motor-matematico-node",
+  "pass": 395,
+  "fail": 1,
+  "total": 396,
+  "results": [
+    {
+      "name": "Catálogos de 106 artefatos, 32 pets, 32 pergaminhos e 32 heróis",
+      "pass": true
+    },
+    {
+      "name": "9 habilidades com árvores preservadas",
+      "pass": true
+    },
+    {
+      "name": "Dano físico-base cresce 1 por nível",
+      "pass": true
+    },
+    {
+      "name": "Bônus de ressonância começa em ×1",
+      "pass": true
+    },
+    {
+      "name": "Ressonância cresce com investimento real",
+      "pass": false,
+      "error": "Retornou falso"
+    },
+    {
+      "name": "Buffs de heróis continuam só no cavaleiro",
+      "pass": true
+    },
+    {
+      "name": "Contribuição de nível 40 cresce com posição",
+      "pass": true
+    },
+    {
+      "name": "Fases repetidas têm menos abates",
+      "pass": true
+    },
+    {
+      "name": "Itens do próximo grau começam acima do fim do grau anterior",
+      "pass": true
+    },
+    {
+      "name": "PV de chefes acima de inimigos comuns",
+      "pass": true
+    },
+    {
+      "name": "Limite de cavaleiro 60.000 em dificuldade V",
+      "pass": true
+    },
+    {
+      "name": "Ouro entre mundos escala continuamente",
+      "pass": true
+    },
+    {
+      "name": "Experiência entre mundos escala continuamente",
+      "pass": true
+    },
+    {
+      "name": "Prestígio de Mundo aumenta a ameaça 100× e permite farm anterior",
+      "pass": true
+    },
+    {
+      "name": "Prestígio de Mundo II não deixa EXP zerada",
+      "pass": true
+    },
+    {
+      "name": "Cap real de progressão além do nível 24.000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 1 fase 1",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 1 fase 1",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 1 fase 55",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 1 fase 55",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 1 fase 250",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 1 fase 250",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 1 fase 500",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 1 fase 500",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 1 fase 2000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 1 fase 2000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 1 fase 5000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 1 fase 5000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 1 fase 10000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 1 fase 10000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 1 fase 24000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 1 fase 24000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 2 fase 1",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 2 fase 1",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 2 fase 55",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 2 fase 55",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 2 fase 250",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 2 fase 250",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 2 fase 500",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 2 fase 500",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 2 fase 2000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 2 fase 2000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 2 fase 5000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 2 fase 5000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 2 fase 10000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 2 fase 10000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 2 fase 24000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 2 fase 24000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 3 fase 1",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 3 fase 1",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 3 fase 55",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 3 fase 55",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 3 fase 250",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 3 fase 250",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 3 fase 500",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 3 fase 500",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 3 fase 2000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 3 fase 2000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 3 fase 5000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 3 fase 5000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 3 fase 10000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 3 fase 10000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 3 fase 24000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 3 fase 24000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 4 fase 1",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 4 fase 1",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 4 fase 55",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 4 fase 55",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 4 fase 250",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 4 fase 250",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 4 fase 500",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 4 fase 500",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 4 fase 2000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 4 fase 2000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 4 fase 5000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 4 fase 5000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 4 fase 10000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 4 fase 10000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 4 fase 24000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 4 fase 24000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 5 fase 1",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 5 fase 1",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 5 fase 55",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 5 fase 55",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 5 fase 250",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 5 fase 250",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 5 fase 500",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 5 fase 500",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 5 fase 2000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 5 fase 2000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 5 fase 5000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 5 fase 5000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 5 fase 10000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 5 fase 10000",
+      "pass": true
+    },
+    {
+      "name": "Crescimento de vida mundo 5 fase 24000",
+      "pass": true
+    },
+    {
+      "name": "Curvas de ouro, XP e relic mundo 5 fase 24000",
+      "pass": true
+    },
+    {
+      "name": "Artefato 0 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 1 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 2 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 3 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 4 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 5 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 6 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 7 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 8 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 9 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 10 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 11 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 12 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 13 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 14 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 15 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 16 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 17 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 18 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 19 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 20 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 21 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 22 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 23 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 24 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 25 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 26 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 27 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 28 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 29 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 30 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 31 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 32 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 33 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 34 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 35 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 36 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 37 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 38 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 39 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 40 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 41 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 42 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 43 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 44 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 45 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 46 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 47 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 48 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 49 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 50 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 51 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 52 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 53 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 54 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 55 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 56 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 57 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 58 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 59 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 60 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 61 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 62 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 63 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 64 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 65 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 66 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 67 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 68 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 69 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 70 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 71 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 72 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 73 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 74 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 75 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 76 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 77 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 78 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 79 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 80 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 81 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 82 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 83 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 84 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 85 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 86 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 87 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 88 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 89 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 90 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 91 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 92 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 93 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 94 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 95 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 96 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 97 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 98 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 99 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 100 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 101 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 102 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 103 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 104 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 105 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 106 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 107 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 108 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 109 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 110 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 111 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 112 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 113 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 114 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 115 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 116 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 117 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 118 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 119 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 120 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 121 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 122 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 123 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 124 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 125 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 126 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 127 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 128 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 129 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 130 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 131 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 132 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 133 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 134 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 135 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 136 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 137 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 138 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 139 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 140 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 141 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 142 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 143 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 144 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 145 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 146 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 147 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 148 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 149 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 150 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 151 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 152 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 153 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 154 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 155 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 156 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 157 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 158 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 159 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 160 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 161 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 162 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 163 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 164 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 165 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 166 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 167 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 168 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 169 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 170 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 171 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 172 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 173 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 174 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 175 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 176 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 177 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 178 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 179 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 180 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 181 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 182 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 183 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 184 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 185 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 186 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 187 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 188 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 189 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 190 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 191 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 192 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 193 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 194 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 195 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 196 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 197 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 198 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 199 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 200 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 201 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 202 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 203 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 204 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 205 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 206 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 207 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 208 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 209 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 210 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 211 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 212 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 213 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 214 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 215 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 216 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 217 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 218 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 219 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 220 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 221 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 222 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 223 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 224 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 225 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 226 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 227 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 228 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 229 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 230 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 231 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 232 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 233 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 234 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 235 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 236 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 237 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 238 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 239 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 240 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 241 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 242 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 243 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 244 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 245 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 246 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 247 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 248 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 249 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 250 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 251 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 252 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 253 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 254 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 255 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 256 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 257 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 258 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 259 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 260 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 261 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 262 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 263 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 264 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 265 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 266 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 267 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 268 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 269 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 270 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 271 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 272 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 273 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 274 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 275 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 276 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 277 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 278 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 279 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 280 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 281 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 282 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 283 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 284 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 285 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 286 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 287 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 288 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 289 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 290 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 291 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 292 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 293 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 294 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 295 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 296 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 297 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 298 aumenta ressonância",
+      "pass": true
+    },
+    {
+      "name": "Artefato 299 aumenta ressonância",
+      "pass": true
+    }
+  ]
+}

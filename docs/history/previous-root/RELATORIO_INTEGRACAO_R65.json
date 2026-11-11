@@ -1,0 +1,25 @@
+{
+  "base_raid_zip": "VEILFALL_R52_CORRIGIDO(1).zip",
+  "base_raid_sha256": "975dd37f3b3601dd1d7ea71dfeeb2d21f1a8f1fa2068b6a80e5e426ab1d37f34",
+  "base_campaign_zip": "VEILFALL_WEB_REVISAO_64_EFEITOS_VISUAIS_WINDOWS.zip",
+  "base_campaign_sha256": "d35a8206d002b1a865895b7a50dcbd9ff18c0787c390b9858049c0293b65cf49",
+  "raid_clan_files_preserved_verbatim": 32,
+  "raid_art_png_preserved_verbatim": 19,
+  "r64_files_preserved_verbatim": 102,
+  "r64_game_js_unchanged": true,
+  "r64_polish_js_unchanged": true,
+  "integration_adapter": "src/r65-bridge.js",
+  "server_test_results": {
+    "passed": 18,
+    "failed": 0
+  },
+  "standalone_browser": {
+    "errors": 0,
+    "all_8_raid_art_atlases_loaded": true,
+    "weapons_affect_hero_buff": true,
+    "campaign_return_navigation_ok": true
+  },
+  "requires_node_version_for_bat": "24+",
+  "online_public_service": "not deployed",
+  "user_uploaded_zip_modified": false
+}

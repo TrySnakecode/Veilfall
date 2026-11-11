@@ -1,0 +1,19 @@
+{
+  "revision": 55,
+  "based_on": 54,
+  "assets_verified": 15,
+  "assets_modified": [],
+  "source_counts": {
+    "artifacts": 106,
+    "relic_artifacts": 2
+  },
+  "discovery_simulation_runs": 900,
+  "tests": {
+    "r54_balance": 14,
+    "r54_heroes": 10,
+    "r53_qol": 27,
+    "r55_discovery": 11,
+    "r55_browser": 8
+  },
+  "limitation": "Não substitui simulação end-to-end de toda a progressão de cinco dificuldades"
+}

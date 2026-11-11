@@ -1,0 +1,47 @@
+{
+  "revision": 61,
+  "base_revision": 60,
+  "asset_files_preserved": 15,
+  "asset_hashes_identical": true,
+  "tests": {
+    "skills_26_mobs_8_scenarios": "8/8",
+    "chromium_errors": [],
+    "tree_desktop_mobile": "2/2",
+    "artifact_r56": "11/11",
+    "discoveries_r55": "11/11",
+    "heroes_r54": "10/10",
+    "balance_r54": "14/14",
+    "qol_r53": "26/27 (mesma falha de localização de botão da R60)"
+  },
+  "skill_scenarios": {
+    "holy_spear": {
+      "hits": 17,
+      "unique": 17,
+      "maxLive": 0,
+      "remaining": 9
+    },
+    "flame_nova": {
+      "hits": 63,
+      "unique": 20,
+      "maxLive": 4,
+      "remaining": 26
+    },
+    "thunderstorm": {
+      "hits": 16,
+      "unique": 16,
+      "maxLive": 0,
+      "remaining": 26
+    },
+    "grace": {
+      "hits": 20,
+      "unique": 10,
+      "maxLive": 0,
+      "remaining": 26
+    }
+  },
+  "not_tested": [
+    "Windows físico",
+    "progressão endgame da dificuldade V",
+    "eficiência de builds 100+ horas"
+  ]
+}

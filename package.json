@@ -1,0 +1,26 @@
+{
+  "name": "veilfall-r101-balanceamento",
+  "version": "101.0.0",
+  "private": true,
+  "description": "VEILFALL R101: village scarcity, differentiated building costs, stronger pets/scrolls/hero weapons, retired economic pets",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "node server/server.cjs",
+    "start": "node server/server.cjs",
+    "test": "node --test tests/server/*.test.cjs",
+    "build": "node tools/build-standalone.cjs",
+    "check": "node tools/check-build.cjs",
+    "qa": "node tools/build-qa-r68.cjs",
+    "test:constellation": "node tests/r68-core.cjs",
+    "balance": "node tools/balance-r67.cjs",
+    "test:campaign": "node tools/campaign-r67.cjs",
+    "test:current": "node tests/r99-core.cjs && node tests/r98-core.cjs && node tests/r97-core.cjs && node tests/r96-core.cjs && node tests/r95-core.cjs && node tests/r94-core.cjs && node tests/r93-core.cjs && node tests/r92-core.cjs && node tests/r91-core.cjs && node tests/r90-core.cjs && node tests/r89-core.cjs && node tests/r88-core.cjs && node tests/r87-core.cjs && node tests/r86-core.cjs && node tests/r85-core.cjs && node tests/r84-core.cjs && node tests/r83-core.cjs && node tests/r82-core.cjs && node tests/r81-core.cjs && node tests/r80-core.cjs && node tests/r79-core.cjs && node tests/r78-core.cjs && node tests/r72-core.cjs && node tests/r71-core.cjs && node tests/r70-core.cjs",
+    "test:balance-r77": "node tests/r77-core.cjs",
+    "test:balance-r78": "node tests/r78-core.cjs",
+    "audit:campaign": "node tools/auditar-campanha-r83.cjs --seconds=300 --seeds=17",
+    "build:web": "node tools/build-web.cjs",
+    "backup": "node tools/backup.cjs"
+  }
+}

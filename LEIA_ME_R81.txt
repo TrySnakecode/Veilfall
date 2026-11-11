@@ -1,0 +1,13 @@
+VEILFALL R81 — DIAGNÓSTICO DE DIFICULDADE
+
+1. No Windows, extraia o ZIP inteiro e execute ABRIR_JOGO.bat.
+2. Antes de atualizar, exporte uma cópia do save na versão anterior.
+3. Entre em Mundo > Laboratório > TESTAR MINHA BUILD · FASE ATUAL.
+4. Jogue normalmente, enfrente chefes e observe o painel DIAGNÓSTICO R81.
+5. Clique EXPORTAR RELATÓRIO · JSON, depois SAIR DO TESTE · RESTAURAR.
+6. Compartilhe o JSON exportado para uma avaliação da dificuldade real.
+
+Não confunda os botões PODER MÁXIMO I/V com a progressão legítima.
+R81 não altera a dificuldade da campanha, os itens, a economia, os salvamentos
+nem os arquivos gráficos aprovados. O diagnóstico não garante equilíbrio
+de longo prazo a partir de uma sessão curta.

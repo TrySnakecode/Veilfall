@@ -1,0 +1,46 @@
+{
+  "base": "R48 enviada nesta conversa",
+  "sha256": {
+    "VEILFALL.html": "b4275b05ff12fd5932d30230cc3e6c1287ba4c6da29fcf23c4d7e71447ca6879",
+    "src/game.js": "91b4237abc66057b43d2816894f114bad75710e094bec459c0152e1b4113d1d6",
+    "src/data.js": "8b285974697e779a18ec437385f636b8079c941acb79b3a9c96c2008297925ef",
+    "assets/characters/knight.png": "e68d371feab99131e085d79ff9fcc29f6999ab6c0f36e01978f160abfec09fd9"
+  },
+  "mechanicsAndCatalogueByteIdenticalToR48Normalized": true,
+  "sevenOtherRuntimeImagesByteIdentical": true,
+  "standalone": {
+    "inlineScripts": 6,
+    "embeddedPNG": 8,
+    "embeddedWAV": 3,
+    "externalRuntimeResources": false,
+    "openedAndNewJourneyStarted": true,
+    "pageJsErrorsObserved": 0
+  },
+  "layoutChecks": [
+    {
+      "frameWidth": 390,
+      "bodyClientWidth": 375,
+      "bodyScrollWidth": 375
+    },
+    {
+      "frameWidth": 768,
+      "bodyClientWidth": 753,
+      "bodyScrollWidth": 753
+    },
+    {
+      "frameWidth": 1024,
+      "bodyClientWidth": 1024,
+      "bodyScrollWidth": 1024
+    }
+  ],
+  "visualReview": [
+    "gallery of 48 knight frames",
+    "main menu",
+    "combat and knight panel",
+    "skill catalogue",
+    "Grace, flame nova and thunder effects",
+    "Souls sections",
+    "portrait layout"
+  ],
+  "runtimeTestReport": "../TESTES_REVISAO_49.json"
+}

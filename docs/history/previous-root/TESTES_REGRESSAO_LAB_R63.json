@@ -1,0 +1,45 @@
+{
+  "revision": 62,
+  "base": 61,
+  "tests": [
+    {
+      "mode": "fase 23.999",
+      "total_passives_maxed": 165,
+      "total_passives": 165,
+      "points_used": 4890,
+      "save_blocked": true,
+      "campaign_restored": true
+    },
+    {
+      "mode": "dificuldade V 24.000",
+      "total_passives_maxed": 165,
+      "total_passives": 165,
+      "points_used": 4890,
+      "save_blocked": true,
+      "campaign_restored": true
+    },
+    {
+      "mode": "prévia de chefes",
+      "total_passives_maxed": 165,
+      "total_passives": 165,
+      "points_used": 4890,
+      "save_blocked": true,
+      "campaign_restored": true
+    },
+    {
+      "mode": "laboratório de heróis",
+      "total_passives_maxed": 165,
+      "total_passives": 165,
+      "points_used": 4890,
+      "save_blocked": true,
+      "campaign_restored": true
+    },
+    {
+      "mode": "×100 na campanha",
+      "passives_maxed": false,
+      "save_blocked": false
+    }
+  ],
+  "javascript_errors": [],
+  "notes": "Chromium headless, Windows físico não testado."
+}

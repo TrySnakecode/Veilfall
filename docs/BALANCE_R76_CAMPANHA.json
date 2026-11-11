@@ -1,0 +1,72 @@
+{
+  "revision": 76,
+  "base_revision": 75,
+  "methodology": {
+    "clock": "tempo simulado de combate, atualizações de 0,05 segundo",
+    "seeds": [
+      17,
+      47
+    ],
+    "prestige_agent": "Herois auto-comprados, habilidades equipadas quando desbloqueadas, melhor equipamento estimado por raridade/atributo, pontos passivos investidos em opções físicas; após a derrota e 15s de recuperação, prestigia se permitido, descobre/melhora artefatos e recomeça. Não é um humano nem representa desempenho perfeito.",
+    "no_prestige_agent": "Heróis automáticos e seleção simplificada de equipamentos, retoma após 20s quando morre; não compra artefatos nem prestigia; representa comportamento artificial de insistência, não um jogador real."
+  },
+  "prestige_2h": [
+    {
+      "seed": 17,
+      "r75": {
+        "peak": 72,
+        "prestiges": 9,
+        "deaths": 10
+      },
+      "r76": {
+        "peak": 121,
+        "prestiges": 4,
+        "deaths": 5
+      }
+    },
+    {
+      "seed": 47,
+      "r75": {
+        "peak": 68,
+        "prestiges": 9,
+        "deaths": 9
+      },
+      "r76": {
+        "peak": 140,
+        "prestiges": 4,
+        "deaths": 4
+      }
+    }
+  ],
+  "without_prestige_1h": [
+    {
+      "seed": 17,
+      "r75": {
+        "peak": 87,
+        "deaths": 45
+      },
+      "r76": {
+        "peak": 116,
+        "deaths": 28
+      }
+    },
+    {
+      "seed": 47,
+      "r75": {
+        "peak": 101,
+        "deaths": 45
+      },
+      "r76": {
+        "peak": 121,
+        "deaths": 28
+      }
+    }
+  ],
+  "scope": "Primeiro passe de balanceamento: apenas prestígios iniciais do Mundo I e dano de contato de inimigos das fases 56–250 do Mundo I. Fórmulas de HP/gold/XP, demais mundos e combate visual preservados. Endgame de 5×24k ainda NÃO foi calibrado.",
+  "limits": [
+    "Testes são aproximações determinísticas, não sessões de jogadores",
+    "Sem teste completo de cinco dificuldades",
+    "Condições de morte e decisão de prestígio dependem da estratégia",
+    "Prestígio pode continuar excessivamente lento no endgame e precisa de validação posterior"
+  ]
+}

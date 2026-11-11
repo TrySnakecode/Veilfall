@@ -1,0 +1,10 @@
+VEILFALL R82 — Laboratório de prestígio e economia
+
+1. Faça backup do save antes de atualizar.
+2. Abra ABRIR_JOGO.bat ou VEILFALL.html.
+3. No painel Mundo, use TESTAR MINHA BUILD · FASE ATUAL.
+4. No laboratório, execute prestígios normalmente e invista relíquias em artefatos.
+5. Exporte o relatório JSON antes de SAIR DO TESTE · RESTAURAR.
+6. Pode analisar sem internet: node tools/analisar-relatorio-r82.cjs ARQUIVO.json --output=auditoria.md
+
+O laboratório não salva ganhos, não aumenta o poder do cavaleiro e não altera os inimigos.

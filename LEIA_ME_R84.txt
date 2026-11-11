@@ -1,0 +1,21 @@
+VEILFALL R84 — COMBATE E PADROES DOS CHEFES (BASE R83)
+
+JOGAR: extraia o ZIP e abra ABRIR_JOGO.bat ou VEILFALL.html.
+Para Cla/RAID online, use INICIAR_SERVIDOR.bat separadamente.
+Antes de atualizar, EXPORTAR SAVE na versao anterior.
+
+MELHORIAS DE JOGABILIDADE:
+- Carrasco: na segunda e terceira fases alterna impacto e varredura
+  direcional; a faixa vermelha representa exatamente a area perigosa.
+- Profanador: na terceira fase invoca tres selos em sequencia, com
+  intervalos para reposicionamento e sem aumentar o limite de lacaios.
+- Arauto: na terceira fase alterna o eclipse com um ataque em anel,
+  no qual o centro e o exterior da area sinalizada sao seguros.
+- Todos os avisos de ataques circulares agora correspondem ao alcance
+  real (antes pareciam elipses mas atingiam em circulos).
+
+O jogo original continua completo: nenhuma imagem, audio, save,
+recompensa, formula de HP/dano ou laboratorio foi alterado.
+
+O modo de TESTAR MINHA BUILD e o modo PODER MAXIMO seguem disponiveis.
+Consulte docs/REVISAO_84.md.

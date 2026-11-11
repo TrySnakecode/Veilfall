@@ -1,0 +1,55 @@
+{
+  "version": "R48",
+  "results": {
+    "png_assets_preserved": true,
+    "open": true,
+    "initial_lock": true,
+    "panel": true,
+    "summoning_research": {
+      "points": 0,
+      "rank": 1,
+      "locked": false
+    },
+    "rune_duplicates": {
+      "fragments": 20,
+      "copies": 10,
+      "draws": 10
+    },
+    "rune_secondary": {
+      "nine": 0,
+      "ten": 0.006,
+      "gain": 0.0059999999999999915
+    },
+    "enemy_type_damage": {
+      "baseBoss": 102.10000000000218,
+      "baseNormal": 100.00000000000182,
+      "boostedBoss": 108.11424680352684,
+      "boostedNormal": 106.0142468035283
+    },
+    "chests": {
+      "before": {
+        "souls": 5,
+        "runes": 1,
+        "extraChance": 0
+      },
+      "opened": true,
+      "soulIncrease": 5,
+      "runeIncrease": 1,
+      "petIncrease": 4
+    },
+    "legacy_save": {
+      "success": true,
+      "saved": true,
+      "first": {
+        "souls": 51,
+        "summons": 12,
+        "runecopies": 3,
+        "version": 2,
+        "prayersKey": false,
+        "soulLevelKey": false
+      },
+      "after": 51
+    },
+    "js_errors": []
+  }
+}

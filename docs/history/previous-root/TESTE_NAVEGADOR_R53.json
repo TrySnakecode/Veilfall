@@ -1,0 +1,59 @@
+{
+  "url": "http://127.0.0.1:8767/VEILFALL.html",
+  "checks": [
+    {
+      "label": "inicial abriu",
+      "pass": true
+    },
+    {
+      "label": "jogo iniciou",
+      "pass": true
+    },
+    {
+      "label": "heróis com botões em massa",
+      "pass": true
+    },
+    {
+      "label": "heróis com auto",
+      "pass": true
+    },
+    {
+      "label": "gear venda geral",
+      "pass": true
+    },
+    {
+      "label": "skills evoluir todas",
+      "pass": true
+    },
+    {
+      "label": "vila 2h inicial",
+      "pass": true
+    },
+    {
+      "label": "prestígio gera modal",
+      "pass": true
+    },
+    {
+      "label": "fase após prestígio",
+      "pass": true
+    },
+    {
+      "label": "nível restaurado após prestígio",
+      "pass": true
+    },
+    {
+      "label": "heróis contratados após prestígio",
+      "pass": true
+    }
+  ],
+  "console_errors": [],
+  "prestige_state": {
+    "stage": 500,
+    "level": 203,
+    "expected": 203,
+    "heroes": 20
+  },
+  "page_title": "VEILFALL — Chronicles of Ruin · R53",
+  "passed": 11,
+  "total": 11
+}

@@ -1,0 +1,161 @@
+{
+  "revision": 66,
+  "base": 65,
+  "files": [
+    {
+      "path": "assets/audio/sound-0.wav",
+      "sha256": "59f9cf4dd1e7e19c1466a63637436cba58af1ee7b0c78d6b207929f7a30d732e",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/audio/sound-1.wav",
+      "sha256": "d3e079b01b3d57ce811063fdb93e6faf50efb09ca34adb302c20e464613bb140",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/audio/sound-2.wav",
+      "sha256": "ba8a92072c8c12cfcaf23738153629faa44f0e72dc085d418791106f92865476",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/characters/bosses.png",
+      "sha256": "fa2e94c7f37de91515662359b3ec1c9d22de5b8e5e6ce14b94eb3fdc0138b821",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/characters/enemies.png",
+      "sha256": "fa78c5974f7d2c45c32acbb9b1c005b44e572680855ee143258d9e46a8f932f7",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/characters/knight.png",
+      "sha256": "e68d371feab99131e085d79ff9fcc29f6999ab6c0f36e01978f160abfec09fd9",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/environment/arena.png",
+      "sha256": "e76343d3c6b4465bef558b7c74e3a4d279a3fb3c325e7bff5385da15dac8ed1f",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/knight-manifest.json",
+      "sha256": "85d1213b7aa98d8c2314a02540061a3493086f97a91e0d5ff1192732d5c0094f",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/raid-manifest.json",
+      "sha256": "6859ab26791e3896f1944cb8dc23789a7864e86fb37ce4e9146f1360f7d3e499",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/raids/abyss.png",
+      "sha256": "c023cc96b31a419ffaf2f2e8bce7b31b880d450a126957d62566d69bf136719d",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/raids/archon.png",
+      "sha256": "8c9f687c9945d19734b3f8ef5c9d7631575cd956bd2dc5da425ecaf9cc212389",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/raids/arena.png",
+      "sha256": "b53f8888f5367586091c3e0a0525ec21fc60abf8c341225daab60070184c9487",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/raids/heraldry.png",
+      "sha256": "a62cc08961a5f1db2d0211ffa05f4eab95dd6234ec0b4d33ccebe4fee74470b1",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/raids/sentinel.png",
+      "sha256": "18ea9288a06cf0e93ba3b6afe5cfd776c711582ae97e7675c5c73ebf7797a65f",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/raids/techniques.png",
+      "sha256": "4a5b2d8b46714de888c48dfe750e308fc0446af6fa27ccd17a3736723460f9fa",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/raids/weapons-1.png",
+      "sha256": "7e9f831c82f797ee879d89599947c9d77fb8b5a4a183f8695d6233d6e4b554fb",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/raids/weapons-2.png",
+      "sha256": "5020fdb6ebee5578b4f50870d173f1ceb483996d1f08bca16173769a3686197d",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/ui/companions.png",
+      "sha256": "8e1efd1db84c4ef53a128666eafd3233d25f0ba9a89168ceceb19d40de44bf8d",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/ui/icons.png",
+      "sha256": "0c38b023ed55169fcf129eadafc4ac7293e6375cab7a799e8d2d56080cd0a955",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/ui/relics1.png",
+      "sha256": "6912f650ee101ebbd8d55b3862068822af19b4b6a4aa2d5307afe6fcab24ed56",
+      "identical_to_r65": true
+    },
+    {
+      "path": "assets/ui/relics2.png",
+      "sha256": "a36287a1ffd15988a7d6bd8c87f773d09b56b7b892be703baba5d2418965c3e5",
+      "identical_to_r65": true
+    },
+    {
+      "path": "shared/raid-engine.js",
+      "sha256": "297dd9dbf13e0419ba793f6f7b06baf8d9fe70378d26a685423450d305572da3",
+      "identical_to_r65": true
+    },
+    {
+      "path": "src/game.js",
+      "sha256": "381e649316b1d81ebc9b3d235411bbe1a905272a5023dc523cb3b54aced71332",
+      "identical_to_r65": true
+    },
+    {
+      "path": "src/data.js",
+      "sha256": "a3ab8bcc36a07196fcb1a71b393dec69306130b7cb138a5fe21b828f36dcd0ea",
+      "identical_to_r65": true
+    },
+    {
+      "path": "src/r52-core.js",
+      "sha256": "76cfcbeceb09c0a9d3db278ced2fcbe23781a4218b9458ecb398fdbed4199d5f",
+      "identical_to_r65": true
+    },
+    {
+      "path": "src/r52-combat.js",
+      "sha256": "acd3bb8fcd33b81f603ad733872c14880897f5c416fcc37c46c1c01ba686b523",
+      "identical_to_r65": true
+    },
+    {
+      "path": "src/r52-ui.js",
+      "sha256": "380a70b1331aa069d9b1e4eb425051d280cb55952802bee4f686ecfe94a72636",
+      "identical_to_r65": true
+    },
+    {
+      "path": "src/r65-bridge.js",
+      "sha256": "d6cb1be7bb357401d3b159ba9455bdd26c98ebbb046f36f47affd485be6ecf3f",
+      "identical_to_r65": true
+    },
+    {
+      "path": "src/visual.js",
+      "sha256": "23623b911ce2b417cd38a8d3b75a090f2ea0129e4ccbe9c629d06c8995b9bbb3",
+      "identical_to_r65": true
+    },
+    {
+      "path": "src/polish.js",
+      "sha256": "cfde2f35d387b12eb5ea184d0ec15ac1601e4b4e44cf660cf87159191d56f67b",
+      "identical_to_r65": true
+    },
+    {
+      "path": "server/service.cjs",
+      "sha256": "0c7fb34fb4993730e14490d1d13f7df33abc57c307632e679ea9561c309a376b",
+      "identical_to_r65": true
+    }
+  ]
+}

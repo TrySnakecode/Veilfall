@@ -1,0 +1,16 @@
+VEILFALL R89 - CONJUNTOS E FERRARIA
+
+Abra ABRIR_JOGO.bat no Windows ou VEILFALL.html no navegador.
+
+Nesta versão:
+- Conjuntos completos permitem escolher qual slot forjar (Arma, Capacete, Peitoral, Aura ou Anel).
+- Antes de concluir o conjunto, a Ferraria continua forjando o tipo que falta.
+- O custo de materiais, raridade, qualidade, afixos e chances de drop nao mudaram.
+- O painel Conjuntos mostra bonus principais reais e as pecas faltantes.
+- Itens de conjuntos e unicos ficam mais claros no inventario.
+- Nomes de recompensas raras agora correspondem ao tipo do equipamento.
+- Nenhuma arte original foi modificada.
+
+ATENCAO: a venda automatica continua funcionando tambem para itens forjados.
+Exporte uma copia do save antes de atualizar.
+Detalhes: docs/R89_RELATORIO.md.

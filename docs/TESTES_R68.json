@@ -1,0 +1,79 @@
+{
+  "revision": 68,
+  "passed": 18,
+  "total": 18,
+  "checks": [
+    {
+      "name": "Exactly 210 nodes and category counts",
+      "pass": true
+    },
+    {
+      "name": "Every node graph reachable and never disconnected",
+      "pass": true
+    },
+    {
+      "name": "Ranks have correct costs (110 and 255)",
+      "pass": true
+    },
+    {
+      "name": "All routes calculated at real first rank costs and remain connected",
+      "pass": true
+    },
+    {
+      "name": "Buying one rank opens onward connection without maxing predecessors",
+      "pass": true
+    },
+    {
+      "name": "Same node ranks 1, 5, 20 scale bonus and cost",
+      "pass": true
+    },
+    {
+      "name": "Rank-up and rank-down do not break connections",
+      "pass": true
+    },
+    {
+      "name": "Clearing a travel node refunds downstream ranks including specializations",
+      "pass": true
+    },
+    {
+      "name": "Malformed, disconnected and unaffordable plans fail atomically",
+      "pass": true
+    },
+    {
+      "name": "Exactly one transformation per skill",
+      "pass": true
+    },
+    {
+      "name": "At most two global pacts",
+      "pass": true
+    },
+    {
+      "name": "Laboratory allocates max legal ranks; no campaign mutation",
+      "pass": true
+    },
+    {
+      "name": "R67 migration preserves points, stages, progress and other resources",
+      "pass": true
+    },
+    {
+      "name": "Repeated R68 migration is idempotent",
+      "pass": true
+    },
+    {
+      "name": "R68 rank persistence through saved game and load",
+      "pass": true
+    },
+    {
+      "name": "Max reachable spending exceeds end-game 4800 points",
+      "pass": true
+    },
+    {
+      "name": "Village production not affected by constellation",
+      "pass": true
+    },
+    {
+      "name": "All nine original active skill identifiers preserved",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+VEILFALL R68 — Atlas de Passivas Multinível
+
+1. Extraia a pasta e execute ABRIR_JOGO.bat (ou VEILFALL.html) para a campanha offline.
+2. Abra Habilidades > Explorar a Constelação; clique em um nó, compre o nível 1 para abrir caminhos e evolua pelo painel (+1, +5, Máximo, -1).
+3. Use Aplicar build para confirmar seu planejamento; Descartar reverte mudanças ainda não aplicadas.
+4. Faça BACKUP / EXPORTAÇÃO do seu save R67 ANTES de importar/continuar na R68. O primeiro carregamento da R68 conserva seus pontos, mas redefine as passivas da árvore antiga (reembolso total). Presets antigos ficam arquivados.
+5. O Laboratório de Combate ativa temporariamente as passivas máximas legais e não grava a campanha.
+6. Clãs/Raids: execute INICIAR_SERVIDOR.bat com Node.js 24 ou superior. Não publique diretamente o servidor na internet sem segurança adicional.
+
+Documentação: docs/REVISAO_68.md
+QA: qa-r68.html

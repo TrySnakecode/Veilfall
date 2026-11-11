@@ -1,0 +1,23 @@
+VEILFALL R79 — LABORATÓRIO DE DIFICULDADE (base R78)
+
+NOVO: TESTAR MINHA BUILD · SAVE ATUAL — usa seu save real, nível, artefatos,
+heróis, equipamentos e habilidades. Mantém chefes, guardiões, custos e curvas
+normais. Nenhum multiplicador de dano é aplicado e não há teleporte para endgame.
+O progresso acumulado durante o teste é descartado quando você sai.
+
+MODOS ANTIGOS: PODER MÁXIMO I · 23.999 e PODER MÁXIMO V · 24.000 são testes
+artificiais de desempenho. O modo V continua SEM chefes por ser teste de
+hordas. Não use esses resultados para inferir a dificuldade de uma campanha.
+
+O botão de teste com save real requer uma campanha existente. Para analisar o
+endgame, use um save que tenha alcançado normalmente aquela fase.
+
+A R79 NÃO diminuiu a vida ou o dano dos monstros nem alterou a economia.
+Sprites, áudio, artes, clãs e Raids permanecem inalterados.
+
+Atenção: carregar um save pelo menu atualiza normalmente a produção offline.
+Depois que o teste começa, seu progresso permanece protegido e é restaurado
+ao sair; o combate em andamento é reiniciado.
+
+Exporte seu save antes de atualizar para a R79. Extraia todo o ZIP e abra
+ABRIR_JOGO.bat ou VEILFALL.html. Relatório em docs/REVISAO_79.md.

@@ -1,0 +1,15 @@
+VEILFALL R69 — Cliques na Constelação + Habilidades sem Níveis
+
+1. Extraia o ZIP; execute ABRIR_JOGO.bat no Windows.
+2. Em Habilidades > Constelação, selecione nós com um clique. A seleção agora considera uma área mínima maior na tela, mesmo com zoom afastado. Arrastar move o mapa, sem bloquear o clique seguinte.
+3. As nove habilidades ativas não podem mais subir de nível com ouro. O desbloqueio por nível do cavaleiro e os 4 slots permanecem.
+4. A ÁRVORE DE PASSIVAS não foi alterada: 210 nós, ranks até 20/15, custos e especializações iguais à R68.
+5. Salvamentos R68 são aceitos; os níveis antigos das skills são descartados e deixam de dar bônus. Itens, níveis do cavaleiro e investimentos nas passivas são preservados.
+6. Faça backup/exporte seu save antes de usar esta revisão.
+7. Clãs/Raids usam os recursos e servidor herdados, não alterados. Para iniciar, use INICIAR_SERVIDOR.bat (Node.js >=24). Não publique servidor sem segurança adicional.
+
+Nota de balanceamento: retirar a antiga progressão 1–40 das habilidades remove também os antigos multiplicadores dessas compras. É possível que builds antigas causem menos dano; nenhum bônus foi transferido para a árvore ou outro sistema.
+
+Testes: node tests/r69-core.cjs; node tests/r68-core.cjs; node --test tests/server/*.test.cjs; node tools/test-qol-r53.cjs.
+
+Arquivo original R68 preservado sem modificações.

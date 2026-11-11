@@ -1,0 +1,25 @@
+# VEILFALL R77 — Dificuldade restaurada sem salto de dano
+
+Base exata: **R76**. Nenhum asset foi substituído, alterado, recortado ou regenerado.
+
+## Ajustes aprovados
+- O multiplicador **extra** de relíquias da R76 foi reduzido de **7× para 1,75× na fase 55**, diminuindo suavemente até 1× na fase 250. O bônus não afeta os mundos II–V, itens, baús, preços, nem a fórmula base de relíquias.
+- Nas fases **56–249 do Mundo I**, o dano de contato recebeu pressão adicional progressiva. O salto indevido da fase 55 para 56 continua corrigido (43,82 → ~44,87 no cenário de teste). A faixa 125–250 chega ao teto de dano relativo no cenário de referência — não foi alterado o teto de dano, defesa ou redução.
+- Não houve buffs gratuitos, mudanças no HP dos inimigos, XP, ouro, curva de custos dos artefatos, skills, HUD, save, servidores e Raids.
+
+## Objetivo
+VEILFALL deve exigir farm, prestígios recorrentes, melhora dos artefatos e escolhas de build. Isso **não garante** dificuldade perfeita: o resto do jogo e o endgame ainda precisam de campanhas longas, jogadores e mais sementes de teste.
+
+## Como jogar
+Extraia tudo; use `ABRIR_JOGO.bat` no Windows ou abra `VEILFALL.html`. Para serviços online de Clãs/Raids, execute o servidor incluído e configure a conexão.
+
+## Dados salvos
+O formato de save não foi alterado. Faça **Exportar Save** antes de trocar versões; importe se o navegador não localizar o progresso ao jogar a partir de outra pasta.
+
+## Testes comparativos
+A seed 17 chegou à fase **93 em 2 horas simuladas na R77**, ante **121 na R76**. Veja `docs/REVISAO_77.md` para metodologia, duração e limites.
+
+## Repetição dos testes
+`npm run test:current` para regras; `npm test` para serviços; `npm run build && npm run check` para geração e validação offline; `python tools/smoke-r77-browser.py` para smoke se Playwright/Chromium estiverem instalados.
+
+**Importante:** `tests/r76-core.cjs` permanece como referência histórica da fórmula R76 e, por isso, não faz parte dos testes correntes. A revisão R77 usa `tests/r77-core.cjs`. O script `tools/prestige-r76.cjs` pode ser usado para comparações de campanha, apesar do nome original.

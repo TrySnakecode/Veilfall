@@ -1,0 +1,5 @@
+const fs=require('node:fs'),path=require('node:path'),root=path.resolve(__dirname,'..');
+const html=fs.readFileSync(path.join(root,'index.html'),'utf8'),qa=fs.readFileSync(path.join(root,'tests/r67-browser.js'),'utf8');
+fs.writeFileSync(path.join(root,'qa-r67.html'),html.replace('</body>','<script>'+qa.replace(/<\/script/gi,'<\\/script')+'</script></body>'));
+fs.writeFileSync(path.join(root,'qa-layout-r67.html'),`<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>R67 · Layout responsivo</title><style>body{background:#09111a;color:#eee;font:14px system-ui;margin:15px}button{padding:12px;margin:5px;background:#1c2c3c;color:#eee;border:1px solid #688094}iframe{display:block;margin-top:12px;max-width:100%;height:820px;border:1px solid #8899a8}</style><h1>R67 · Inspeção de layout</h1>${[390,768,1280].map(w=>`<button onclick="document.querySelector('iframe').style.width='${w}px'">${w} px</button>`).join('')}<iframe title="Jogo responsivo" src="qa-r67.html" style="width:390px"></iframe></html>`);
+console.log('QA R67 gerado.');

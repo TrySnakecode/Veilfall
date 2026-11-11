@@ -1,0 +1,55 @@
+{
+  "version": 64,
+  "tests": [
+    {
+      "name": "CEIFA",
+      "result": "PASS",
+      "details": {
+        "version": 64,
+        "fx": 4,
+        "casts": 2,
+        "marks": 0,
+        "exposure": 22
+      }
+    },
+    {
+      "name": "BRASAS",
+      "result": "PASS",
+      "details": {
+        "version": 64,
+        "fx": 25,
+        "casts": 2,
+        "marks": 4,
+        "exposure": 0
+      }
+    },
+    {
+      "name": "GRAÇA",
+      "result": "PASS",
+      "details": {
+        "version": 64,
+        "fx": 0,
+        "casts": 1,
+        "marks": 0,
+        "exposure": 0
+      }
+    },
+    {
+      "name": "visual effects do not mutate progression",
+      "result": "PASS"
+    },
+    {
+      "name": "existing synergies still trigger",
+      "result": "PASS",
+      "details": {
+        "links": 2,
+        "bursts": 2
+      }
+    },
+    {
+      "name": "lab maximum passive points",
+      "result": "PASS"
+    }
+  ],
+  "pageErrors": []
+}

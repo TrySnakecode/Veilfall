@@ -1,0 +1,12 @@
+VEILFALL R94 — ARTEFATOS E PRESTÍGIO
+
+1. Exporte seu save da versão anterior antes de atualizar.
+2. Extraia o ZIP completo no Windows.
+3. Abra ABRIR_JOGO.bat ou VEILFALL.html.
+4. Abra Artefatos: botão VER CUSTO exibe a prévia sem gastar relíquias.
+5. UPAR FAVORITOS nos modos de níveis distribui compras em rodadas.
+6. Aba Cavaleiro: projeção do saldo de relíquias após prestigiar.
+
+Esta revisão não modifica as probabilidades de drops, a dificuldade,
+o custo de artefatos, recompensas de prestígio ou qualquer asset.
+Relatório detalhado: VEILFALL_R94_RELATORIO.md.

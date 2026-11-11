@@ -1,0 +1,301 @@
+{
+  "about": "R77 source baseline for R78 tests, captured before gameplay changes",
+  "earlyHits": {
+    "1": {
+      "normal": 2.0439999999999996,
+      "elite": 3.372599999999999,
+      "boss": 4.2924
+    },
+    "2": {
+      "normal": 2.1607,
+      "elite": 3.5651549999999994,
+      "boss": 4.53747
+    },
+    "10": {
+      "normal": 3.2720209812628824,
+      "elite": 5.398834619083756,
+      "boss": 6.871244060652053
+    },
+    "25": {
+      "normal": 6.475238899505662,
+      "elite": 10.684144184184342,
+      "boss": 13.59800168896189
+    },
+    "40": {
+      "normal": 11.892868123210182,
+      "elite": 19.6232324032968,
+      "boss": 24.97502305874138
+    },
+    "54": {
+      "normal": 20.120756895379007,
+      "elite": 33.19924887737536,
+      "boss": 42.253589480295915
+    },
+    "55": {
+      "normal": 20.866587012085937,
+      "elite": 34.429868569941796,
+      "boss": 43.81983272538047
+    },
+    "150": {
+      "normal": 57.42,
+      "elite": 57.42,
+      "boss": 104.39999999999999
+    },
+    "250": {
+      "normal": 57.42,
+      "elite": 57.42,
+      "boss": 104.39999999999999
+    }
+  },
+  "economy": {
+    "55:0": {
+      "basePrestigeRelics": 1.4547794741209183,
+      "enemyHealth": 2.2571208106574843,
+      "enemyGold": 1.255272505103306,
+      "enemyXP": 2.486051910778597
+    },
+    "150:0": {
+      "basePrestigeRelics": 2.268418037958682,
+      "enemyHealth": 4.270104222301603,
+      "enemyGold": 3.4644895474339714,
+      "enemyXP": 5.660657111146058
+    },
+    "250:0": {
+      "basePrestigeRelics": 3.2202329701979564,
+      "enemyHealth": 6.42081807790032,
+      "enemyGold": 5.78986244879415,
+      "enemyXP": 9.139540236264445
+    },
+    "24000:0": {
+      "basePrestigeRelics": 247.84420316573204,
+      "enemyHealth": 388.8472646082373,
+      "enemyGold": 558.035778749441,
+      "enemyXP": 835.3742824518813
+    },
+    "1:1": {
+      "basePrestigeRelics": 247.85450312237185,
+      "enemyHealth": 390.8472646082373,
+      "enemyGold": 558.0590312090746,
+      "enemyXP": 835.4090712831324
+    },
+    "250:2": {
+      "basePrestigeRelics": 497.6181516811721,
+      "enemyHealth": 785.7553472943748,
+      "enemyGold": 1121.9079248669434,
+      "enemyXP": 1679.0034402930899
+    },
+    "24000:4": {
+      "basePrestigeRelics": 1236.6400405876805,
+      "enemyHealth": 1947.5163230411865,
+      "enemyGold": 2790.2719035857394,
+      "enemyXP": 4175.102082565532
+    }
+  },
+  "saveSchema": {
+    "version": 1,
+    "slot": 1,
+    "stage": 1,
+    "highest": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "gearMonsterClaims": {},
+    "gearBossClaims": {},
+    "worldCapCleared": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "balanceR70Version": 1,
+    "difficulty": 0,
+    "unlocked": 1,
+    "worldPrestiges": 0,
+    "knightPrestiges": 0,
+    "runPeak": 1,
+    "runStartStage": 1,
+    "runKills": 0,
+    "prestigeGates": {},
+    "thresholdSystemVersion": 1,
+    "thresholdLegacyMax": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "stageHold": false,
+    "knightLevel": 1,
+    "xp": [
+      0,
+      0
+    ],
+    "gold": [
+      0,
+      0
+    ],
+    "relics": [
+      0,
+      0
+    ],
+    "totalRelics": [
+      0,
+      0
+    ],
+    "souls": 0,
+    "runes": 0,
+    "soulRuneVersion": 2,
+    "soulCollection": {},
+    "soulSummons": 0,
+    "soulResearch": {},
+    "soulResearchPoints": 0,
+    "soulAffinity": "all",
+    "runeCollection": {},
+    "runeSummons": 0,
+    "goldEarned": [
+      0,
+      0
+    ],
+    "kills": 0,
+    "chestersonFinds": 0,
+    "stageKills": 0,
+    "deaths": 0,
+    "damageTaken": 0,
+    "firstClear": [],
+    "talentPoints": 0,
+    "talentSpent": 0,
+    "talentTreeVersion": 3,
+    "talents": {},
+    "heroLevels": {},
+    "heroTrans": {},
+    "heroUpgradeProgress": {},
+    "heroOrderLayout": 2,
+    "petLevels": {},
+    "petSelected": [
+      "p01",
+      "p17"
+    ],
+    "scrollLevels": {},
+    "artifactLevels": {},
+    "artifactFavorites": [],
+    "relicEconomyVersion": 2,
+    "inventory": [],
+    "autoHeroes": true,
+    "autoSellRarities": [],
+    "autoSellCount": 0,
+    "autoSellEarnings": 0,
+    "equipped": {
+      "Arma": null,
+      "Capacete": null,
+      "Peitoral": null,
+      "Aura": null,
+      "Anel": null
+    },
+    "setParts": {},
+    "buildings": {
+      "wood": 1,
+      "stone": 1,
+      "iron": 1,
+      "pet": 1,
+      "scroll": 1,
+      "forge": 1
+    },
+    "village": {
+      "wood": 0,
+      "stone": 0,
+      "iron": 0,
+      "forge": 0,
+      "banknotes": 0
+    },
+    "chestsOpened": {
+      "small": 0,
+      "medium": 0,
+      "giant": 0
+    },
+    "production": {
+      "pet": 0,
+      "scroll": 0,
+      "forge": 0
+    },
+    "auto": true,
+    "autoRetreat": true,
+    "equippedSkills": [
+      "grace",
+      null,
+      null,
+      null
+    ],
+    "skillLoadoutVersion": 2,
+    "speed": 1,
+    "sound": true,
+    "particles": true,
+    "attackFocus": "closest",
+    "gearNextId": 1,
+    "logs": [],
+    "totalTime": 0,
+    "autoSaveCount": 0,
+    "autoLoot": true,
+    "fairyCountdown": 90,
+    "passiveVersion": 68,
+    "passiveNodes": {},
+    "passivePresets": []
+  },
+  "immutableHashes": {
+    "assets/audio/sound-0.wav": "59f9cf4dd1e7e19c1466a63637436cba58af1ee7b0c78d6b207929f7a30d732e",
+    "assets/audio/sound-1.wav": "d3e079b01b3d57ce811063fdb93e6faf50efb09ca34adb302c20e464613bb140",
+    "assets/audio/sound-2.wav": "ba8a92072c8c12cfcaf23738153629faa44f0e72dc085d418791106f92865476",
+    "assets/characters/bosses.png": "fa2e94c7f37de91515662359b3ec1c9d22de5b8e5e6ce14b94eb3fdc0138b821",
+    "assets/characters/enemies.png": "fa78c5974f7d2c45c32acbb9b1c005b44e572680855ee143258d9e46a8f932f7",
+    "assets/characters/knight.png": "e68d371feab99131e085d79ff9fcc29f6999ab6c0f36e01978f160abfec09fd9",
+    "assets/environment/arena.png": "e76343d3c6b4465bef558b7c74e3a4d279a3fb3c325e7bff5385da15dac8ed1f",
+    "assets/knight-manifest.json": "85d1213b7aa98d8c2314a02540061a3493086f97a91e0d5ff1192732d5c0094f",
+    "assets/raid-manifest.json": "6859ab26791e3896f1944cb8dc23789a7864e86fb37ce4e9146f1360f7d3e499",
+    "assets/raids/abyss.png": "c023cc96b31a419ffaf2f2e8bce7b31b880d450a126957d62566d69bf136719d",
+    "assets/raids/archon.png": "8c9f687c9945d19734b3f8ef5c9d7631575cd956bd2dc5da425ecaf9cc212389",
+    "assets/raids/arena.png": "b53f8888f5367586091c3e0a0525ec21fc60abf8c341225daab60070184c9487",
+    "assets/raids/heraldry.png": "a62cc08961a5f1db2d0211ffa05f4eab95dd6234ec0b4d33ccebe4fee74470b1",
+    "assets/raids/sentinel.png": "18ea9288a06cf0e93ba3b6afe5cfd776c711582ae97e7675c5c73ebf7797a65f",
+    "assets/raids/techniques.png": "4a5b2d8b46714de888c48dfe750e308fc0446af6fa27ccd17a3736723460f9fa",
+    "assets/raids/weapons-1.png": "7e9f831c82f797ee879d89599947c9d77fb8b5a4a183f8695d6233d6e4b554fb",
+    "assets/raids/weapons-2.png": "5020fdb6ebee5578b4f50870d173f1ceb483996d1f08bca16173769a3686197d",
+    "assets/ui/companions.png": "8e1efd1db84c4ef53a128666eafd3233d25f0ba9a89168ceceb19d40de44bf8d",
+    "assets/ui/icons.png": "0c38b023ed55169fcf129eadafc4ac7293e6375cab7a799e8d2d56080cd0a955",
+    "assets/ui/relics1.png": "6912f650ee101ebbd8d55b3862068822af19b4b6a4aa2d5307afe6fcab24ed56",
+    "assets/ui/relics2.png": "a36287a1ffd15988a7d6bd8c87f773d09b56b7b892be703baba5d2418965c3e5",
+    "server/server.cjs": "21abc3da6fb5dfd1ecb1dc58e2c372267fca8e8c78c2ad2b112365c7deadca89",
+    "server/service.cjs": "0c7fb34fb4993730e14490d1d13f7df33abc57c307632e679ea9561c309a376b",
+    "shared/raid-engine.js": "297dd9dbf13e0419ba793f6f7b06baf8d9fe70378d26a685423450d305572da3",
+    "src/assets.js": "a5cc959dcfd5d4884daa7324f39f13f373cf85cebab92629aaf225b7650f5cf3",
+    "src/base.css": "88569b550bd0d47b34dfca44125f9953e6fbc94056284cccc1fb57382a2a5dda",
+    "src/boot.js": "5f1fa5564460455cc613c27cf98f5e8f7c5f9f7078e5597f5d2e3fa4c02c4e39",
+    "src/data.js": "a3ab8bcc36a07196fcb1a71b393dec69306130b7cb138a5fe21b828f36dcd0ea",
+    "src/polish.css": "e51140575d303ae6e1a081753a38ef5f00bde7125d67c7d02521bf4b22c2cfb9",
+    "src/polish.js": "31f937884280bae69861183bf2332971f0ba20b85e051469de308388152f5482",
+    "src/r52-combat.js": "acd3bb8fcd33b81f603ad733872c14880897f5c416fcc37c46c1c01ba686b523",
+    "src/r52-core.js": "e7769517e28fce6d05c5bc2d45f98637af4a3a90b4a7bea7b17b7cb80e5e9ee5",
+    "src/r52-ui.js": "380a70b1331aa069d9b1e4eb425051d280cb55952802bee4f686ecfe94a72636",
+    "src/r52.css": "2aa6ebdbfd1efc6a12e2471ee244bf1fb16e8f70f48b87c4600eeb3b33c73bcb",
+    "src/r65-bridge.js": "d6cb1be7bb357401d3b159ba9455bdd26c98ebbb046f36f47affd485be6ecf3f",
+    "src/r66-ux.js": "0d3500f2daf580c71566cda2c17fc8b0e36e615a3a82b6bae1a57ebcd4c67be2",
+    "src/r66-vfx.js": "4c43e59412ce1cba54a7581746ef9452bb311be26927218c3df4098101373bf4",
+    "src/r66.css": "ffda8838f854d024c030a412cc15adedf429ac349a1950bd8fef87209f6fe509",
+    "src/r67-combat.js": "fa820cb975e1033803b73a8e33bd2d5bc93fe8cd623eb52987910768c5b75b3a",
+    "src/r67-tree.js": "db62db1d45df967d1a4158fa8251e6c19572ab5e39421761c1ea5828e039863e",
+    "src/r67-ui.js": "c8350fff4be6a7e1cbb90c10f3ac05b2bd695e0f29cbb480c69b6570dad77150",
+    "src/r67.css": "d84b876a2631ff0d97570940b67f95da51f5bf7e6fd03b9b4b2ecd497580b2cc",
+    "src/r68-tree.js": "c98d5b2f9a7d773dfe22bdca97de0fc120547348ac98e72d5ae2b376ccdd0484",
+    "src/r68-ui.js": "ebf222f65c7ce5d1dc720634a21a02eace44022cad7657428aa148444fc2f5b4",
+    "src/r68.css": "62cd8e825c239edd6bff0f414017b224a822d6a06ea1328583cbacffd9e99c4c",
+    "src/r72-ux.css": "1453d6e2582ca8a675762b5f6a4abd8934f6c3a3bb8d3549107eb3ba59c9effb",
+    "src/r72-ux.js": "370202f4805ffac0846c910624e4554ffe29510f4e4ea83926bb850be7a0ea90",
+    "src/r74-ui.css": "8dd039d0531a717579812c394add90b499005713bac0f1174dc63cd67ade4f18",
+    "src/r74-ui.js": "5cebfc621779dc5b3c2d2396b396b8be2051958aadbee7ee5ce0ca549afe9c3e",
+    "src/r75-ui.css": "d8173d12951f99e45eab073d5d81107b7bbf49ebae4fb916fff34ffc465dee9d",
+    "src/visual.css": "206ce483da6b4ec7e361cb7f1f0a6f11eb11cdeb255bbfad6ff45aaee07fabee",
+    "src/visual.js": "23623b911ce2b417cd38a8d3b75a090f2ea0129e4ccbe9c629d06c8995b9bbb3"
+  }
+}

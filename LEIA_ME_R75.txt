@@ -1,0 +1,11 @@
+VEILFALL R75 — Interface limpa e sistemas separados
+
+Base: R74.
+
+1. Runas possuem aba própria no Santuário, independente de Almas/Ecos/Pesquisas.
+2. Barra dos chefes ocupa a faixa superior da arena (36px), sem encobrir o campo de combate.
+3. Histórico flutuante e faixa de mensagens repetidas foram retirados do combate. Coleta automática de fada e abate de Mimic continuam recompensando, mas sem avisos duplicados. Informações importantes continuam aparecendo em Registros e avisos especiais.
+4. Mimic e Chesterson passam a ser UMA fonte de ouro. Foi eliminado o antigo sorteio separado de 2,8% após abates comuns. Os itens, atributos e efeitos de heróis/pets relacionados ao Mimic permanecem. A rota econômica de Magia agora fortalece este mesmo inimigo. O ouro-base do Mimic aumenta de 260x para 325x para compensar aproximadamente a remoção da recompensa antiga em uma campanha sem bônus.
+5. IDs dos talentos, saves, mecânicas de almas/runas e arquivos visuais preservados.
+
+Faça backup do salvamento antes de atualizar.

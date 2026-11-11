@@ -1,0 +1,71 @@
+{
+  "revision": 71,
+  "pass": 16,
+  "total": 16,
+  "results": [
+    {
+      "name": "Six quality tiers and fixed drop chance sum",
+      "ok": true
+    },
+    {
+      "name": "Both ends of quality roll and all intermediate tiers exist",
+      "ok": true
+    },
+    {
+      "name": "Quality of same stage, rarity and attribute changes power",
+      "ok": true
+    },
+    {
+      "name": "All grades retain strict non-overlap for every quality and rarity, including Auras",
+      "ok": true
+    },
+    {
+      "name": "Perfect quality preserves exact R70 power in every grade and slot",
+      "ok": true
+    },
+    {
+      "name": "New helmets exclusively roll one hero class primary stat",
+      "ok": true
+    },
+    {
+      "name": "Helmet strengthens only developed hero class, without multiplying weapon damage stat",
+      "ok": true
+    },
+    {
+      "name": "Helmet does not create new hero power if its class has no invested hero",
+      "ok": true
+    },
+    {
+      "name": "Aura amplifies helmet MAIN effect, not its secondary affix",
+      "ok": true
+    },
+    {
+      "name": "Raid Hero Weapons path includes helmet effect once",
+      "ok": true
+    },
+    {
+      "name": "Legacy helmets migrate to class bonus; existing equipment is not deleted",
+      "ok": true
+    },
+    {
+      "name": "Quality survives repeated calibration without re-roll",
+      "ok": true
+    },
+    {
+      "name": "Equipment sales remain determined by rarity alone",
+      "ok": true
+    },
+    {
+      "name": "R71 gear UI shows quality and hero class labels",
+      "ok": true
+    },
+    {
+      "name": "R70 drop claims still reject repeated gear on conquered stage",
+      "ok": true
+    },
+    {
+      "name": "Old save loads, retains hero levels and quality migrated after roundtrip",
+      "ok": true
+    }
+  ]
+}

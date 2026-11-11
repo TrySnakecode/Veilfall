@@ -1,0 +1,60 @@
+{
+  "revision": 55,
+  "total": 11,
+  "pass": 11,
+  "fail": 0,
+  "simulatedEarlyCollections": 800,
+  "simulatedCompleteCollections": 100,
+  "checks": [
+    {
+      "name": "106 artefatos preservados",
+      "pass": true
+    },
+    {
+      "name": "exatamente um artefato de Relíquias (R56)",
+      "pass": true
+    },
+    {
+      "name": "Anel do Abismo agora fortalece o dano contra inimigos comuns",
+      "pass": true
+    },
+    {
+      "name": "efeito de Anel do Abismo altera dano real",
+      "pass": true
+    },
+    {
+      "name": "artefato especial de 5a descoberta mantido",
+      "pass": true
+    },
+    {
+      "name": "800 sequências com 4 primeiras descobertas úteis e quinta garantida",
+      "pass": true,
+      "wrongStart": 0,
+      "fullRuns": 800
+    },
+    {
+      "name": "habilidades futuras nunca sorteadas antes do desbloqueio",
+      "pass": true,
+      "blockedEarly": 0
+    },
+    {
+      "name": "nenhum outro artefato fornece Relíquias em descobertas precoces",
+      "pass": true,
+      "lateEarly": 0
+    },
+    {
+      "name": "100 coleções completas, 106 artefatos acessíveis após liberação",
+      "pass": true,
+      "completeRuns": 100,
+      "unexpectedNull": 0
+    },
+    {
+      "name": "novas descobertas sem candidatos bloqueadas sem custo",
+      "pass": true
+    },
+    {
+      "name": "salvamento antigo preserva o nível do a083",
+      "pass": true
+    }
+  ]
+}

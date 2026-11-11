@@ -1,0 +1,25 @@
+{
+  "base": "R96",
+  "version": "R97",
+  "unchanged": 291,
+  "changed": [
+    "LEIA_ME.txt",
+    "README.md",
+    "VEILFALL.html",
+    "index.html",
+    "package.json",
+    "src/game.js",
+    "src/r67-combat.js",
+    "src/r75-ui.js",
+    "tests/r78-core.cjs",
+    "tests/r79-core.cjs",
+    "tests/r80-core.cjs",
+    "tests/r81-core.cjs",
+    "tests/r82-core.cjs",
+    "tests/r88-core.cjs",
+    "tests/r93-core.cjs"
+  ],
+  "missing": [],
+  "mediaCount": 19,
+  "mediaIdentical": 19
+}

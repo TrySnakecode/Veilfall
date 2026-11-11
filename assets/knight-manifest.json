@@ -1,0 +1,1021 @@
+{
+  "version": 49,
+  "columns": 8,
+  "rows": 6,
+  "cell": 128,
+  "groundAnchor": [
+    64,
+    105
+  ],
+  "uniqueFrames": 48,
+  "frames": [
+    {
+      "index": 0,
+      "row": 0,
+      "column": 0,
+      "source": "locomotion",
+      "sourceRow": 0,
+      "sourceColumn": 0,
+      "sourceRect": [
+        41,
+        59,
+        224,
+        240
+      ],
+      "destRect": [
+        26,
+        26,
+        74,
+        79
+      ],
+      "scale": 0.3305785123966942
+    },
+    {
+      "index": 1,
+      "row": 0,
+      "column": 1,
+      "source": "locomotion",
+      "sourceRow": 0,
+      "sourceColumn": 1,
+      "sourceRect": [
+        34,
+        57,
+        244,
+        242
+      ],
+      "destRect": [
+        24,
+        25,
+        81,
+        80
+      ],
+      "scale": 0.3305785123966942
+    },
+    {
+      "index": 2,
+      "row": 0,
+      "column": 2,
+      "source": "locomotion",
+      "sourceRow": 0,
+      "sourceColumn": 2,
+      "sourceRect": [
+        43,
+        56,
+        239,
+        243
+      ],
+      "destRect": [
+        26,
+        25,
+        79,
+        80
+      ],
+      "scale": 0.3305785123966942
+    },
+    {
+      "index": 3,
+      "row": 0,
+      "column": 3,
+      "source": "locomotion",
+      "sourceRow": 0,
+      "sourceColumn": 3,
+      "sourceRect": [
+        45,
+        57,
+        231,
+        242
+      ],
+      "destRect": [
+        27,
+        25,
+        76,
+        80
+      ],
+      "scale": 0.3305785123966942
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "column": 4,
+      "source": "locomotion",
+      "sourceRow": 1,
+      "sourceColumn": 0,
+      "sourceRect": [
+        40,
+        41,
+        224,
+        256
+      ],
+      "destRect": [
+        25,
+        20,
+        74,
+        85
+      ],
+      "scale": 0.3305785123966942
+    },
+    {
+      "index": 5,
+      "row": 0,
+      "column": 5,
+      "source": "locomotion",
+      "sourceRow": 1,
+      "sourceColumn": 1,
+      "sourceRect": [
+        39,
+        42,
+        230,
+        255
+      ],
+      "destRect": [
+        25,
+        21,
+        76,
+        84
+      ],
+      "scale": 0.3305785123966942
+    },
+    {
+      "index": 6,
+      "row": 0,
+      "column": 6,
+      "source": "locomotion",
+      "sourceRow": 1,
+      "sourceColumn": 2,
+      "sourceRect": [
+        40,
+        42,
+        228,
+        255
+      ],
+      "destRect": [
+        25,
+        21,
+        75,
+        84
+      ],
+      "scale": 0.3305785123966942
+    },
+    {
+      "index": 7,
+      "row": 0,
+      "column": 7,
+      "source": "locomotion",
+      "sourceRow": 1,
+      "sourceColumn": 3,
+      "sourceRect": [
+        50,
+        41,
+        220,
+        256
+      ],
+      "destRect": [
+        29,
+        20,
+        73,
+        85
+      ],
+      "scale": 0.3305785123966942
+    },
+    {
+      "index": 8,
+      "row": 1,
+      "column": 0,
+      "source": "locomotion",
+      "sourceRow": 2,
+      "sourceColumn": 0,
+      "sourceRect": [
+        41,
+        37,
+        246,
+        257
+      ],
+      "destRect": [
+        26,
+        20,
+        81,
+        85
+      ],
+      "scale": 0.3305785123966942
+    },
+    {
+      "index": 9,
+      "row": 1,
+      "column": 1,
+      "source": "locomotion",
+      "sourceRow": 2,
+      "sourceColumn": 1,
+      "sourceRect": [
+        44,
+        39,
+        244,
+        246
+      ],
+      "destRect": [
+        27,
+        24,
+        81,
+        81
+      ],
+      "scale": 0.3305785123966942
+    },
+    {
+      "index": 10,
+      "row": 1,
+      "column": 2,
+      "source": "locomotion",
+      "sourceRow": 2,
+      "sourceColumn": 2,
+      "sourceRect": [
+        25,
+        39,
+        267,
+        255
+      ],
+      "destRect": [
+        20,
+        21,
+        88,
+        84
+      ],
+      "scale": 0.3305785123966942
+    },
+    {
+      "index": 11,
+      "row": 1,
+      "column": 3,
+      "source": "locomotion",
+      "sourceRow": 2,
+      "sourceColumn": 3,
+      "sourceRect": [
+        46,
+        37,
+        249,
+        257
+      ],
+      "destRect": [
+        27,
+        20,
+        82,
+        85
+      ],
+      "scale": 0.3305785123966942
+    },
+    {
+      "index": 12,
+      "row": 1,
+      "column": 4,
+      "source": "locomotion",
+      "sourceRow": 3,
+      "sourceColumn": 0,
+      "sourceRect": [
+        39,
+        19,
+        226,
+        255
+      ],
+      "destRect": [
+        25,
+        21,
+        75,
+        84
+      ],
+      "scale": 0.3305785123966942
+    },
+    {
+      "index": 13,
+      "row": 1,
+      "column": 5,
+      "source": "locomotion",
+      "sourceRow": 3,
+      "sourceColumn": 1,
+      "sourceRect": [
+        38,
+        19,
+        241,
+        255
+      ],
+      "destRect": [
+        25,
+        21,
+        80,
+        84
+      ],
+      "scale": 0.3305785123966942
+    },
+    {
+      "index": 14,
+      "row": 1,
+      "column": 6,
+      "source": "locomotion",
+      "sourceRow": 3,
+      "sourceColumn": 2,
+      "sourceRect": [
+        33,
+        19,
+        247,
+        255
+      ],
+      "destRect": [
+        23,
+        21,
+        82,
+        84
+      ],
+      "scale": 0.3305785123966942
+    },
+    {
+      "index": 15,
+      "row": 1,
+      "column": 7,
+      "source": "locomotion",
+      "sourceRow": 3,
+      "sourceColumn": 3,
+      "sourceRect": [
+        39,
+        19,
+        229,
+        255
+      ],
+      "destRect": [
+        25,
+        21,
+        76,
+        84
+      ],
+      "scale": 0.3305785123966942
+    },
+    {
+      "index": 16,
+      "row": 2,
+      "column": 0,
+      "source": "combat",
+      "sourceRow": 0,
+      "sourceColumn": 0,
+      "sourceRect": [
+        56,
+        83,
+        235,
+        209
+      ],
+      "destRect": [
+        25,
+        24,
+        91,
+        81
+      ],
+      "scale": 0.3864734299516908
+    },
+    {
+      "index": 17,
+      "row": 2,
+      "column": 1,
+      "source": "combat",
+      "sourceRow": 0,
+      "sourceColumn": 1,
+      "sourceRect": [
+        53,
+        85,
+        236,
+        207
+      ],
+      "destRect": [
+        24,
+        25,
+        91,
+        80
+      ],
+      "scale": 0.3864734299516908
+    },
+    {
+      "index": 18,
+      "row": 2,
+      "column": 2,
+      "source": "combat",
+      "sourceRow": 0,
+      "sourceColumn": 2,
+      "sourceRect": [
+        50,
+        85,
+        237,
+        207
+      ],
+      "destRect": [
+        23,
+        25,
+        92,
+        80
+      ],
+      "scale": 0.3864734299516908
+    },
+    {
+      "index": 19,
+      "row": 2,
+      "column": 3,
+      "source": "combat",
+      "sourceRow": 0,
+      "sourceColumn": 3,
+      "sourceRect": [
+        59,
+        85,
+        230,
+        207
+      ],
+      "destRect": [
+        26,
+        25,
+        89,
+        80
+      ],
+      "scale": 0.3864734299516908
+    },
+    {
+      "index": 20,
+      "row": 2,
+      "column": 4,
+      "source": "combat",
+      "sourceRow": 1,
+      "sourceColumn": 0,
+      "sourceRect": [
+        52,
+        74,
+        240,
+        213
+      ],
+      "destRect": [
+        23,
+        23,
+        93,
+        82
+      ],
+      "scale": 0.3864734299516908
+    },
+    {
+      "index": 21,
+      "row": 2,
+      "column": 5,
+      "source": "combat",
+      "sourceRow": 1,
+      "sourceColumn": 1,
+      "sourceRect": [
+        64,
+        54,
+        173,
+        236
+      ],
+      "destRect": [
+        28,
+        14,
+        67,
+        91
+      ],
+      "scale": 0.3864734299516908
+    },
+    {
+      "index": 22,
+      "row": 2,
+      "column": 6,
+      "source": "combat",
+      "sourceRow": 1,
+      "sourceColumn": 2,
+      "sourceRect": [
+        22,
+        96,
+        292,
+        193
+      ],
+      "destRect": [
+        16,
+        36,
+        104,
+        69
+      ],
+      "scale": 0.35668789808917195
+    },
+    {
+      "index": 23,
+      "row": 2,
+      "column": 7,
+      "source": "combat",
+      "sourceRow": 1,
+      "sourceColumn": 3,
+      "sourceRect": [
+        47,
+        90,
+        240,
+        200
+      ],
+      "destRect": [
+        22,
+        28,
+        93,
+        77
+      ],
+      "scale": 0.3864734299516908
+    },
+    {
+      "index": 24,
+      "row": 3,
+      "column": 0,
+      "source": "combat",
+      "sourceRow": 2,
+      "sourceColumn": 0,
+      "sourceRect": [
+        67,
+        70,
+        169,
+        212
+      ],
+      "destRect": [
+        29,
+        23,
+        65,
+        82
+      ],
+      "scale": 0.3864734299516908
+    },
+    {
+      "index": 25,
+      "row": 3,
+      "column": 1,
+      "source": "combat",
+      "sourceRow": 2,
+      "sourceColumn": 1,
+      "sourceRect": [
+        52,
+        43,
+        207,
+        240
+      ],
+      "destRect": [
+        24,
+        12,
+        80,
+        93
+      ],
+      "scale": 0.3864734299516908
+    },
+    {
+      "index": 26,
+      "row": 3,
+      "column": 2,
+      "source": "combat",
+      "sourceRow": 2,
+      "sourceColumn": 2,
+      "sourceRect": [
+        46,
+        70,
+        260,
+        212
+      ],
+      "destRect": [
+        22,
+        25,
+        98,
+        80
+      ],
+      "scale": 0.37583892617449666
+    },
+    {
+      "index": 27,
+      "row": 3,
+      "column": 3,
+      "source": "combat",
+      "sourceRow": 2,
+      "sourceColumn": 3,
+      "sourceRect": [
+        56,
+        70,
+        178,
+        214
+      ],
+      "destRect": [
+        25,
+        22,
+        69,
+        83
+      ],
+      "scale": 0.3864734299516908
+    },
+    {
+      "index": 28,
+      "row": 3,
+      "column": 4,
+      "source": "combat",
+      "sourceRow": 3,
+      "sourceColumn": 0,
+      "sourceRect": [
+        62,
+        50,
+        181,
+        208
+      ],
+      "destRect": [
+        27,
+        25,
+        70,
+        80
+      ],
+      "scale": 0.3864734299516908
+    },
+    {
+      "index": 29,
+      "row": 3,
+      "column": 5,
+      "source": "combat",
+      "sourceRow": 3,
+      "sourceColumn": 1,
+      "sourceRect": [
+        58,
+        26,
+        198,
+        232
+      ],
+      "destRect": [
+        26,
+        15,
+        77,
+        90
+      ],
+      "scale": 0.3864734299516908
+    },
+    {
+      "index": 30,
+      "row": 3,
+      "column": 6,
+      "source": "combat",
+      "sourceRow": 3,
+      "sourceColumn": 2,
+      "sourceRect": [
+        33,
+        48,
+        265,
+        208
+      ],
+      "destRect": [
+        16,
+        25,
+        102,
+        80
+      ],
+      "scale": 0.3864734299516908
+    },
+    {
+      "index": 31,
+      "row": 3,
+      "column": 7,
+      "source": "combat",
+      "sourceRow": 3,
+      "sourceColumn": 3,
+      "sourceRect": [
+        54,
+        48,
+        184,
+        210
+      ],
+      "destRect": [
+        24,
+        24,
+        71,
+        81
+      ],
+      "scale": 0.3864734299516908
+    },
+    {
+      "index": 32,
+      "row": 4,
+      "column": 0,
+      "source": "reactions",
+      "sourceRow": 0,
+      "sourceColumn": 0,
+      "sourceRect": [
+        34,
+        86,
+        231,
+        226
+      ],
+      "destRect": [
+        20,
+        24,
+        83,
+        81
+      ],
+      "scale": 0.35714285714285715
+    },
+    {
+      "index": 33,
+      "row": 4,
+      "column": 1,
+      "source": "reactions",
+      "sourceRow": 0,
+      "sourceColumn": 1,
+      "sourceRect": [
+        68,
+        89,
+        214,
+        223
+      ],
+      "destRect": [
+        32,
+        25,
+        76,
+        80
+      ],
+      "scale": 0.35714285714285715
+    },
+    {
+      "index": 34,
+      "row": 4,
+      "column": 2,
+      "source": "reactions",
+      "sourceRow": 0,
+      "sourceColumn": 2,
+      "sourceRect": [
+        46,
+        92,
+        241,
+        220
+      ],
+      "destRect": [
+        24,
+        26,
+        86,
+        79
+      ],
+      "scale": 0.35714285714285715
+    },
+    {
+      "index": 35,
+      "row": 4,
+      "column": 3,
+      "source": "reactions",
+      "sourceRow": 0,
+      "sourceColumn": 3,
+      "sourceRect": [
+        35,
+        87,
+        222,
+        225
+      ],
+      "destRect": [
+        20,
+        25,
+        79,
+        80
+      ],
+      "scale": 0.35714285714285715
+    },
+    {
+      "index": 36,
+      "row": 4,
+      "column": 4,
+      "source": "reactions",
+      "sourceRow": 1,
+      "sourceColumn": 0,
+      "sourceRect": [
+        55,
+        99,
+        213,
+        207
+      ],
+      "destRect": [
+        27,
+        31,
+        76,
+        74
+      ],
+      "scale": 0.35714285714285715
+    },
+    {
+      "index": 37,
+      "row": 4,
+      "column": 5,
+      "source": "reactions",
+      "sourceRow": 1,
+      "sourceColumn": 1,
+      "sourceRect": [
+        0,
+        134,
+        298,
+        160
+      ],
+      "destRect": [
+        8,
+        49,
+        105,
+        56
+      ],
+      "scale": 0.3522012578616352
+    },
+    {
+      "index": 38,
+      "row": 4,
+      "column": 6,
+      "source": "reactions",
+      "sourceRow": 1,
+      "sourceColumn": 2,
+      "sourceRect": [
+        0,
+        170,
+        301,
+        129
+      ],
+      "destRect": [
+        8,
+        59,
+        106,
+        46
+      ],
+      "scale": 0.35331230283911674
+    },
+    {
+      "index": 39,
+      "row": 4,
+      "column": 7,
+      "source": "reactions",
+      "sourceRow": 1,
+      "sourceColumn": 3,
+      "sourceRect": [
+        0,
+        186,
+        302,
+        114
+      ],
+      "destRect": [
+        8,
+        65,
+        107,
+        40
+      ],
+      "scale": 0.35331230283911674
+    },
+    {
+      "index": 40,
+      "row": 5,
+      "column": 0,
+      "source": "reactions",
+      "sourceRow": 2,
+      "sourceColumn": 0,
+      "sourceRect": [
+        45,
+        100,
+        221,
+        181
+      ],
+      "destRect": [
+        24,
+        40,
+        79,
+        65
+      ],
+      "scale": 0.35714285714285715
+    },
+    {
+      "index": 41,
+      "row": 5,
+      "column": 1,
+      "source": "reactions",
+      "sourceRow": 2,
+      "sourceColumn": 1,
+      "sourceRect": [
+        13,
+        80,
+        252,
+        199
+      ],
+      "destRect": [
+        12,
+        34,
+        90,
+        71
+      ],
+      "scale": 0.35714285714285715
+    },
+    {
+      "index": 42,
+      "row": 5,
+      "column": 2,
+      "source": "reactions",
+      "sourceRow": 2,
+      "sourceColumn": 2,
+      "sourceRect": [
+        30,
+        45,
+        256,
+        236
+      ],
+      "destRect": [
+        18,
+        21,
+        91,
+        84
+      ],
+      "scale": 0.35714285714285715
+    },
+    {
+      "index": 43,
+      "row": 5,
+      "column": 3,
+      "source": "reactions",
+      "sourceRow": 2,
+      "sourceColumn": 3,
+      "sourceRect": [
+        27,
+        23,
+        240,
+        258
+      ],
+      "destRect": [
+        17,
+        13,
+        86,
+        92
+      ],
+      "scale": 0.35714285714285715
+    },
+    {
+      "index": 44,
+      "row": 5,
+      "column": 4,
+      "source": "reactions",
+      "sourceRow": 3,
+      "sourceColumn": 0,
+      "sourceRect": [
+        43,
+        42,
+        258,
+        196
+      ],
+      "destRect": [
+        23,
+        35,
+        92,
+        70
+      ],
+      "scale": 0.35714285714285715
+    },
+    {
+      "index": 45,
+      "row": 5,
+      "column": 5,
+      "source": "reactions",
+      "sourceRow": 3,
+      "sourceColumn": 1,
+      "sourceRect": [
+        37,
+        28,
+        218,
+        210
+      ],
+      "destRect": [
+        21,
+        30,
+        78,
+        75
+      ],
+      "scale": 0.35714285714285715
+    },
+    {
+      "index": 46,
+      "row": 5,
+      "column": 6,
+      "source": "reactions",
+      "sourceRow": 3,
+      "sourceColumn": 2,
+      "sourceRect": [
+        0,
+        52,
+        309,
+        186
+      ],
+      "destRect": [
+        8,
+        39,
+        109,
+        66
+      ],
+      "scale": 0.35331230283911674
+    },
+    {
+      "index": 47,
+      "row": 5,
+      "column": 7,
+      "source": "reactions",
+      "sourceRow": 3,
+      "sourceColumn": 3,
+      "sourceRect": [
+        21,
+        38,
+        252,
+        200
+      ],
+      "destRect": [
+        15,
+        34,
+        90,
+        71
+      ],
+      "scale": 0.35714285714285715
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+VEILFALL — R91: JURAMENTO SECUNDÁRIO DE CONJUNTOS
+
+Na aba CONJUNTOS, coleções completas podem optar por seu efeito secundário.
+A escolha SUBSTITUI o bônus principal daquela coleção.
+Apenas UM conjunto pode usar bônus secundário ao mesmo tempo.
+O padrão preserva todos os bônus principais da R90.
+É possível voltar ao padrão a qualquer momento, sem custos e sem perda de peças.
+Alguns efeitos antigos do catálogo eram inválidos ou exagerados; foram calibrados antes de se tornarem escolhas jogáveis.
+
+O resto do jogo, as artes, os custos, o prestígio, os drops e os saves antigos seguem preservados.
+
+Faça backup por EXPORTAR SAVE antes de instalar.

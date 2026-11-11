@@ -1,0 +1,19 @@
+VEILFALL R83 — AUDITORIA MULTI-PERFIL DE CAMPANHA
+
+A R83 acrescenta ferramentas de QA reproduzível para comparar campanhas novas
+com políticas automáticas equilibrada, ofensiva e defensiva.
+
+PARA JOGAR: Extraia a pasta e abra ABRIR_JOGO.bat ou VEILFALL.html.
+O jogo mantém as regras, saves, arte, dano e economia da R82.
+Exporte seu save antes de atualizar, como precaução.
+
+PARA AUDITAR (opcional, requer Node.js):
+  node tools/auditar-campanha-r83.cjs --seconds=300 --seeds=17 --out=relatorios
+
+Para auditoria prolongada, escolha --seconds=1800 --seeds=17,47. A execução
+pode consumir CPU por vários minutos, dependendo da maquina.
+
+O programa cria relatorios/auditoria-r83.json e auditoria-r83.md.
+Os tempos são simulados. O agente não tem poderes de laboratório, mas suas
+escolhas são simplificadas; não são dados de jogadores reais nem de endgame.
+O laboratório de save real da R82 continua disponível.

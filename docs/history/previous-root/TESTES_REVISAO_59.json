@@ -1,0 +1,42 @@
+{
+  "revision": 59,
+  "base": 57,
+  "assets_preserved": 15,
+  "asset_hashes_identical": true,
+  "skill_ids_preserved": 9,
+  "tree_tiers_rendered": 15,
+  "tabs_rendered": 12,
+  "combat_test_targets": [
+    26,
+    120
+  ],
+  "combat_result": {
+    "holy_spear_hits_on_low_hp_26": 20,
+    "flame_nova_hits_on_high_hp_26": 53,
+    "thunderstorm_distinct_targets_26": 15,
+    "grace_hits_over_3_seconds": 11
+  },
+  "web_regression": {
+    "artifact_r56": "11/11",
+    "artifact_discovery_r55": "11/11",
+    "heroes_r54": "10/10",
+    "balance_r54": "14/14",
+    "qol_r53": "26/27 (identical preexisting failure in R57)"
+  },
+  "save_r57_compatible": true,
+  "browser_page_errors": 0,
+  "untested": [
+    "Windows physical",
+    "full difficulty V progression",
+    "extensive long-run endgame balance"
+  ],
+  "changed_existing_files": [
+    "index.html",
+    "VEILFALL.html",
+    "LEIA_ME.txt",
+    "src/visual.css",
+    "src/game.js",
+    "src/data.js",
+    "src/polish.js"
+  ]
+}

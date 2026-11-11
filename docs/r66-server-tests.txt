@@ -1,0 +1,31 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> veilfall-r66@66.0.0 test
+> node --test tests/server/*.test.cjs
+
+✔ Limite de30membros, solicitações concorrentes e vínculo único (1287.951311ms)
+✔ Último líder pode arquivar clã sem apagar histórico; não há ingresso tardio (130.30442ms)
+✔ Todas as faixas de recompensa, duplicatas e novo conjunto no servidor (102.029252ms)
+✔ Melhorias descontam custo, assinatura rejeita alterações e conta alheia (84.922263ms)
+✔ Duas conexões SQLite liquidam a mesma vitória uma única vez (54.511647ms)
+✔ HTTP paralelo: mesma tentativa idempotente, jogadores distintos e vida atômica (155.157627ms)
+✔ Coleção de 32 armas, duplicatas e limites de recompensa (1.561955ms)
+✔ Motor: 30s, 60 ataques básicos, separação da campanha, nove técnicas (5.022883ms)
+✔ XP, níveis e poder são monotônicos até 1000 (0.532623ms)
+✔ Regiões, armaduras e vulnerabilidades alteram dano efetivo (0.381345ms)
+✔ Conta, hash de senha, assinatura e sessões persistem (100.469706ms)
+✔ Permissões de clã, ingresso, promoção e transferência (134.331101ms)
+✔ Ataques não podem acelerar, falsificar dano, repetir ações ou roubar tentativa (120.639377ms)
+✔ Três ataques diários, dia UTC e progresso do clã (61.997212ms)
+✔ Vida compartilhada: dois ataques simultâneos somam sem sobrescrever (89.699121ms)
+✔ Vitória entrega 5–26 armas por participante uma única vez; não participante não recebe (129.72086ms)
+✔ Desconexão e reinício: liquidação automática persiste sem cliente (67.720757ms)
+✔ Servidor HTTP: autenticação, origem, arquivos privados e dano enviado ignorado (115.799519ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1923.995093

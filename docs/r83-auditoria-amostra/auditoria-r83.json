@@ -1,0 +1,89 @@
+{
+  "schema": "veilfall-campaign-audit-r83-v1",
+  "version": "R83",
+  "config": {
+    "seconds": 180,
+    "seeds": [
+      17
+    ],
+    "profiles": [
+      "equilibrado",
+      "ofensivo",
+      "defensivo"
+    ]
+  },
+  "runs": [
+    {
+      "seed": 17,
+      "profile": "equilibrado",
+      "simulatedSeconds": 180,
+      "maxStage": 11,
+      "currentStage": 11,
+      "level": 12,
+      "deaths": 0,
+      "prestigeCount": 0,
+      "prestiges": [],
+      "deathsLog": [],
+      "checkpoints": [],
+      "milestones": {},
+      "lastProgressSecond": 167.5,
+      "heldSeconds": 0,
+      "artifactCount": 0,
+      "passivesSpent": 0,
+      "heroCount": 2,
+      "qaFlags": {
+        "testMode": false,
+        "endgameTrial": false,
+        "receivedSyntheticPower": false
+      }
+    },
+    {
+      "seed": 17,
+      "profile": "ofensivo",
+      "simulatedSeconds": 180,
+      "maxStage": 11,
+      "currentStage": 11,
+      "level": 12,
+      "deaths": 0,
+      "prestigeCount": 0,
+      "prestiges": [],
+      "deathsLog": [],
+      "checkpoints": [],
+      "milestones": {},
+      "lastProgressSecond": 167.5,
+      "heldSeconds": 0,
+      "artifactCount": 0,
+      "passivesSpent": 0,
+      "heroCount": 2,
+      "qaFlags": {
+        "testMode": false,
+        "endgameTrial": false,
+        "receivedSyntheticPower": false
+      }
+    },
+    {
+      "seed": 17,
+      "profile": "defensivo",
+      "simulatedSeconds": 180,
+      "maxStage": 11,
+      "currentStage": 11,
+      "level": 12,
+      "deaths": 0,
+      "prestigeCount": 0,
+      "prestiges": [],
+      "deathsLog": [],
+      "checkpoints": [],
+      "milestones": {},
+      "lastProgressSecond": 167.5,
+      "heldSeconds": 0,
+      "artifactCount": 0,
+      "passivesSpent": 0,
+      "heroCount": 2,
+      "qaFlags": {
+        "testMode": false,
+        "endgameTrial": false,
+        "receivedSyntheticPower": false
+      }
+    }
+  ]
+}

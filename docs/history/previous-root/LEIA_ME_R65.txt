@@ -1,0 +1,18 @@
+VEILFALL R65 — R64 + CLÃS / RAIDS / ARSENAL VISUAL DA R52
+
+INICIAR:
+• ABRIR_JOGO.bat: campanha R64 e treinamento de Raid offline, sem backend.
+• INICIAR_SERVIDOR.bat: clãs e raids persistentes, banco de dados local. Requer Node.js 24+ (ou versão com suporte a node:sqlite).
+• Ao abrir no servidor, URL http://127.0.0.1:4173; dados de campanha no navegador file:// não são compartilhados com localhost. Exporte seu save e importe ao usar localhost.
+• Sem servidor, armas não são fabricadas nem recompensas online concedidas: isso é intencional.
+
+BASE: campanha, nove habilidades, Ceifa do Véu / Coração de Brasas, efeitos de R64, árvore contínua da R60, Modo Teste da R62, economia da R56 aprovada.
+EXPANSÃO: clãs, raids de 30 s, arenas e chefes visuais, técnicas e Arsenal de Armas de Heróis trazidos do R52 Corrigido, preservando assets originais.
+
+As armas são adquiridas apenas por raids vencidas (5–26 por participante elegível conforme nível de raid). O dano de raid é independente da campanha. Raids e armas online são ligados a contas do servidor.
+
+IMPORTANTE: backend é local, NÃO representa multiplayer hospedado pela Internet. Acesse a mesma instância do servidor para ter clãs compartilhados; consulte docs/SERVIDOR_R52.md para preparo de hospedagem pública e segurança.
+
+Fazer backup do salvamento e dos dados do servidor antes de atualizar.
+
+Veja RELATORIO_INTEGRACAO_R65.md.

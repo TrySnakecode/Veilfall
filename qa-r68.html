@@ -1,0 +1,52 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#090b12"><title>VEILFALL — Crônicas do Véu · R68</title>
+<link rel="stylesheet" href="src/base.css"><link rel="stylesheet" href="src/visual.css"><link rel="stylesheet" href="src/polish.css"><link rel="stylesheet" href="src/r52.css">
+<link rel="stylesheet" href="src/r66.css"><link rel="stylesheet" href="src/r67.css"><link rel="stylesheet" href="src/r68.css"></head>
+<body>
+<div id="app" class="app">
+  <aside class="rail"><div class="brandmark" title="Veilfall">✦<small>V</small></div><nav id="nav" class="nav"></nav><div class="rail-foot"><button id="mute" title="Alternar som">♪</button><button id="settings-quick" title="Configurações">⚙</button></div></aside>
+  <main class="layout">
+    <header class="topbar"><div class="logo"><small>CHRONICLES OF RUIN</small><strong>VEILFALL</strong></div><div class="top-stat"><span>DIFICULDADE</span><b id="hdr-diff">I · CREPÚSCULO</b></div><div class="top-stat"><span>ESTÁGIO DO MUNDO</span><b id="hdr-world">1 <em>/ 24.000</em></b></div><div class="top-stat"><span>NÍVEL DO CAVALEIRO</span><b id="hdr-lvl">1</b></div><div class="top-stat resource"><span>OURO</span><b id="hdr-gold">0</b></div><div class="top-stat resource"><span>RELÍQUIAS</span><b id="hdr-relics">0</b></div><div class="header-actions"><button id="speed" class="mini-button">▶ ×1</button><button id="pause" class="mini-button">Ⅱ</button><button id="trial-farm-toggle" class="mini-button hidden" title="Modo de teste V: alterna entre avançar automaticamente e permanecer na fase atual">ATIVAR FARM FIXO</button><div id="boss-lab-controls" class="boss-lab-controls hidden" aria-label="Escolher o chefe para prévia"><button data-boss-preview="0">CARRASCO</button><button data-boss-preview="1">PROFANADOR</button><button data-boss-preview="2">ARAUTO</button></div><button id="exit-trial" class="mini-button hidden" data-action="endgameExit" title="Restaura a campanha normal sem salvar o teste">SAIR DO TESTE</button></div></header>
+    <div class="main-grid"><section class="battle-column"><div class="battle-shell"><div class="battle-top"><div class="region-tag"><span class="red-dot"></span><span id="region">RUÍNAS DO ECLIPSE</span><small>· MUNDO CONTÍNUO</small></div><div id="battle-head-right" class="battle-head-right">✦ INIMIGOS 0 · 0 ABATES</div></div><div class="battle-stage" id="battle-stage"><canvas id="battle-canvas" width="1120" height="690" aria-label="Arena de combate automático"></canvas><div class="stage-vignette"></div><div class="hud-char"><div class="portrait">♜</div><div class="charbars"><div class="bar-label"><b>CAVALEIRO CELESTIAL</b><span id="hp-text">100 / 100 PV</span></div><div class="bar-track hp"><div id="hp-fill"></div></div><div class="bar-track mp"><div id="mp-fill"></div></div><div class="bar-label secondary"><span id="mp-text">100 / 100 MANA</span><span id="exp-text">EXP 0%</span></div></div></div><div class="battle-boss hidden" id="boss-bar"><span id="boss-label">GUARDIÃO DO VÉU</span><div class="bar-track boss"><div id="boss-fill"></div></div></div><div class="level-stamp" id="level-stamp">NÍVEL DO MUNDO <strong>01</strong></div><div class="combat-feed" id="combat-feed"></div><div class="battle-bottom"><div class="combat-info"><span id="dps">⚔ DPS: 0</span><span id="golds">◆ OURO/s: 0</span><span id="kills">☠ 0/8</span></div><div class="skill-bar" id="skills-bar"></div><button class="autocast enabled" id="auto" title="ATIVO por padrão: usa todas as habilidades desbloqueadas automaticamente, respeitando mana, duração e recarga. Clique para desligar/ligar.">AUTO<br><small>ON</small></button></div></div></div><div class="lower-strip"><div><span class="dot"></span><b>VIGÍLIA ETERNA</b><small id="world-tip">A ruína não conhece descanso.</small></div><button id="stage-advance" class="stage-advance hidden" type="button" title="Sair do farm fixo e avançar manualmente um estágio, quando disponível">AVANÇAR →</button><div id="combat-msg" class="lower-msg">O cavaleiro combate automaticamente. Explore os painéis sem interromper a batalha.</div></div></section>
+    <aside class="rightpane"><div class="pane-title"><div><small>CRÔNICAS DO VÉU</small><h2 id="panel-title">Cavaleiro</h2></div><span class="ornament">✥</span></div><div class="pane-tabs"><button class="active" id="tab-info">PROGRESSÃO</button><button id="tab-log">REGISTROS</button></div><div id="panel-body" class="panel-body"></div><div class="right-bottom"><div class="mini-head">PRÓXIMA CONQUISTA</div><div id="next-goal">Elimine inimigos para avançar.</div></div></aside></div>
+    <footer class="footbar"><span>✦ <b>VEILFALL</b> · R65 · VIGÍLIA CELESTIAL</span><span id="footer-status">SALVAMENTO AUTOMÁTICO ATIVO</span><span>WASD · MOVIMENTAR &nbsp; | &nbsp; 1–4 · HABILIDADES &nbsp; | &nbsp; ESPAÇO · PAUSAR</span></footer>
+  </main>
+</div>
+<div id="start-overlay" class="overlay"><div class="start-screen"><div class="start-mark">✦ ✧ ✦</div><div class="pretitle">A CINZA NUNCA DESCANSA</div><h1>VEILFALL</h1><div class="subtitle">CHRONICLES OF RUIN</div><div class="start-rule">✧</div><p>Em meio às ruínas de um mundo condenado, a morte é apenas o início de outro juramento.</p><div class="start-actions"><button id="new-game" class="primary-action">INICIAR NOVA JORNADA <span>❯</span></button><button id="continue-game" class="ghost-action">CONTINUAR A VIGÍLIA</button><details class="lab-menu"><summary>Laboratório de combate</summary><p>Testes temporários com todas as passivas no nível máximo. Sua campanha é restaurada ao sair.</p><button id="start-endgame-test" class="ghost-action" title="Laboratório temporário; não sobrescreve campanhas">⚔ TESTAR FASE 23.999</button><button id="start-boss-preview" class="ghost-action" title="Prévia visual dos três chefes com ataque, movimento, efeitos e fases. Não altera o save.">✦ TESTAR OS 3 CHEFES</button><button id="start-difficulty-five-test" class="ghost-action" title="Simulação isolada na Dificuldade V · Fase 24.000">⚔ SIMULAR DIFICULDADE V · FASE 24.000</button></details></div><div class="start-foot">ARPG INCREMENTAL · COMBATE AUTOMÁTICO · PROGRESSÃO INFINITA</div></div></div>
+<div id="modal-root" class="modal-root hidden"></div><div id="toast-root" class="toast-root"></div>
+
+
+
+<script src="shared/raid-engine.js"></script>
+<script src="src/assets.js"></script>
+<script src="src/data.js"></script>
+<script src="src/game.js"></script>
+<script src="src/r67-tree.js"></script>
+<script src="src/r67-combat.js"></script>
+<script src="src/r68-tree.js"></script>
+<script src="src/visual.js"></script>
+<script src="src/polish.js"></script>
+<script src="src/r52-core.js"></script>
+<script src="src/r52-combat.js"></script>
+<script src="src/r52-ui.js"></script>
+<script src="src/r65-bridge.js"></script>
+<script src="src/r66-ux.js"></script>
+<script src="src/r66-vfx.js"></script>
+<script src="src/r67-ui.js"></script>
+<script src="src/r68-ui.js"></script>
+<script src="src/boot.js"></script>
+<style>#r68-qa{position:fixed;right:12px;top:12px;z-index:900;background:#101e2ef4;color:#d5e6e8;border:1px solid #d0ae74;padding:14px;width:320px;max-height:60vh;overflow:auto;font:12px system-ui}#r68-qa button{margin:5px;padding:8px;background:#344351;color:#fff;border:1px solid #ae936a}#r68-report{white-space:pre-wrap}</style><div id="r68-qa"><strong>QA da Árvore R68</strong><button onclick="runR68QA()">Testar árvore</button><button onclick="document.querySelector('#r68-qa').style.display='none'">Ocultar</button><pre id="r68-report">Pronto para testar.</pre></div><script>
+function runR68QA(){const lines=[];const test=(name,fn)=>{try{if(!fn())throw Error('Falhou');lines.push('OK  '+name);}catch(e){lines.push('ERRO '+name+': '+e.message);}};
+ testMode=true;g=fresh();g.talentPoints=4800;g.knightLevel=500;UI67.owner=null;UI67.draft=null;UI67.selected='origin';UI67.placed=false;UI67.zoom=.42;tab='skills';skillView='tree';panelMode='info';renderPanel();
+ test('210 nos / 245 conexoes',()=>document.querySelectorAll('.p67-node').length===210&&document.querySelectorAll('.p67-lines line').length===245);
+ test('3 afinidades',()=>document.querySelectorAll('[data-p67="sector"]').length===3);
+ test('Niveis 20 e 15',()=>P67.nodes.filter(x=>x.type==='common').every(n=>n.maxRank===20)&&P67.nodes.filter(x=>x.type==='notable').every(n=>n.maxRank===15));
+ test('4.800 pontos não maximizam toda a árvore',()=>P67.nodes.filter(n=>n.type==='common'||n.type==='notable').reduce((s,n)=>s+p68Total(n,n.maxRank),0)===23240);
+ r67TreeAction('result','core_center');r67TreeAction('route');test('Um ponto inicia trilha',()=>r67Draft().core_center===1);
+ r67TreeAction('rank5');test('Rank +5 custa 12 pontos acumulados',()=>r67Draft().core_center===6&&p67Cost(r67Draft())===12);
+ r67TreeAction('apply');test('Aplicacao multiplica bonus pelo rank',()=>g.passiveNodes.core_center===6&&Math.abs(p67Bonus('damage')-.024)<1e-8);
+ r67TreeAction('rankMinus');test('Restituicao de um rank',()=>r67Draft().core_center===5&&p67Cost(r67Draft())===9);
+ r67TreeAction('cancel');test('Descartar mantem build',()=>r67Draft().core_center===6&&g.passiveNodes.core_center===6);
+ test('9 habilidades / 27 transformacoes',()=>P67.nodes.filter(n=>n.type==='specialization').length===27&&D.skills.length===9);
+ test('Conectividade',()=>p67Reachable(Object.fromEntries(P67.nodes.map(n=>[n.id,1]))).size===210);
+ const passes=lines.filter(s=>s.startsWith('OK')).length;document.querySelector('#r68-report').textContent=passes+'/'+lines.length+' aprovados\n\n'+lines.join('\n');return {passes,total:lines.length,lines};}
+</script></body></html>

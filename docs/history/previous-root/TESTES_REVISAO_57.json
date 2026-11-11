@@ -1,0 +1,221 @@
+{
+  "tests": 20,
+  "passed": 20,
+  "failed": [],
+  "cases": [
+    {
+      "test": "Three class tabs",
+      "ok": true,
+      "details": null
+    },
+    {
+      "test": "physical has three full branches",
+      "ok": true,
+      "details": {
+        "skills": [
+          "Graça Celestial",
+          "Ira do Mártir",
+          "Golpe da Sombra"
+        ],
+        "gold": [
+          "fury_gold_tree"
+        ],
+        "end": [
+          "grace_n18",
+          "fury_n18",
+          "shadow_n18"
+        ],
+        "nodeCount": 55
+      }
+    },
+    {
+      "test": "physical retains all nine final skill specializations",
+      "ok": true,
+      "details": [
+        "grace_n18",
+        "fury_n18",
+        "shadow_n18"
+      ]
+    },
+    {
+      "test": "physical has exactly one central gold node",
+      "ok": true,
+      "details": [
+        "fury_gold_tree"
+      ]
+    },
+    {
+      "test": "physical aligns final nodes",
+      "ok": true,
+      "details": [
+        1052,
+        1052,
+        1052
+      ]
+    },
+    {
+      "test": "magic has three full branches",
+      "ok": true,
+      "details": {
+        "skills": [
+          "Nova de Fogo · Chamas do Abismo",
+          "FOCO ARCANO — Coração Elemental",
+          "Tormenta Elétrica · Ira Celeste"
+        ],
+        "gold": [
+          "arcane_gold_tree"
+        ],
+        "end": [
+          "flame_nova_n18",
+          "arcane_focus_n18",
+          "thunderstorm_n18"
+        ],
+        "nodeCount": 55
+      }
+    },
+    {
+      "test": "magic retains all nine final skill specializations",
+      "ok": true,
+      "details": [
+        "flame_nova_n18",
+        "arcane_focus_n18",
+        "thunderstorm_n18"
+      ]
+    },
+    {
+      "test": "magic has exactly one central gold node",
+      "ok": true,
+      "details": [
+        "arcane_gold_tree"
+      ]
+    },
+    {
+      "test": "magic aligns final nodes",
+      "ok": true,
+      "details": [
+        1052,
+        1052,
+        1052
+      ]
+    },
+    {
+      "test": "faith has three full branches",
+      "ok": true,
+      "details": {
+        "skills": [
+          "Maldição do Véu",
+          "LEGION — Juramento dos Heróis",
+          "Lança da Aurora"
+        ],
+        "gold": [
+          "demons_gold_tree"
+        ],
+        "end": [
+          "curse_n18",
+          "demons_n18",
+          "holy_spear_n18"
+        ],
+        "nodeCount": 55
+      }
+    },
+    {
+      "test": "faith retains all nine final skill specializations",
+      "ok": true,
+      "details": [
+        "curse_n18",
+        "demons_n18",
+        "holy_spear_n18"
+      ]
+    },
+    {
+      "test": "faith has exactly one central gold node",
+      "ok": true,
+      "details": [
+        "demons_gold_tree"
+      ]
+    },
+    {
+      "test": "faith aligns final nodes",
+      "ok": true,
+      "details": [
+        1052,
+        1052,
+        1052
+      ]
+    },
+    {
+      "test": "gold phys exclusively affects intended source",
+      "ok": true,
+      "details": {
+        "monsters": 1.34,
+        "boss": 1.34,
+        "fairy": 1,
+        "mimic": 1,
+        "chesterson": 1,
+        "idle": 1
+      }
+    },
+    {
+      "test": "gold faith exclusively affects intended source",
+      "ok": true,
+      "details": {
+        "monsters": 1,
+        "boss": 1,
+        "fairy": 1.34,
+        "mimic": 1,
+        "chesterson": 1,
+        "idle": 1
+      }
+    },
+    {
+      "test": "gold mag exclusively affects intended source",
+      "ok": true,
+      "details": {
+        "monsters": 1,
+        "boss": 1,
+        "fairy": 1,
+        "mimic": 1,
+        "chesterson": 1.34,
+        "idle": 1
+      }
+    },
+    {
+      "test": "R56 save loads with old talents",
+      "ok": true,
+      "details": {
+        "ret": true,
+        "levels": {
+          "grace": 12,
+          "shadow": 8
+        },
+        "talents": {
+          "grace_n01": 2,
+          "shadow_n01": 1,
+          "arcane_focus_n02": 3
+        },
+        "points": 22,
+        "spent": 10,
+        "threeTabs": [
+          "physical",
+          "magic",
+          "faith"
+        ]
+      }
+    },
+    {
+      "test": "R56 skill levels preserved",
+      "ok": true,
+      "details": null
+    },
+    {
+      "test": "narrow viewport tabs and nodes exist",
+      "ok": true,
+      "details": null
+    },
+    {
+      "test": "No browser JavaScript errors",
+      "ok": true,
+      "details": []
+    }
+  ]
+}

@@ -1,0 +1,3107 @@
+{
+  "version": 52,
+  "generator": "imagegen built-in",
+  "bosses": {
+    "sentinel": {
+      "file": "assets/raids/sentinel.png",
+      "columns": 4,
+      "rows": 6,
+      "cell": 192,
+      "anchor": [
+        96,
+        168
+      ],
+      "scale": 0.7796610169491526,
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": 4,
+          "fps": 3.2,
+          "loop": true
+        },
+        "attack": {
+          "row": 1,
+          "frames": 4,
+          "fps": 6,
+          "loop": false
+        },
+        "hurt": {
+          "row": 2,
+          "frames": 4,
+          "fps": 8,
+          "loop": false
+        },
+        "vulnerable": {
+          "row": 3,
+          "frames": 4,
+          "fps": 3.2,
+          "loop": true
+        },
+        "armorBreak": {
+          "row": 4,
+          "frames": 4,
+          "fps": 6,
+          "loop": false
+        },
+        "death": {
+          "row": 5,
+          "frames": 4,
+          "fps": 4,
+          "loop": false
+        }
+      },
+      "regions": {
+        "head": [
+          0.5,
+          0.28
+        ],
+        "core": [
+          0.5,
+          0.52
+        ],
+        "plates": [
+          0.28,
+          0.53
+        ],
+        "legs": [
+          0.5,
+          0.79
+        ]
+      },
+      "frames": [
+        {
+          "row": 0,
+          "col": 0,
+          "sourceRect": [
+            58,
+            64,
+            161,
+            180
+          ],
+          "destinationRect": [
+            33,
+            30,
+            125,
+            140
+          ],
+          "bodySourceBounds": {
+            "x0": 60,
+            "y0": 65,
+            "x1": 217,
+            "y1": 241,
+            "count": 15752
+          }
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "sourceRect": [
+            311,
+            64,
+            157,
+            180
+          ],
+          "destinationRect": [
+            227,
+            30,
+            122,
+            140
+          ],
+          "bodySourceBounds": {
+            "x0": 57,
+            "y0": 65,
+            "x1": 209,
+            "y1": 241,
+            "count": 14885
+          }
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "sourceRect": [
+            555,
+            63,
+            154,
+            182
+          ],
+          "destinationRect": [
+            420,
+            28,
+            120,
+            141
+          ],
+          "bodySourceBounds": {
+            "x0": 45,
+            "y0": 65,
+            "x1": 195,
+            "y1": 242,
+            "count": 15017
+          }
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "sourceRect": [
+            818,
+            65,
+            157,
+            180
+          ],
+          "destinationRect": [
+            610,
+            30,
+            122,
+            140
+          ],
+          "bodySourceBounds": {
+            "x0": 55,
+            "y0": 67,
+            "x1": 205,
+            "y1": 242,
+            "count": 14969
+          }
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "sourceRect": [
+            47,
+            319,
+            181,
+            165
+          ],
+          "destinationRect": [
+            26,
+            234,
+            141,
+            128
+          ],
+          "bodySourceBounds": {
+            "x0": 48,
+            "y0": 65,
+            "x1": 226,
+            "y1": 225,
+            "count": 14933
+          }
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "sourceRect": [
+            316,
+            310,
+            149,
+            181
+          ],
+          "destinationRect": [
+            230,
+            221,
+            116,
+            141
+          ],
+          "bodySourceBounds": {
+            "x0": 62,
+            "y0": 56,
+            "x1": 207,
+            "y1": 232,
+            "count": 14341
+          }
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "sourceRect": [
+            525,
+            346,
+            208,
+            148
+          ],
+          "destinationRect": [
+            398,
+            247,
+            162,
+            115
+          ],
+          "bodySourceBounds": {
+            "x0": 39,
+            "y0": 92,
+            "x1": 197,
+            "y1": 235,
+            "count": 16055
+          }
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "sourceRect": [
+            803,
+            328,
+            181,
+            156
+          ],
+          "destinationRect": [
+            602,
+            241,
+            141,
+            121
+          ],
+          "bodySourceBounds": {
+            "x0": 36,
+            "y0": 74,
+            "x1": 214,
+            "y1": 225,
+            "count": 13931
+          }
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "sourceRect": [
+            49,
+            549,
+            194,
+            186
+          ],
+          "destinationRect": [
+            20,
+            409,
+            151,
+            145
+          ],
+          "bodySourceBounds": {
+            "x0": 52,
+            "y0": 40,
+            "x1": 240,
+            "y1": 220,
+            "count": 16412
+          }
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "sourceRect": [
+            297,
+            549,
+            174,
+            187
+          ],
+          "destinationRect": [
+            226,
+            408,
+            135,
+            145
+          ],
+          "bodySourceBounds": {
+            "x0": 42,
+            "y0": 43,
+            "x1": 198,
+            "y1": 222,
+            "count": 16318
+          }
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "sourceRect": [
+            550,
+            547,
+            185,
+            188
+          ],
+          "destinationRect": [
+            408,
+            408,
+            144,
+            146
+          ],
+          "bodySourceBounds": {
+            "x0": 40,
+            "y0": 36,
+            "x1": 220,
+            "y1": 220,
+            "count": 16885
+          }
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "sourceRect": [
+            807,
+            561,
+            187,
+            174
+          ],
+          "destinationRect": [
+            599,
+            418,
+            145,
+            135
+          ],
+          "bodySourceBounds": {
+            "x0": 56,
+            "y0": 63,
+            "x1": 208,
+            "y1": 221,
+            "count": 15936
+          }
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "sourceRect": [
+            48,
+            796,
+            178,
+            182
+          ],
+          "destinationRect": [
+            27,
+            604,
+            138,
+            141
+          ],
+          "bodySourceBounds": {
+            "x0": 50,
+            "y0": 32,
+            "x1": 223,
+            "y1": 208,
+            "count": 18312
+          }
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "sourceRect": [
+            292,
+            789,
+            194,
+            188
+          ],
+          "destinationRect": [
+            213,
+            599,
+            151,
+            146
+          ],
+          "bodySourceBounds": {
+            "x0": 38,
+            "y0": 23,
+            "x1": 227,
+            "y1": 207,
+            "count": 16483
+          }
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "sourceRect": [
+            554,
+            784,
+            167,
+            194
+          ],
+          "destinationRect": [
+            416,
+            595,
+            130,
+            151
+          ],
+          "bodySourceBounds": {
+            "x0": 43,
+            "y0": 25,
+            "x1": 206,
+            "y1": 207,
+            "count": 18980
+          }
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "sourceRect": [
+            811,
+            805,
+            160,
+            174
+          ],
+          "destinationRect": [
+            610,
+            610,
+            124,
+            135
+          ],
+          "bodySourceBounds": {
+            "x0": 45,
+            "y0": 48,
+            "x1": 200,
+            "y1": 209,
+            "count": 17039
+          }
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "sourceRect": [
+            44,
+            1035,
+            183,
+            194
+          ],
+          "destinationRect": [
+            25,
+            787,
+            142,
+            151
+          ],
+          "bodySourceBounds": {
+            "x0": 46,
+            "y0": 12,
+            "x1": 224,
+            "y1": 202,
+            "count": 18050
+          }
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "sourceRect": [
+            295,
+            1034,
+            184,
+            193
+          ],
+          "destinationRect": [
+            214,
+            787,
+            143,
+            150
+          ],
+          "bodySourceBounds": {
+            "x0": 49,
+            "y0": 12,
+            "x1": 220,
+            "y1": 201,
+            "count": 18176
+          }
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "sourceRect": [
+            540,
+            1034,
+            197,
+            194
+          ],
+          "destinationRect": [
+            400,
+            787,
+            153,
+            151
+          ],
+          "bodySourceBounds": {
+            "x0": 38,
+            "y0": 26,
+            "x1": 222,
+            "y1": 201,
+            "count": 17599
+          }
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "sourceRect": [
+            802,
+            1037,
+            187,
+            190
+          ],
+          "destinationRect": [
+            598,
+            789,
+            145,
+            148
+          ],
+          "bodySourceBounds": {
+            "x0": 57,
+            "y0": 15,
+            "x1": 201,
+            "y1": 201,
+            "count": 15853
+          }
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "sourceRect": [
+            49,
+            1301,
+            176,
+            170
+          ],
+          "destinationRect": [
+            27,
+            997,
+            137,
+            132
+          ],
+          "bodySourceBounds": {
+            "x0": 51,
+            "y0": 22,
+            "x1": 223,
+            "y1": 189,
+            "count": 17041
+          }
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "sourceRect": [
+            287,
+            1317,
+            207,
+            144
+          ],
+          "destinationRect": [
+            208,
+            1018,
+            161,
+            112
+          ],
+          "bodySourceBounds": {
+            "x0": 33,
+            "y0": 59,
+            "x1": 235,
+            "y1": 178,
+            "count": 13710
+          }
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "sourceRect": [
+            531,
+            1314,
+            214,
+            152
+          ],
+          "destinationRect": [
+            397,
+            1012,
+            166,
+            118
+          ],
+          "bodySourceBounds": {
+            "x0": 37,
+            "y0": 54,
+            "x1": 215,
+            "y1": 183,
+            "count": 11447
+          }
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "sourceRect": [
+            798,
+            1302,
+            202,
+            160
+          ],
+          "destinationRect": [
+            596,
+            1006,
+            157,
+            124
+          ],
+          "bodySourceBounds": {
+            "x0": 31,
+            "y0": 48,
+            "x1": 224,
+            "y1": 178,
+            "count": 10794
+          }
+        }
+      ]
+    },
+    "archon": {
+      "file": "assets/raids/archon.png",
+      "columns": 4,
+      "rows": 6,
+      "cell": 192,
+      "anchor": [
+        96,
+        168
+      ],
+      "scale": 0.7802690582959642,
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": 4,
+          "fps": 3.2,
+          "loop": true
+        },
+        "attack": {
+          "row": 1,
+          "frames": 4,
+          "fps": 6,
+          "loop": false
+        },
+        "hurt": {
+          "row": 2,
+          "frames": 4,
+          "fps": 8,
+          "loop": false
+        },
+        "vulnerable": {
+          "row": 3,
+          "frames": 4,
+          "fps": 3.2,
+          "loop": true
+        },
+        "armorBreak": {
+          "row": 4,
+          "frames": 4,
+          "fps": 6,
+          "loop": false
+        },
+        "death": {
+          "row": 5,
+          "frames": 4,
+          "fps": 4,
+          "loop": false
+        }
+      },
+      "regions": {
+        "head": [
+          0.5,
+          0.28
+        ],
+        "core": [
+          0.5,
+          0.52
+        ],
+        "plates": [
+          0.28,
+          0.53
+        ],
+        "legs": [
+          0.5,
+          0.79
+        ]
+      },
+      "frames": [
+        {
+          "row": 0,
+          "col": 0,
+          "sourceRect": [
+            64,
+            68,
+            150,
+            168
+          ],
+          "destinationRect": [
+            37,
+            39,
+            117,
+            131
+          ],
+          "bodySourceBounds": {
+            "x0": 66,
+            "y0": 70,
+            "x1": 212,
+            "y1": 233,
+            "count": 14658
+          }
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "sourceRect": [
+            309,
+            66,
+            153,
+            170
+          ],
+          "destinationRect": [
+            229,
+            38,
+            119,
+            132
+          ],
+          "bodySourceBounds": {
+            "x0": 55,
+            "y0": 68,
+            "x1": 203,
+            "y1": 233,
+            "count": 15224
+          }
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "sourceRect": [
+            563,
+            65,
+            152,
+            172
+          ],
+          "destinationRect": [
+            421,
+            35,
+            118,
+            134
+          ],
+          "bodySourceBounds": {
+            "x0": 53,
+            "y0": 67,
+            "x1": 200,
+            "y1": 235,
+            "count": 15358
+          }
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "sourceRect": [
+            820,
+            64,
+            152,
+            173
+          ],
+          "destinationRect": [
+            613,
+            35,
+            118,
+            134
+          ],
+          "bodySourceBounds": {
+            "x0": 53,
+            "y0": 66,
+            "x1": 201,
+            "y1": 235,
+            "count": 15352
+          }
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "sourceRect": [
+            50,
+            318,
+            176,
+            163
+          ],
+          "destinationRect": [
+            28,
+            235,
+            137,
+            127
+          ],
+          "bodySourceBounds": {
+            "x0": 51,
+            "y0": 64,
+            "x1": 224,
+            "y1": 222,
+            "count": 15174
+          }
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "sourceRect": [
+            312,
+            301,
+            158,
+            179
+          ],
+          "destinationRect": [
+            227,
+            223,
+            123,
+            139
+          ],
+          "bodySourceBounds": {
+            "x0": 59,
+            "y0": 47,
+            "x1": 209,
+            "y1": 221,
+            "count": 15357
+          }
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "sourceRect": [
+            546,
+            334,
+            198,
+            151
+          ],
+          "destinationRect": [
+            405,
+            245,
+            154,
+            117
+          ],
+          "bodySourceBounds": {
+            "x0": 39,
+            "y0": 80,
+            "x1": 220,
+            "y1": 225,
+            "count": 16644
+          }
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "sourceRect": [
+            803,
+            319,
+            179,
+            162
+          ],
+          "destinationRect": [
+            602,
+            235,
+            139,
+            126
+          ],
+          "bodySourceBounds": {
+            "x0": 38,
+            "y0": 65,
+            "x1": 211,
+            "y1": 223,
+            "count": 14074
+          }
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "sourceRect": [
+            49,
+            562,
+            183,
+            168
+          ],
+          "destinationRect": [
+            29,
+            422,
+            142,
+            131
+          ],
+          "bodySourceBounds": {
+            "x0": 51,
+            "y0": 52,
+            "x1": 220,
+            "y1": 216,
+            "count": 15466
+          }
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "sourceRect": [
+            309,
+            553,
+            176,
+            181
+          ],
+          "destinationRect": [
+            225,
+            413,
+            137,
+            141
+          ],
+          "bodySourceBounds": {
+            "x0": 54,
+            "y0": 43,
+            "x1": 213,
+            "y1": 219,
+            "count": 15852
+          }
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "sourceRect": [
+            548,
+            573,
+            190,
+            159
+          ],
+          "destinationRect": [
+            411,
+            429,
+            148,
+            124
+          ],
+          "bodySourceBounds": {
+            "x0": 38,
+            "y0": 63,
+            "x1": 210,
+            "y1": 218,
+            "count": 16172
+          }
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "sourceRect": [
+            796,
+            563,
+            190,
+            175
+          ],
+          "destinationRect": [
+            605,
+            417,
+            148,
+            136
+          ],
+          "bodySourceBounds": {
+            "x0": 30,
+            "y0": 53,
+            "x1": 199,
+            "y1": 224,
+            "count": 14955
+          }
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "sourceRect": [
+            44,
+            807,
+            191,
+            173
+          ],
+          "destinationRect": [
+            22,
+            611,
+            149,
+            134
+          ],
+          "bodySourceBounds": {
+            "x0": 45,
+            "y0": 42,
+            "x1": 232,
+            "y1": 209,
+            "count": 16495
+          }
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "sourceRect": [
+            304,
+            812,
+            173,
+            170
+          ],
+          "destinationRect": [
+            221,
+            613,
+            134,
+            132
+          ],
+          "bodySourceBounds": {
+            "x0": 50,
+            "y0": 46,
+            "x1": 218,
+            "y1": 212,
+            "count": 17561
+          }
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "sourceRect": [
+            568,
+            810,
+            151,
+            173
+          ],
+          "destinationRect": [
+            422,
+            611,
+            117,
+            134
+          ],
+          "bodySourceBounds": {
+            "x0": 57,
+            "y0": 44,
+            "x1": 204,
+            "y1": 213,
+            "count": 17024
+          }
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "sourceRect": [
+            818,
+            827,
+            163,
+            153
+          ],
+          "destinationRect": [
+            609,
+            627,
+            127,
+            119
+          ],
+          "bodySourceBounds": {
+            "x0": 51,
+            "y0": 61,
+            "x1": 211,
+            "y1": 209,
+            "count": 15044
+          }
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "sourceRect": [
+            47,
+            1042,
+            191,
+            190
+          ],
+          "destinationRect": [
+            24,
+            789,
+            149,
+            148
+          ],
+          "bodySourceBounds": {
+            "x0": 49,
+            "y0": 29,
+            "x1": 229,
+            "y1": 206,
+            "count": 17882
+          }
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "sourceRect": [
+            293,
+            1042,
+            197,
+            190
+          ],
+          "destinationRect": [
+            212,
+            789,
+            153,
+            148
+          ],
+          "bodySourceBounds": {
+            "x0": 39,
+            "y0": 23,
+            "x1": 231,
+            "y1": 206,
+            "count": 18844
+          }
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "sourceRect": [
+            531,
+            1046,
+            209,
+            187
+          ],
+          "destinationRect": [
+            394,
+            792,
+            163,
+            145
+          ],
+          "bodySourceBounds": {
+            "x0": 39,
+            "y0": 32,
+            "x1": 220,
+            "y1": 207,
+            "count": 17131
+          }
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "sourceRect": [
+            794,
+            1037,
+            198,
+            201
+          ],
+          "destinationRect": [
+            595,
+            782,
+            154,
+            156
+          ],
+          "bodySourceBounds": {
+            "x0": 28,
+            "y0": 31,
+            "x1": 221,
+            "y1": 211,
+            "count": 19137
+          }
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "sourceRect": [
+            41,
+            1321,
+            192,
+            159
+          ],
+          "destinationRect": [
+            22,
+            1005,
+            149,
+            124
+          ],
+          "bodySourceBounds": {
+            "x0": 42,
+            "y0": 43,
+            "x1": 229,
+            "y1": 198,
+            "count": 16738
+          }
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "sourceRect": [
+            299,
+            1324,
+            184,
+            156
+          ],
+          "destinationRect": [
+            217,
+            1009,
+            143,
+            121
+          ],
+          "bodySourceBounds": {
+            "x0": 45,
+            "y0": 66,
+            "x1": 224,
+            "y1": 197,
+            "count": 15359
+          }
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "sourceRect": [
+            541,
+            1361,
+            200,
+            121
+          ],
+          "destinationRect": [
+            402,
+            1036,
+            156,
+            94
+          ],
+          "bodySourceBounds": {
+            "x0": 31,
+            "y0": 107,
+            "x1": 227,
+            "y1": 199,
+            "count": 10737
+          }
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "sourceRect": [
+            789,
+            1334,
+            201,
+            154
+          ],
+          "destinationRect": [
+            594,
+            1009,
+            156,
+            120
+          ],
+          "bodySourceBounds": {
+            "x0": 23,
+            "y0": 104,
+            "x1": 219,
+            "y1": 206,
+            "count": 11480
+          }
+        }
+      ]
+    },
+    "abyss": {
+      "file": "assets/raids/abyss.png",
+      "columns": 4,
+      "rows": 6,
+      "cell": 192,
+      "anchor": [
+        96,
+        168
+      ],
+      "scale": 0.8130841121495327,
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": 4,
+          "fps": 3.2,
+          "loop": true
+        },
+        "attack": {
+          "row": 1,
+          "frames": 4,
+          "fps": 6,
+          "loop": false
+        },
+        "hurt": {
+          "row": 2,
+          "frames": 4,
+          "fps": 8,
+          "loop": false
+        },
+        "vulnerable": {
+          "row": 3,
+          "frames": 4,
+          "fps": 3.2,
+          "loop": true
+        },
+        "armorBreak": {
+          "row": 4,
+          "frames": 4,
+          "fps": 6,
+          "loop": false
+        },
+        "death": {
+          "row": 5,
+          "frames": 4,
+          "fps": 4,
+          "loop": false
+        }
+      },
+      "regions": {
+        "head": [
+          0.5,
+          0.28
+        ],
+        "core": [
+          0.5,
+          0.52
+        ],
+        "plates": [
+          0.28,
+          0.53
+        ],
+        "legs": [
+          0.5,
+          0.79
+        ]
+      },
+      "frames": [
+        {
+          "row": 0,
+          "col": 0,
+          "sourceRect": [
+            47,
+            80,
+            169,
+            165
+          ],
+          "destinationRect": [
+            27,
+            35,
+            137,
+            134
+          ],
+          "bodySourceBounds": {
+            "x0": 49,
+            "y0": 82,
+            "x1": 214,
+            "y1": 243,
+            "count": 16222
+          }
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "sourceRect": [
+            309,
+            80,
+            160,
+            164
+          ],
+          "destinationRect": [
+            224,
+            37,
+            130,
+            133
+          ],
+          "bodySourceBounds": {
+            "x0": 54,
+            "y0": 81,
+            "x1": 210,
+            "y1": 241,
+            "count": 15649
+          }
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "sourceRect": [
+            555,
+            80,
+            172,
+            168
+          ],
+          "destinationRect": [
+            411,
+            34,
+            139,
+            136
+          ],
+          "bodySourceBounds": {
+            "x0": 44,
+            "y0": 81,
+            "x1": 212,
+            "y1": 245,
+            "count": 16342
+          }
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "sourceRect": [
+            816,
+            80,
+            161,
+            165
+          ],
+          "destinationRect": [
+            607,
+            35,
+            130,
+            134
+          ],
+          "bodySourceBounds": {
+            "x0": 50,
+            "y0": 82,
+            "x1": 207,
+            "y1": 243,
+            "count": 15668
+          }
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "sourceRect": [
+            44,
+            332,
+            176,
+            157
+          ],
+          "destinationRect": [
+            25,
+            235,
+            143,
+            127
+          ],
+          "bodySourceBounds": {
+            "x0": 45,
+            "y0": 78,
+            "x1": 217,
+            "y1": 230,
+            "count": 15162
+          }
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "sourceRect": [
+            303,
+            302,
+            174,
+            187
+          ],
+          "destinationRect": [
+            218,
+            210,
+            141,
+            152
+          ],
+          "bodySourceBounds": {
+            "x0": 48,
+            "y0": 48,
+            "x1": 218,
+            "y1": 231,
+            "count": 16383
+          }
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "sourceRect": [
+            553,
+            309,
+            176,
+            186
+          ],
+          "destinationRect": [
+            407,
+            216,
+            143,
+            151
+          ],
+          "bodySourceBounds": {
+            "x0": 46,
+            "y0": 55,
+            "x1": 215,
+            "y1": 230,
+            "count": 15633
+          }
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "sourceRect": [
+            806,
+            344,
+            177,
+            147
+          ],
+          "destinationRect": [
+            600,
+            242,
+            143,
+            119
+          ],
+          "bodySourceBounds": {
+            "x0": 40,
+            "y0": 90,
+            "x1": 212,
+            "y1": 233,
+            "count": 14806
+          }
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "sourceRect": [
+            44,
+            572,
+            179,
+            156
+          ],
+          "destinationRect": [
+            24,
+            428,
+            145,
+            126
+          ],
+          "bodySourceBounds": {
+            "x0": 45,
+            "y0": 62,
+            "x1": 220,
+            "y1": 213,
+            "count": 14717
+          }
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "sourceRect": [
+            304,
+            559,
+            179,
+            172
+          ],
+          "destinationRect": [
+            216,
+            415,
+            145,
+            139
+          ],
+          "bodySourceBounds": {
+            "x0": 50,
+            "y0": 59,
+            "x1": 224,
+            "y1": 216,
+            "count": 16570
+          }
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "sourceRect": [
+            564,
+            565,
+            164,
+            164
+          ],
+          "destinationRect": [
+            414,
+            420,
+            133,
+            133
+          ],
+          "bodySourceBounds": {
+            "x0": 53,
+            "y0": 54,
+            "x1": 214,
+            "y1": 215,
+            "count": 16200
+          }
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "sourceRect": [
+            814,
+            567,
+            162,
+            164
+          ],
+          "destinationRect": [
+            607,
+            421,
+            131,
+            133
+          ],
+          "bodySourceBounds": {
+            "x0": 47,
+            "y0": 61,
+            "x1": 205,
+            "y1": 216,
+            "count": 15582
+          }
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "sourceRect": [
+            45,
+            813,
+            178,
+            176
+          ],
+          "destinationRect": [
+            24,
+            603,
+            144,
+            143
+          ],
+          "bodySourceBounds": {
+            "x0": 46,
+            "y0": 47,
+            "x1": 220,
+            "y1": 218,
+            "count": 17402
+          }
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "sourceRect": [
+            300,
+            813,
+            182,
+            174
+          ],
+          "destinationRect": [
+            214,
+            605,
+            147,
+            141
+          ],
+          "bodySourceBounds": {
+            "x0": 46,
+            "y0": 47,
+            "x1": 223,
+            "y1": 216,
+            "count": 17304
+          }
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "sourceRect": [
+            550,
+            814,
+            176,
+            175
+          ],
+          "destinationRect": [
+            408,
+            603,
+            143,
+            142
+          ],
+          "bodySourceBounds": {
+            "x0": 40,
+            "y0": 48,
+            "x1": 212,
+            "y1": 219,
+            "count": 17721
+          }
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "sourceRect": [
+            800,
+            834,
+            181,
+            149
+          ],
+          "destinationRect": [
+            599,
+            624,
+            147,
+            121
+          ],
+          "bodySourceBounds": {
+            "x0": 33,
+            "y0": 68,
+            "x1": 211,
+            "y1": 213,
+            "count": 16177
+          }
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "sourceRect": [
+            44,
+            1065,
+            181,
+            175
+          ],
+          "destinationRect": [
+            23,
+            795,
+            147,
+            142
+          ],
+          "bodySourceBounds": {
+            "x0": 45,
+            "y0": 42,
+            "x1": 223,
+            "y1": 214,
+            "count": 18153
+          }
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "sourceRect": [
+            302,
+            1058,
+            176,
+            182
+          ],
+          "destinationRect": [
+            216,
+            790,
+            143,
+            147
+          ],
+          "bodySourceBounds": {
+            "x0": 49,
+            "y0": 51,
+            "x1": 219,
+            "y1": 213,
+            "count": 16740
+          }
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "sourceRect": [
+            549,
+            1066,
+            177,
+            175
+          ],
+          "destinationRect": [
+            408,
+            796,
+            143,
+            142
+          ],
+          "bodySourceBounds": {
+            "x0": 38,
+            "y0": 50,
+            "x1": 212,
+            "y1": 214,
+            "count": 17085
+          }
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "sourceRect": [
+            797,
+            1062,
+            192,
+            186
+          ],
+          "destinationRect": [
+            603,
+            787,
+            156,
+            151
+          ],
+          "bodySourceBounds": {
+            "x0": 31,
+            "y0": 71,
+            "x1": 197,
+            "y1": 221,
+            "count": 13744
+          }
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "sourceRect": [
+            47,
+            1330,
+            173,
+            154
+          ],
+          "destinationRect": [
+            26,
+            1005,
+            140,
+            125
+          ],
+          "bodySourceBounds": {
+            "x0": 48,
+            "y0": 52,
+            "x1": 217,
+            "y1": 201,
+            "count": 14983
+          }
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "sourceRect": [
+            297,
+            1350,
+            177,
+            134
+          ],
+          "destinationRect": [
+            216,
+            1021,
+            143,
+            108
+          ],
+          "bodySourceBounds": {
+            "x0": 42,
+            "y0": 71,
+            "x1": 216,
+            "y1": 201,
+            "count": 13144
+          }
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "sourceRect": [
+            551,
+            1377,
+            180,
+            109
+          ],
+          "destinationRect": [
+            407,
+            1042,
+            146,
+            88
+          ],
+          "bodySourceBounds": {
+            "x0": 41,
+            "y0": 101,
+            "x1": 216,
+            "y1": 203,
+            "count": 10050
+          }
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "sourceRect": [
+            804,
+            1388,
+            185,
+            103
+          ],
+          "destinationRect": [
+            597,
+            1051,
+            150,
+            83
+          ],
+          "bodySourceBounds": {
+            "x0": 38,
+            "y0": 110,
+            "x1": 219,
+            "y1": 203,
+            "count": 9178
+          }
+        }
+      ]
+    }
+  },
+  "icons": {
+    "weapons-1": {
+      "file": "assets/raids/weapons-1.png",
+      "columns": 4,
+      "rows": 4,
+      "cell": 128,
+      "extraction": "connected-silhouette",
+      "frames": [
+        {
+          "row": 0,
+          "col": 0,
+          "sourceRect": [
+            35,
+            31,
+            254,
+            276
+          ],
+          "destinationRect": [
+            13,
+            9,
+            101,
+            110
+          ]
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "sourceRect": [
+            360,
+            16,
+            209,
+            286
+          ],
+          "destinationRect": [
+            152,
+            9,
+            80,
+            110
+          ]
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "sourceRect": [
+            656,
+            16,
+            271,
+            286
+          ],
+          "destinationRect": [
+            268,
+            9,
+            104,
+            110
+          ]
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "sourceRect": [
+            988,
+            34,
+            237,
+            268
+          ],
+          "destinationRect": [
+            399,
+            9,
+            97,
+            110
+          ]
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "sourceRect": [
+            39,
+            327,
+            269,
+            289
+          ],
+          "destinationRect": [
+            13,
+            137,
+            102,
+            110
+          ]
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "sourceRect": [
+            352,
+            321,
+            250,
+            299
+          ],
+          "destinationRect": [
+            146,
+            137,
+            91,
+            110
+          ]
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "sourceRect": [
+            660,
+            324,
+            253,
+            296
+          ],
+          "destinationRect": [
+            273,
+            137,
+            94,
+            110
+          ]
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "sourceRect": [
+            971,
+            330,
+            258,
+            281
+          ],
+          "destinationRect": [
+            398,
+            137,
+            100,
+            110
+          ]
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "sourceRect": [
+            54,
+            626,
+            241,
+            301
+          ],
+          "destinationRect": [
+            20,
+            265,
+            88,
+            110
+          ]
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "sourceRect": [
+            374,
+            640,
+            220,
+            273
+          ],
+          "destinationRect": [
+            148,
+            265,
+            88,
+            110
+          ]
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "sourceRect": [
+            652,
+            621,
+            285,
+            312
+          ],
+          "destinationRect": [
+            270,
+            265,
+            100,
+            110
+          ]
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "sourceRect": [
+            966,
+            637,
+            266,
+            294
+          ],
+          "destinationRect": [
+            398,
+            265,
+            99,
+            110
+          ]
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "sourceRect": [
+            40,
+            945,
+            243,
+            287
+          ],
+          "destinationRect": [
+            17,
+            393,
+            93,
+            110
+          ]
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "sourceRect": [
+            361,
+            940,
+            233,
+            299
+          ],
+          "destinationRect": [
+            149,
+            393,
+            85,
+            110
+          ]
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "sourceRect": [
+            658,
+            925,
+            260,
+            313
+          ],
+          "destinationRect": [
+            274,
+            393,
+            91,
+            110
+          ]
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "sourceRect": [
+            969,
+            936,
+            268,
+            290
+          ],
+          "destinationRect": [
+            397,
+            393,
+            101,
+            110
+          ]
+        }
+      ]
+    },
+    "weapons-2": {
+      "file": "assets/raids/weapons-2.png",
+      "columns": 4,
+      "rows": 4,
+      "cell": 128,
+      "extraction": "connected-silhouette",
+      "frames": [
+        {
+          "row": 0,
+          "col": 0,
+          "sourceRect": [
+            31,
+            38,
+            297,
+            260
+          ],
+          "destinationRect": [
+            9,
+            16,
+            110,
+            96
+          ]
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "sourceRect": [
+            360,
+            19,
+            245,
+            288
+          ],
+          "destinationRect": [
+            145,
+            9,
+            93,
+            110
+          ]
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "sourceRect": [
+            681,
+            11,
+            243,
+            296
+          ],
+          "destinationRect": [
+            275,
+            9,
+            90,
+            110
+          ]
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "sourceRect": [
+            1012,
+            9,
+            219,
+            298
+          ],
+          "destinationRect": [
+            408,
+            9,
+            80,
+            110
+          ]
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "sourceRect": [
+            42,
+            338,
+            251,
+            286
+          ],
+          "destinationRect": [
+            16,
+            137,
+            96,
+            110
+          ]
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "sourceRect": [
+            356,
+            325,
+            251,
+            298
+          ],
+          "destinationRect": [
+            146,
+            137,
+            92,
+            110
+          ]
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "sourceRect": [
+            662,
+            322,
+            289,
+            298
+          ],
+          "destinationRect": [
+            267,
+            137,
+            106,
+            110
+          ]
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "sourceRect": [
+            1001,
+            317,
+            222,
+            307
+          ],
+          "destinationRect": [
+            408,
+            137,
+            79,
+            110
+          ]
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "sourceRect": [
+            33,
+            620,
+            271,
+            308
+          ],
+          "destinationRect": [
+            16,
+            265,
+            96,
+            110
+          ]
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "sourceRect": [
+            350,
+            624,
+            263,
+            296
+          ],
+          "destinationRect": [
+            143,
+            265,
+            97,
+            110
+          ]
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "sourceRect": [
+            656,
+            635,
+            273,
+            282
+          ],
+          "destinationRect": [
+            267,
+            265,
+            106,
+            110
+          ]
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "sourceRect": [
+            962,
+            624,
+            268,
+            297
+          ],
+          "destinationRect": [
+            398,
+            265,
+            99,
+            110
+          ]
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "sourceRect": [
+            25,
+            910,
+            287,
+            313
+          ],
+          "destinationRect": [
+            14,
+            393,
+            100,
+            110
+          ]
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "sourceRect": [
+            343,
+            890,
+            265,
+            328
+          ],
+          "destinationRect": [
+            148,
+            393,
+            88,
+            110
+          ]
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "sourceRect": [
+            656,
+            925,
+            274,
+            300
+          ],
+          "destinationRect": [
+            270,
+            393,
+            100,
+            109
+          ]
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "sourceRect": [
+            965,
+            912,
+            266,
+            313
+          ],
+          "destinationRect": [
+            401,
+            393,
+            93,
+            110
+          ]
+        }
+      ]
+    },
+    "techniques": {
+      "file": "assets/raids/techniques.png",
+      "columns": 3,
+      "rows": 3,
+      "cell": 128,
+      "extraction": "connected-silhouette",
+      "frames": [
+        {
+          "row": 0,
+          "col": 0,
+          "sourceRect": [
+            32,
+            13,
+            389,
+            388
+          ],
+          "destinationRect": [
+            9,
+            9,
+            110,
+            109
+          ]
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "sourceRect": [
+            432,
+            12,
+            389,
+            389
+          ],
+          "destinationRect": [
+            137,
+            9,
+            110,
+            110
+          ]
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "sourceRect": [
+            832,
+            13,
+            389,
+            388
+          ],
+          "destinationRect": [
+            265,
+            9,
+            110,
+            109
+          ]
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "sourceRect": [
+            32,
+            412,
+            389,
+            392
+          ],
+          "destinationRect": [
+            9,
+            137,
+            109,
+            109
+          ]
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "sourceRect": [
+            432,
+            412,
+            389,
+            391
+          ],
+          "destinationRect": [
+            137,
+            137,
+            109,
+            110
+          ]
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "sourceRect": [
+            832,
+            412,
+            388,
+            392
+          ],
+          "destinationRect": [
+            266,
+            137,
+            108,
+            109
+          ]
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "sourceRect": [
+            32,
+            820,
+            389,
+            393
+          ],
+          "destinationRect": [
+            10,
+            265,
+            108,
+            110
+          ]
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "sourceRect": [
+            432,
+            819,
+            389,
+            394
+          ],
+          "destinationRect": [
+            138,
+            265,
+            108,
+            110
+          ]
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "sourceRect": [
+            832,
+            820,
+            389,
+            393
+          ],
+          "destinationRect": [
+            266,
+            265,
+            108,
+            110
+          ]
+        }
+      ]
+    },
+    "heraldry": {
+      "file": "assets/raids/heraldry.png",
+      "columns": 4,
+      "rows": 4,
+      "cell": 128,
+      "extraction": "connected-silhouette",
+      "frames": [
+        {
+          "row": 0,
+          "col": 0,
+          "sourceRect": [
+            36,
+            7,
+            285,
+            311
+          ],
+          "destinationRect": [
+            14,
+            9,
+            100,
+            110
+          ]
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "sourceRect": [
+            352,
+            2,
+            249,
+            316
+          ],
+          "destinationRect": [
+            149,
+            9,
+            86,
+            110
+          ]
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "sourceRect": [
+            657,
+            9,
+            241,
+            309
+          ],
+          "destinationRect": [
+            277,
+            9,
+            85,
+            110
+          ]
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "sourceRect": [
+            954,
+            15,
+            248,
+            303
+          ],
+          "destinationRect": [
+            403,
+            9,
+            90,
+            110
+          ]
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "sourceRect": [
+            45,
+            323,
+            266,
+            304
+          ],
+          "destinationRect": [
+            16,
+            137,
+            96,
+            110
+          ]
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "sourceRect": [
+            348,
+            323,
+            258,
+            305
+          ],
+          "destinationRect": [
+            145,
+            137,
+            93,
+            110
+          ]
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "sourceRect": [
+            649,
+            323,
+            256,
+            304
+          ],
+          "destinationRect": [
+            274,
+            137,
+            92,
+            110
+          ]
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "sourceRect": [
+            953,
+            323,
+            262,
+            302
+          ],
+          "destinationRect": [
+            400,
+            137,
+            95,
+            109
+          ]
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "sourceRect": [
+            46,
+            632,
+            264,
+            308
+          ],
+          "destinationRect": [
+            17,
+            265,
+            94,
+            110
+          ]
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "sourceRect": [
+            349,
+            634,
+            256,
+            305
+          ],
+          "destinationRect": [
+            146,
+            265,
+            92,
+            110
+          ]
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "sourceRect": [
+            637,
+            632,
+            282,
+            313
+          ],
+          "destinationRect": [
+            270,
+            265,
+            99,
+            110
+          ]
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "sourceRect": [
+            953,
+            632,
+            262,
+            303
+          ],
+          "destinationRect": [
+            400,
+            265,
+            95,
+            110
+          ]
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "sourceRect": [
+            45,
+            948,
+            268,
+            282
+          ],
+          "destinationRect": [
+            12,
+            393,
+            104,
+            110
+          ]
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "sourceRect": [
+            351,
+            956,
+            255,
+            268
+          ],
+          "destinationRect": [
+            140,
+            393,
+            104,
+            110
+          ]
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "sourceRect": [
+            652,
+            963,
+            265,
+            257
+          ],
+          "destinationRect": [
+            265,
+            395,
+            110,
+            106
+          ]
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "sourceRect": [
+            1016,
+            936,
+            135,
+            297
+          ],
+          "destinationRect": [
+            423,
+            393,
+            50,
+            110
+          ]
+        }
+      ]
+    }
+  },
+  "arena": {
+    "file": "assets/raids/arena.png",
+    "width": 1536,
+    "height": 1024
+  },
+  "validation": {
+    "sentinel": {
+      "frames": 24,
+      "uniqueFrames": 24,
+      "minimumTransparentMargin": 14,
+      "checksums": [
+        "87c1aef7043e8fe397dd777bc0343df1ebe9d67ff0f2fef69b5d78bb73f26da9",
+        "a1523bd12bbc4d1d196acc216927ee1d0296091990c93e7922e0ace0a56771f0",
+        "8a30dd80329ecbe9ffa78c7d46e8d244d1d2b8e162c9fb97946e231df4e4f917",
+        "335e5874f714c9f233b83e24db4ded7d1dff68a4e3537a9fb3c6fcb2fa6ab162",
+        "9db4a9aae51be56e8812e52df50eaea9a3e25b58d0470998a230cd7c00c5f579",
+        "2326c7f13ce1b9d9cfe2556b5a85658dedf48a79c141c4869765a575a96b88d0",
+        "0fc828cb104ddfe35f68496fe9d0ea71faeae79ec22d782b20cffb9241787a43",
+        "a3ae700231cb45c2954d25a7849696bff62bfaee83670a772a053a3a70ccf6a6",
+        "fd628305760cc14b2dd398e8f628227bb039f94d928a70162755b9493d74044b",
+        "ae6a4491b648881e68c3c5db92c6f61363424b55b9b017a1d53dd927aa15f739",
+        "e24fd08f0baca583a38c0830d131c7fe03eb98a09b50a7b00202a51db5039aff",
+        "3214ebe603836daa817bd8749daa5d79d02e20e011e278f807f69a67d9a42123",
+        "87fe187de8dd367911bbb7fc17faa3dc7561cdddd4e568bcc0ce7cc1413577b1",
+        "909e11042825723235a69095310a06133949464208cf566132bf5ba7ed947918",
+        "422d870c77e48ae5d19c784c3ef7dbee5dfb7db7dcf059464fb0c6b6d0c4e964",
+        "dc4f10775714cbf71b808d100805d53433f75eb2ec5bdccc0f0a9fd667c13838",
+        "999af3490b839fa9e38c35245efe5b3864403bdd7a050037a32c914299c443fd",
+        "94d67ddf9cdc8c340ef2981a265f0faeebd5d50153c676d460edf31c9c77f7da",
+        "81b798c1371d48786637dbb680017a5159319a3b2ded236c848b1663f77248eb",
+        "2641e286b9b601e771d5b9d5a475e86da8f4c9a0171fa08f7c99e1541b10e7de",
+        "9a7d5db45503ee6615d82c2099720907203319b9419c10858100328fa0a54cd9",
+        "b109786b39292e6aac9801a3f4947dcd65d2d10116104d8357966f367b1abc78",
+        "726aab7349bf2c1092af1df26380e4efced60a00639c46a62a088f5719dcdce0",
+        "6e10b36c46f11270f318450c1c71e5428a3b3b0f67ea8137a35c02dc5b35536d"
+      ]
+    },
+    "archon": {
+      "frames": 24,
+      "uniqueFrames": 24,
+      "minimumTransparentMargin": 11,
+      "checksums": [
+        "d6955175306a120446283201d2006954c65f8d85f1d7322bbd930b9692ed46e3",
+        "9c64089be202979460d524675a7762affdf28f674d9c19f966c2ab8b48e16ff0",
+        "ff3ba68935d14f690ffd165c15114688611bc656efeb0083a86f86375fe3b2d2",
+        "362692528afbd1986e4f3aa69ca44cdf81d45288ffac51e8baffbf124cb2db79",
+        "f9946f1b6f5bb6404792a1fc194fcedd229063428d37be1a9a6402fc19313036",
+        "fbb6607cd400d67152eb96f8430a44ff53b8b92e80e5eb9167833e442aef8aec",
+        "07903770727c8f7bf27e4d002bb6033fa791c7214a3b6ed0579fc845c32546fe",
+        "9e15068f862aac1f5b89f0dcc00f3a241025f8b3b465d6b16baae2122d8af646",
+        "4848b1e09f471b8a3ba670ccf2987b2eb4102766d7bd100825cbc222f806b35c",
+        "b197c0744e4aadcf6909e341a09a1ff4bb6c57c6f5f3222a14968a7a1f6fe571",
+        "ca5579ac39f1e1596629be917e9a4ae507ff598a02ca1acf94940dc5ad79441f",
+        "7ba128e2b26c96abd4fdb535d1633b13f81f425278678265a742eef236ebd429",
+        "4961028782178e97f9a64535ff0a7e1c30840e7386abf540fff1690afdcfd99d",
+        "3ccca77e51572b746b0d04a6372110082c951aa719b0e51bcc5eaaa64dac4aff",
+        "ffe47296e7da95b5bfed76c1960757fd74986b13ca3bc05797960e315e069642",
+        "55071272670dc015910540245828947b844df43c3f86ec20052391fe3a009c94",
+        "fdd4bb6e8e003f3c25dde350a85f7b25132b49d837e97bd8c70c2e30f04d8e00",
+        "08a08f04fa8c0e93bf6d220a6d6c9620b80368b63d5119376785cec56c8a7b44",
+        "8ad495c33bf99859410f686e34b618f428ab542b2cdc4df174114883ec2f181a",
+        "566653dbb36612b2bf04495d53e6f57d56ec2617502b12cbcc233809868b4760",
+        "0154f617003c7f79d6aad050a1cf926dc1097fdbe96d499c9ada15287fb594fd",
+        "ab142a69946de5ee702dd2c1b65ca003ebf0123cc58b278eb464d5b29faef7e4",
+        "abf4a0cb7e0849e9d87737bfc51b07449431ff12b09b9b823112cd8e2c45ca6a",
+        "0957d4396925575230661918a2df332f7d9f9e2b535e183e3a3de953b6f8d9a7"
+      ]
+    },
+    "abyss": {
+      "frames": 24,
+      "uniqueFrames": 24,
+      "minimumTransparentMargin": 10,
+      "checksums": [
+        "e447f7a8bc684f1755df682bf4d434ca021b514701e33800e939ff5709fb7428",
+        "9e5f5826d2a89e92e46f57f9b036f388a7930001a8efdba36811cb330304e5b5",
+        "cd2dbd594216526dae0ec8d20d3bcaaaa0d7ca2046944c126551471609c64e8f",
+        "c063e878dd912042e5797b1698dde328bc124ab5800dce50437217ae77585626",
+        "9398d65b9cdd0c78a2bd5fdcb2780d47db07e3b7c747bea58e0cccdf9724f4c3",
+        "7b424a92899c628f6dc7805e275252302cf2c57ae60ef87a1dcd02a8ffe872cd",
+        "830f3e46780c9492a8ef28d9f966b2a8460a70afcc616fbdd218c9838c6dc3cd",
+        "7040bdf0bf308cc0eaff25a12f7c0ae8dfb48b91432c51db4381df56235042e8",
+        "ce7333953c7e6eabcd99b67f3c79ab7b88d90a6d7c04231e7715cdc568c40bd5",
+        "b4fcb20eaba3a27c9b0f98958268bfa4dc853411428de6cf2aa06eb0748a7557",
+        "3ec988a6cf08cb1611ea90f3c4dca433777730fd6a012887a21a474dfb7957d4",
+        "9ec9236001c89822db82d9c50731737fde3583f269ac3e244c1193e8ea84482c",
+        "7196f8ad2c9f1b904cb3ff8bcf17c8c8f22f1bd23a3b5bd98312c145a1ec844b",
+        "4b0408d35824796be8a53da623b325cf96f733699326b8a2f13d411f74bbf6b2",
+        "82b4a127e4529da62093a4b06512787a11bf0f6abd2a6db3eba75abe5d71fa60",
+        "c924fdb01f7eeedebc1f0a3472842c56680d5bb52817214012dc2d2bd7d4130e",
+        "dea73cace1be51ab045d2577cc304fbce61a952f52cf5791644d2ef989796997",
+        "15a6d58d299837298c6c34496e81872432e5452ed942e8b7450fd41f94cdb7b7",
+        "6e45dea002212e1d029796e4e5424b5c6b63a341c0a29d8e484f007406e7f8bb",
+        "d2ac03080ad56e9470d32d42ddf476ad7612d089f2bd61ca8138e69e3b52eea4",
+        "3a183f37a79118974fd9e821f012bdd505cc54dc090f55900a649b3752f1e889",
+        "aefb9c976cb1a38a5411c8437c4a9512f69dbb160e90d3f3de62021a412571cd",
+        "68c573669cbee181942b662ee4700c6b01c031606681a8719b71339f0fef95b4",
+        "b2fb9b42f0bf084823dfc7dcdabb27146ecd827a5e114171b926bb8a9f6f93a1"
+      ]
+    },
+    "weapons-1": {
+      "frames": 16,
+      "uniqueFrames": 16,
+      "minimumTransparentMargin": 9,
+      "checksums": [
+        "b179f46d37eb36b32f194b08a8b88a54d1e15022ef39c07fe57cfb9111608615",
+        "0b10d94fcd108d326f202abaef43434fd0257dfff85fc2559223af97f218a2fc",
+        "acb0637b9adea00f8418370ea7f993be25db78fb90c0aee543f06fccd5e49e91",
+        "b34aa08a10fd85ecbe7e14240077b355e0ba67dd6d99578ae950196c15de4308",
+        "a2f36ea6f42bd9b13d453d42d9e43c798bd2dbab2569106e70466fde1bb4e03f",
+        "1a86c7a25c72e83a7d5769c621c5cd6742001f987a50444d5a0b125ad75b5473",
+        "0770318b856ec71cbcc0082f9175f29296b71a6d96e83d4ab1af49ffa8de72a3",
+        "cb62b28468b02c35eb0869ec12e31828fbafe3603202428703d9c67360df90c1",
+        "8cc1f12941e781f433cca55d8ce39a09da68106686040ab733955b8cc35e2f95",
+        "816da42a2d4c9a26a8129e4f756a378311481da31373e85f56b2c6bde83d3afa",
+        "672e83ec64dbe35bf854b010d4b636232e5c014b02025aeb1063cec64c699312",
+        "be4e4de9e157c3bcd2740aa0e6048cc1f1604baf9da36730f958710486c2e080",
+        "7c3dc6e600c62c5d3976df9775fe7d239518a9a807fe8715f51cf5e5fea56808",
+        "16213f0324b0d83fdae8c1fc2bdbf5c0c455750456051e7307e60c068217ff39",
+        "e3f33e15c61e9ad11b4c28fc02c42148ca4d6a38360eff39e464cdc6d07d0e21",
+        "d4d7f9b5c7f8633313eab731dde5a419a2276ca93b21f7f9c4510424ea75dec4"
+      ]
+    },
+    "weapons-2": {
+      "frames": 16,
+      "uniqueFrames": 16,
+      "minimumTransparentMargin": 9,
+      "checksums": [
+        "05739455f43dcec8a3ab87371745b4cdc78129da2640f258a595f11911b47835",
+        "89dd8773ae8e3733de7d92d86c6a29a426e2ab49d38e88111ea31c8f84edd2bd",
+        "c686812e78c2c752b9fae9f032391362365faf3cb3fb601b8a6456e8ca6c0aee",
+        "e6445d5a1af3cfafb91a87e74133936d4099dd5a4b3f286f31e1603761bea623",
+        "15753a71b282f7e85db24245591e428929d06f5cfadabb834e146c1215a5fe81",
+        "631997da46b0522d055426685642de6c8f67b20f45bdb6eaba16cbd33b384cfe",
+        "6600a7ff36f532d7751f6e801cd24d5e24ad71345689b1674fabc888bd267c3e",
+        "bb48996e693c48251bf310ff5bf657bf6ad71ae5f181b8664b10b3239665b0ce",
+        "40960e5e5dd9304164b1dc451156b4f3aaaa22388d6c94803995f0ab3530420f",
+        "6407570dd6e6e44026bc4c0b62c4f8cb2c18df9aa20685756a6e3d935d65cbc0",
+        "2501e3b3f7b1de65057935f142dc1adc7bb95b7b2c869ea3dc517207843afad3",
+        "d8adb28b80a402c047f0a055db1caec2bd1069e9110a3446cef39518e79d0b8a",
+        "f99a64eb5fa776ff2079fcb6f67d9bb3f5ef5dd7775943a984e060af35b7dfef",
+        "31eeba9903a9e13b8d42f5b98c3fa78cf56003ee195c345350e8693ebf30cdc9",
+        "932ea645372f63339966a9039b12801ebdbfb8fb5691856702405b8031d5ff6c",
+        "61d5d0f1935c87d09e31552d55daff7ad6bed279f1431539766a6c0def6be1ca"
+      ]
+    },
+    "techniques": {
+      "frames": 9,
+      "uniqueFrames": 9,
+      "minimumTransparentMargin": 9,
+      "checksums": [
+        "e7bc0e567f651602e177579eb7ea307c242c11d512f429253e8ddef0274cc7eb",
+        "f6c9049a29d9e3a0c111b30d0ba288a5566725b13d3558b7d3c48ed5cc3514e4",
+        "c1321b864be5c5ac7cad633cb8d935a8a8f3767c5ea710cf67110ee74d372e17",
+        "22dd2b7b7dfd16a4e90f7a9e0049b1857c3a056ff40d29f72ff57610f25dcf19",
+        "3ddc0faab8ea8513a35d46d050e8de932b5dfeddf4e8416e5839bdcf04af7790",
+        "675e7d761cb2bd6ba95b75fbb67faa9f318403cf7556a804ada362a91eac72db",
+        "592ffc746a2727699cd5b4d068c7e0787ca4c1a404786149d9204be8ed4386c1",
+        "5500e80bb0314dba1962dbdee6ae0a769578472931fdfcf5144e517137bd381b",
+        "bdd012ea5b249ae7ae85134f92268dedd2b277865ffe20996cfdf4e38923c4b3"
+      ]
+    },
+    "heraldry": {
+      "frames": 16,
+      "uniqueFrames": 16,
+      "minimumTransparentMargin": 9,
+      "checksums": [
+        "ac123cb21c6dcd9602f516267a6f563bbe6cfc80324a624cbe208057ba3d6717",
+        "9533bfc99fe3be015bad074ac110dde544bfe6df2b323985adfc718564cf4008",
+        "af950d0279e2454eaea17e63233393eb49763c7dad02ce961a83d327d0d91fcb",
+        "92241cefe2abbe0a3ef2052f96be4709c6d5d746acef960692b7135a6e0c4700",
+        "1821e126f5cb2b0e18e3602a505a2c0d7b0208329bac62e07a0baf4d10a26a24",
+        "8aef27ebc5519345c7f7412de094699a497c3075bfa3a041646fffb8efb1a6f6",
+        "e5bccc041fcaef935d9f808bf5e1152efeb89bbdb92f381232c42659752fb46f",
+        "c633f5cc2cd71a6fddf9097bd940e5ab4d1661a99bad1e4f78464bbbda094a37",
+        "f48ef96e0c8c65ec159f70ba11b572b0add3e7f0e1049ee166afb89967b1932f",
+        "f1ca066796bf28c603497e414fea1423880a20d33cad7a53d69a2ad5ca39e977",
+        "c95ac32e3868611c671e5b07b1594a6b8040b1e2f42afd8e83c187b9d27bc9ca",
+        "b50f62756c6b6723507d272b69e8a4f8e140a949e3b476aa690ab2dfa97f2638",
+        "25a617322361f96d547dea0ec6a22fe4710dd88df18825d7b4613dfd63abff72",
+        "4bf73de88d2a4b72afbfb202bc5e18a755f1e371abd475e070fd8beac5bb0cf6",
+        "47a46be5c1eb2ae2cfd06e1b42e22a995b31eeecf570e353bdcfd06205cc28f9",
+        "a61845d1ff80864465be2ee374de9f8d821be819e474b3cfd83e2bae713d8793"
+      ]
+    }
+  },
+  "provenance": {
+    "artwork": "Imagegen artwork created for the R52 expansion; supplied source PNGs are retained.",
+    "packing": "Mechanical silhouette extraction, nearest-neighbor scaling and transparent atlas packing. No painted replacement of the R51 assets.",
+    "packingVersion": 2,
+    "exactGenerationPrompts": "Not present among the retained source files."
+  },
+  "files": {
+    "assets/source/raids/abyss.png": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "68d08212ca9fa23d788f7e622129443513341e0bd155682a72aa0eb6b33f1d54"
+    },
+    "assets/source/raids/archon.png": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "e0a644c908abcf89c5faf70cfce37b5be8b5d3fbd752559263afc780f54b0e3a"
+    },
+    "assets/source/raids/arena.png": {
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b53f8888f5367586091c3e0a0525ec21fc60abf8c341225daab60070184c9487"
+    },
+    "assets/source/raids/concept-abyss.png": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "84ac114dbb18bd0f519e9e4922b1486280eefe5fb1122d50f14c5011af2a04ea"
+    },
+    "assets/source/raids/concept-archon.png": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "799f943cb600dc041bcde67c0fc2e0f6af2b834b3cdea9fb8370472e0c591ef5"
+    },
+    "assets/source/raids/concept-sentinel.png": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "5d6001b7529fcddcdb1d840d7cb2c949b5abdbde6220bb60d4d90cbc0ab592ad"
+    },
+    "assets/source/raids/heraldry.png": {
+      "width": 1254,
+      "height": 1254,
+      "sha256": "3c17e4d0b0bd9c98575ce0b66ffafc7784b6cecc8ccb8fb0acd1a9cf935dc3e5"
+    },
+    "assets/source/raids/sentinel.png": {
+      "width": 1024,
+      "height": 1536,
+      "sha256": "91497f0e307383a2ce73af414ddd8a4cf3b2809e051b330abef289f6e2952583"
+    },
+    "assets/source/raids/techniques.png": {
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8cf815b051e12b4113fa0c449056d35da8ce726e12beab358f7f0acb55cf0499"
+    },
+    "assets/source/raids/weapons-1.png": {
+      "width": 1254,
+      "height": 1254,
+      "sha256": "86ae87ed63e839f41939d09659a584669151d38f452f18b3bfc68bee8e6ff63e"
+    },
+    "assets/source/raids/weapons-2.png": {
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f175d72fe54e05bd2b832cfab8a3efd9c0949b1643da1388d524cac4d4b40e51"
+    },
+    "assets/raids/abyss.png": {
+      "width": 768,
+      "height": 1152,
+      "sha256": "c023cc96b31a419ffaf2f2e8bce7b31b880d450a126957d62566d69bf136719d"
+    },
+    "assets/raids/archon.png": {
+      "width": 768,
+      "height": 1152,
+      "sha256": "8c9f687c9945d19734b3f8ef5c9d7631575cd956bd2dc5da425ecaf9cc212389"
+    },
+    "assets/raids/arena.png": {
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b53f8888f5367586091c3e0a0525ec21fc60abf8c341225daab60070184c9487"
+    },
+    "assets/raids/heraldry.png": {
+      "width": 512,
+      "height": 512,
+      "sha256": "a62cc08961a5f1db2d0211ffa05f4eab95dd6234ec0b4d33ccebe4fee74470b1"
+    },
+    "assets/raids/sentinel.png": {
+      "width": 768,
+      "height": 1152,
+      "sha256": "18ea9288a06cf0e93ba3b6afe5cfd776c711582ae97e7675c5c73ebf7797a65f"
+    },
+    "assets/raids/techniques.png": {
+      "width": 384,
+      "height": 384,
+      "sha256": "4a5b2d8b46714de888c48dfe750e308fc0446af6fa27ccd17a3736723460f9fa"
+    },
+    "assets/raids/weapons-1.png": {
+      "width": 512,
+      "height": 512,
+      "sha256": "7e9f831c82f797ee879d89599947c9d77fb8b5a4a183f8695d6233d6e4b554fb"
+    },
+    "assets/raids/weapons-2.png": {
+      "width": 512,
+      "height": 512,
+      "sha256": "5020fdb6ebee5578b4f50870d173f1ceb483996d1f08bca16173769a3686197d"
+    }
+  }
+}

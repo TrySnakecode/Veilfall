@@ -1,0 +1,123 @@
+{
+  "revision": 70,
+  "method": "Three seeded 20-minute natural combat simulations; no prestige, purchased power or injected saves. Automatic passive heroes, auto-cast of unlocked skills, no manual equipment optimizing. A smoke test, NOT an endgame certification.",
+  "results": [
+    {
+      "seed": 17,
+      "peak": 56,
+      "stage": 55,
+      "level": 39,
+      "deaths": 1,
+      "gear": 11,
+      "stageHold": true,
+      "checkpoints": [
+        {
+          "second": 300,
+          "stage": 19,
+          "level": 17,
+          "death": 0,
+          "gear": 3
+        },
+        {
+          "second": 600,
+          "stage": 36,
+          "level": 27,
+          "death": 0,
+          "gear": 6
+        },
+        {
+          "second": 900,
+          "stage": 51,
+          "level": 35,
+          "death": 0,
+          "gear": 9
+        },
+        {
+          "second": 1200,
+          "stage": 55,
+          "level": 39,
+          "death": 1,
+          "gear": 11
+        }
+      ]
+    },
+    {
+      "seed": 47,
+      "peak": 60,
+      "stage": 59,
+      "level": 39,
+      "deaths": 1,
+      "gear": 16,
+      "stageHold": true,
+      "checkpoints": [
+        {
+          "second": 300,
+          "stage": 17,
+          "level": 16,
+          "death": 0,
+          "gear": 6
+        },
+        {
+          "second": 600,
+          "stage": 34,
+          "level": 26,
+          "death": 0,
+          "gear": 8
+        },
+        {
+          "second": 900,
+          "stage": 49,
+          "level": 34,
+          "death": 0,
+          "gear": 11
+        },
+        {
+          "second": 1200,
+          "stage": 59,
+          "level": 39,
+          "death": 1,
+          "gear": 16
+        }
+      ]
+    },
+    {
+      "seed": 117,
+      "peak": 56,
+      "stage": 55,
+      "level": 38,
+      "deaths": 1,
+      "gear": 13,
+      "stageHold": true,
+      "checkpoints": [
+        {
+          "second": 300,
+          "stage": 19,
+          "level": 17,
+          "death": 0,
+          "gear": 5
+        },
+        {
+          "second": 600,
+          "stage": 35,
+          "level": 26,
+          "death": 0,
+          "gear": 8
+        },
+        {
+          "second": 900,
+          "stage": 51,
+          "level": 35,
+          "death": 0,
+          "gear": 12
+        },
+        {
+          "second": 1200,
+          "stage": 55,
+          "level": 38,
+          "death": 1,
+          "gear": 13
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+VEILFALL R90 — 16 ÚNICOS COM IDENTIDADE
+
+A principal novidade é no LOOT da campanha, não em laboratórios.
+Os itens Únicos recém-obtidos passaram a possuir uma categoria específica e uma
+assinatura visível, aplicada no lugar de um de seus três afixos normais.
+Isso modifica a escolha dos afixos, mas não acrescenta poder bruto, quarto afixo,
+nova tentativa de drop, novas raridades ou recursos gratuitos.
+
+Únicos de R89 ou anteriores: totalmente preservados, sem nova assinatura retroativa.
+Ferraria: a escolha de categoria é respeitada inclusive se o sorteio for Único.
+Saves: novo campo opcional de equipamento uniqueId (não requer migração do save).
+Mundo e prestígio: fórmulas inalteradas. Sprites e som: absolutamente intocados.
+
+Como jogar: extrair toda a pasta e abrir ABRIR_JOGO.bat ou VEILFALL.html.
+Recomendação: exportar backup do save antes da atualização.

@@ -1,0 +1,27 @@
+{
+  "base": "VEILFALL_R94_ARTEFATOS_PRESTIGIO_WINDOWS.zip",
+  "original_files": 299,
+  "identical": 286,
+  "changed": [
+    "README.md",
+    "LEIA_ME.txt",
+    "tests/r82-core.cjs",
+    "tests/r78-core.cjs",
+    "tests/r80-core.cjs",
+    "tests/r81-core.cjs",
+    "tests/r87-core.cjs",
+    "tests/r79-core.cjs",
+    "package.json",
+    "VEILFALL.html",
+    "src/game.js",
+    "src/r75-ui.js",
+    "index.html"
+  ],
+  "missing": [],
+  "added": [
+    "LEIA_ME_R95.txt",
+    "tests/r95-core.cjs"
+  ],
+  "media_files": 42,
+  "media_preserved": true
+}

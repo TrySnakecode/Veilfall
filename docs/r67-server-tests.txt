@@ -1,0 +1,30 @@
+
+> veilfall-r67@67.0.0 test
+> node --test tests/server/*.test.cjs
+
+✔ Limite de30membros, solicitações concorrentes e vínculo único (1343.524168ms)
+✔ Último líder pode arquivar clã sem apagar histórico; não há ingresso tardio (85.763496ms)
+✔ Todas as faixas de recompensa, duplicatas e novo conjunto no servidor (117.470543ms)
+✔ Melhorias descontam custo, assinatura rejeita alterações e conta alheia (77.64543ms)
+✔ Duas conexões SQLite liquidam a mesma vitória uma única vez (47.491343ms)
+✔ HTTP paralelo: mesma tentativa idempotente, jogadores distintos e vida atômica (129.792535ms)
+✔ Coleção de 32 armas, duplicatas e limites de recompensa (1.52684ms)
+✔ Motor: 30s, 60 ataques básicos, separação da campanha, nove técnicas (4.406425ms)
+✔ XP, níveis e poder são monotônicos até 1000 (0.356645ms)
+✔ Regiões, armaduras e vulnerabilidades alteram dano efetivo (0.333291ms)
+✔ Conta, hash de senha, assinatura e sessões persistem (107.925172ms)
+✔ Permissões de clã, ingresso, promoção e transferência (136.373791ms)
+✔ Ataques não podem acelerar, falsificar dano, repetir ações ou roubar tentativa (124.161541ms)
+✔ Três ataques diários, dia UTC e progresso do clã (68.906294ms)
+✔ Vida compartilhada: dois ataques simultâneos somam sem sobrescrever (114.739637ms)
+✔ Vitória entrega 5–26 armas por participante uma única vez; não participante não recebe (160.738119ms)
+✔ Desconexão e reinício: liquidação automática persiste sem cliente (70.944754ms)
+✔ Servidor HTTP: autenticação, origem, arquivos privados e dano enviado ignorado (105.928871ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1913.547527

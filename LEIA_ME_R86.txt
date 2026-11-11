@@ -1,0 +1,7 @@
+VEILFALL R86 — COMBATE AUTOMÁTICO E SINERGIAS
+
+Base R85. Ataque básico continua acertando inimigos ao alcance enquanto um chefe distante se aproxima. Conjuração ofensiva automática evita gasto de mana sem alvo alcançável. Ceifa do Véu verifica quais inimigos já estavam amaldiçoados ANTES de todos os impactos de uma mesma conjuração, evitando um bônus no segundo círculo.
+
+Nenhuma fórmula de poder, vida, XP, prestígio, economia, drop ou save foi alterada. Arte e áudio preservados byte a byte.
+
+Faça backup do save antes de abrir a R86.

@@ -1,0 +1,14 @@
+VEILFALL R80 — TELEMETRIA DE DIFICULDADE (BASE R79)
+
+Execute ABRIR_JOGO.bat para jogar offline no Windows.
+Faça EXPORTAR SAVE antes de atualizar para preservar uma copia.
+
+NOVO: em Mundo > Laboratorio > TESTAR MINHA BUILD, utilize
+EXPORTAR RELATORIO - JSON para registrar progresso, mortes e chefes.
+O teste nao concede poderes de QA; os resultados temporarios nao sao salvos.
+
+Ajustes restritos ao laboratorio: retirado o teto QA de 2,5% em ataques
+contra guardioes ao usar save real; drops elegiveis funcionam na copia temporaria.
+
+A dificuldade, economia, artefatos, salvamentos e assets da campanha nao mudaram.
+Leia docs/REVISAO_80.md para detalhes e limitacoes.

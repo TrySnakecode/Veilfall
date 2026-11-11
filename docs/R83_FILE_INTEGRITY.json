@@ -1,0 +1,29 @@
+{
+  "base": "VEILFALL_R82_PRESTIGIO_ECONOMIA_WINDOWS.zip",
+  "unchanged_files": 243,
+  "changed_files": [
+    "LEIA_ME.txt",
+    "README.md",
+    "VEILFALL.html",
+    "index.html",
+    "package.json",
+    "src/r75-ui.js",
+    "tests/r78-core.cjs",
+    "tests/r79-core.cjs",
+    "tests/r80-core.cjs",
+    "tests/r81-core.cjs",
+    "tests/r82-core.cjs"
+  ],
+  "added_files": [
+    "LEIA_ME_R83.txt",
+    "docs/REVISAO_83.md",
+    "docs/r83-auditoria-amostra/auditoria-r83.json",
+    "docs/r83-auditoria-amostra/auditoria-r83.md",
+    "docs/r83-short/auditoria-r83.json",
+    "docs/r83-short/auditoria-r83.md",
+    "tests/r83-core.cjs",
+    "tools/auditar-campanha-r83.cjs"
+  ],
+  "removed_files": [],
+  "all_base_assets_preserved": true
+}

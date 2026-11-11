@@ -1,0 +1,23 @@
+{
+  "source": "VEILFALL_R67_CONSTELACAO_WINDOWS(1).zip",
+  "verified_identical": 31,
+  "changed": [],
+  "missing": [],
+  "sample": [
+    "assets/audio/sound-0.wav",
+    "assets/audio/sound-1.wav",
+    "assets/audio/sound-2.wav",
+    "assets/characters/bosses.png",
+    "assets/characters/enemies.png",
+    "assets/characters/knight.png",
+    "assets/environment/arena.png",
+    "assets/knight-manifest.json",
+    "assets/raid-manifest.json",
+    "assets/raids/abyss.png",
+    "assets/raids/archon.png",
+    "assets/raids/arena.png",
+    "assets/raids/heraldry.png",
+    "assets/raids/sentinel.png",
+    "assets/raids/techniques.png"
+  ]
+}

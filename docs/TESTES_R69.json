@@ -1,0 +1,47 @@
+{
+  "revision": 69,
+  "pass": 10,
+  "total": 10,
+  "results": [
+    {
+      "name": "New games have no active-skill levels or purchase actions",
+      "ok": true
+    },
+    {
+      "name": "Retired skill levels cannot change output, even if injected into save memory",
+      "ok": true
+    },
+    {
+      "name": "No active-skill upgrade buttons or rank text in catalog",
+      "ok": true
+    },
+    {
+      "name": "Old upgrade actions do not consume gold",
+      "ok": true
+    },
+    {
+      "name": "Tree still has 210 nodes, 245 edges, 27 transformations",
+      "ok": true
+    },
+    {
+      "name": "Passive ranks still change bonuses and preserve increasing cost",
+      "ok": true
+    },
+    {
+      "name": "Nearest-node hit detection stays accurate after map pan and zoom",
+      "ok": true
+    },
+    {
+      "name": "Legacy save keeps R68 passive ranks, gold, stage, hero progress, but discards skillLevels",
+      "ok": true
+    },
+    {
+      "name": "Legacy skill levels do not affect the skill loadout",
+      "ok": true
+    },
+    {
+      "name": "Laboratory still maximizes passive nodes and restores game state",
+      "ok": true
+    }
+  ]
+}

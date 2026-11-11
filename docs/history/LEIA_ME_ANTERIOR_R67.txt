@@ -1,0 +1,58 @@
+VEILFALL R64 — POLIMENTO VISUAL DAS HABILIDADES
+
+Base: R63. Somente nova camada de efeitos visuais. Sem alterações de dano, sprites, salvamentos ou árvore.
+Para jogar, execute ABRIR_JOGO.bat ou VEILFALL.html. Antes, exporte o salvamento da R63.
+
+Leia REVISAO_64_EFEITOS_VISUAIS.md para alterações e testes.
+
+VEILFALL R63 — SINERGIAS DE HABILIDADES (base R62)
+
+Novas habilidades: Ceifa do Véu (substitui Lança da Aurora) e Coração de Brasas (substitui Tormenta Elétrica).
+Ambas são úteis isoladamente, mas têm sinergias com Maldição do Véu e Nova de Fogo, respectivamente.
+Os identificadores antigos foram mantidos no código somente para preservar os dados salvos, talentos, equipamentos e artefatos.
+
+Para jogar, extraia o ZIP e execute ABRIR_JOGO.bat.
+Faça backup do salvamento antes de atualizar.
+
+VEILFALL — REVISÃO 62 · PASSIVAS MÁXIMAS NO MODO TESTE
+
+Base R61. Nos laboratórios isolados, todas as árvores passivas são maximizadas. Nenhuma mudança na campanha normal.
+
+VEILFALL — REVISÃO 61 · HABILIDADES CORRIGIDAS
+
+Base da Revisão 60. Mantém árvore contínua e sistema de progresso.
+Corrige visual e funcionamento real de Lança da Aurora, Nova de Fogo, Tormenta Elétrica e Graça Celestial.
+
+VEILFALL — REVISÃO 60 · ÁRVORE CONTÍNUA DE TALENTOS
+
+BASE OFICIAL: Revisão 57 (a Revisão 58 foi descartada).
+
+EXECUÇÃO
+1. Extraia todo o arquivo ZIP.
+2. Em Windows, execute ABRIR_JOGO.bat ou abra VEILFALL.html.
+3. A campanha anterior deve ser exportada como backup antes da atualização.
+
+HABILIDADES
+- Lança da Aurora: abates causam novas lanças próximas; propagação limitada a 13.
+- Nova de Fogo: até 4 sementes incendiárias, com dois ricochetes; explosões secundárias atingem no máximo 3 alvos por ricochete.
+- Tormenta Elétrica: até 15 alvos iniciais distintos, + talentos, com descargas em cadeia e lentidão.
+- Graça Celestial: pulsos autônomos a cada 1,65 segundo durante o efeito, com leve cura, além dos efeitos anteriores.
+
+ÁRVORE
+- Três afinidades: Físico, Magia, Fé.
+- Árvore contínua com cinco graus visíveis e 3 caminhos por aba, sem telas de camadas.
+- Trilha central: suporte e fonte própria de ouro da R57.
+- Talentos e pontos originais da R57 mantidos; não houve reembolso nem reset automático.
+- Pré-requisitos, custos, ranks e respec existentes permanecem em funcionamento.
+
+Nenhum sprite, atlas, áudio, arte ou balanceamento de artefatos, heróis, pets e inimigos foi modificado.
+Efeitos adicionais são desenhados por código, sem alterar os assets existentes.
+
+VALIDAÇÃO
+- Testes no Chromium da árvore, casting, propagação de dano e compatibilidade de salvamento.
+- Testes de regressão de artefatos, heróis e economia passaram.
+- Um teste histórico R53 sobre botão de habilidades falha também na R57 base, pois a UI da R57 moveu o botão para Lista/Equipar. Essa falha preexistente não indica remoção do botão.
+- Não validado em Windows físico ou com uma campanha inteira até a dificuldade V.
+
+
+Leia REVISAO_61_REACOES_HABILIDADES.md para detalhes e testes.

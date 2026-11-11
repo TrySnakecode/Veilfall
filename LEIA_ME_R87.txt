@@ -1,0 +1,17 @@
+VEILFALL R87 — EQUIPAMENTOS, AFIXOS E RECOMPENSAS
+
+BASE: R86, preservada integralmente no jogo normal.
+
+1. Abra a aba Equipamentos. Cada item mostra a prévia da troca sobre os atributos efetivos
+   do cavaleiro (principal + afixos, limites de suporte, Aura e classe dos heróis).
+   GANHOS SEM PERDAS e PERDAS SEM GANHOS referem-se apenas aos atributos calculados.
+   TROCA DE ATRIBUTOS indica uma escolha estratégica de build, não um upgrade universal.
+2. Venda automática continua IGUAL à R86 por padrão. Opcionalmente, clique
+   PROTEGER GANHOS SEM PERDAS para favoritar itens com ganhos claros e sem perdas
+   antes da venda. A primeira peça de um slot vazio também é protegida.
+3. Para vender uma peça protegida, retire primeiro sua estrela de favorito.
+4. Não houve alteração de força de itens, chances de drop, raridade, prestígio,
+   chefes, arte, áudio ou rede. O campo opcional novo do save é retrocompatível.
+
+No Windows, extraia tudo e abra ABRIR_JOGO.bat ou VEILFALL.html.
+Faça Exportar Save antes de atualizar.

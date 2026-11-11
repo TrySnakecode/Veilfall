@@ -1,0 +1,23 @@
+VEILFALL R78 — AMEAÇA CONTÍNUA SEM TETO (base R77)
+
+Esta revisão retira os tetos de 33% (inimigos normais/elites) e 60% (chefes)
+da vida do cavaleiro para dano de contato, e o teto de 60% para ataques
+especiais dos chefes. O dano dos inimigos volta a crescer em cada fase,
+inclusive nas fases 250, 251, 24.000 e ao atravessar os cinco mundos.
+
+O crescimento foi recalibrado: sem salto abrupto da fase 55 para 56, nem
+explosão artificial da fase 250 para 251. O próximo mundo continua difícil
+principalmente por ter inimigos com 100x mais vida na mecânica existente.
+
+O valor antigo de 104,40 PV era 60% de 174 PV na configuração de teste;
+não era um teto fixo para qualquer personagem. Defesa e redução de dano
+continuam funcionando. É possível morrer com um único golpe se a build
+não tiver sobrevivência suficiente.
+
+Não foram alterados: arte, sprites, áudio, drops, prestígio e relíquias,
+XP, ouro, HP de inimigos, habilidades, clãs, Raids ou formato do save.
+
+Abra ABRIR_JOGO.bat ou VEILFALL.html após extrair o ZIP no Windows.
+Exporte seu save antes de atualizar o jogo.
+
+Consulte docs/REVISAO_78.md para números, testes e ressalvas.

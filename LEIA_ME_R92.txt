@@ -1,0 +1,24 @@
+VEILFALL R92 — CONJUNTOS E ÚNICOS (SISTEMA INSPIRADO EM TAP TITANS 2)
+
+PARA JOGAR NO WINDOWS:
+1. Extraia todo o ZIP.
+2. Execute ABRIR_JOGO.bat (ou VEILFALL.html no navegador).
+3. Antes de atualizar, use EXPORTAR SAVE no jogo anterior.
+
+R92 — O QUE MUDOU:
+- CONJUNTOS: quando coletar as cinco partes, o bônus principal e o secundário
+  ficam ATIVOS e PERMANENTES; vários conjuntos completos se acumulam.
+  Não existe mais a troca exclusiva de juramento da R91.
+- ÚNICOS NOVOS: possuem atributo principal próprio, ligado a uma fonte de progresso;
+  um secundário especial com evolução limitada; e dois afixos aleatórios.
+  Descobrir cada Único concede um pequeno bônus permanente de coleção,
+  mesmo que a peça seja vendida ou substituída.
+- ÚNICOS novos não são forjados e não contam como uma das cinco peças de
+  conjuntos convencionais. Caem conforme as regras de guardiões.
+- ITENS ANTIGOS: seus atributos e afixos NÃO são reescritos. Únicos da R90/R91
+  ainda presentes no inventário ou equipados contam como descobertos.
+- LIMITES: bônus de suporte seguem os tetos existentes. Não foram alteradas
+  vida/dano-base dos inimigos, chances de drop de guardiões ou prestígio.
+
+Para detalhes e limitações, leia VEILFALL_R92_RELATORIO.md.
+Para clãs e raids, INICIAR_SERVIDOR.bat inicia a parte online separadamente.

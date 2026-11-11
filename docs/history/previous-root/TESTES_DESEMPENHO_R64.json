@@ -1,0 +1,21 @@
+{
+  "revision": 64,
+  "test": "120 enemies, 80 fx, 20 canvas frames",
+  "results": [
+    {
+      "quality": "high",
+      "msPerFrame": 7.91,
+      "events": 80,
+      "foes": 120
+    },
+    {
+      "quality": "low",
+      "msPerFrame": 1.78,
+      "events": 80,
+      "foes": 120
+    }
+  ],
+  "jsErrors": [],
+  "assetFiles": 15,
+  "assetsIdentical": true
+}

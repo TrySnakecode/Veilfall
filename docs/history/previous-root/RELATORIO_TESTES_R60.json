@@ -1,0 +1,23 @@
+{
+  "version": 60,
+  "built_on": 59,
+  "tree_layout": "Three continuous branches per affinity, five visible tiers, no layer navigation, wide interface",
+  "skill_count": 9,
+  "talents_per_affinity": 55,
+  "original_assets_identical": 15,
+  "existing_skill_mechanics_unchanged": true,
+  "test_suites": [
+    "new desktop browser",
+    "new mobile browser",
+    "3 affinities and final nodes",
+    "points purchase",
+    "panel leave/return",
+    "all 12 tabs"
+  ],
+  "browser_errors": 0,
+  "notes": [
+    "Windows physical not tested",
+    "Full campaign progression not retested",
+    "Main test Chromium headless"
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "snapshots": 7200,
+  "summary": [
+    {
+      "world": 1,
+      "stage": 55,
+      "logHitOverHP_min": 1.06,
+      "median": 1.24,
+      "max": 1.43
+    },
+    {
+      "world": 1,
+      "stage": 250,
+      "logHitOverHP_min": -0.19,
+      "median": 0.05,
+      "max": 0.3
+    },
+    {
+      "world": 1,
+      "stage": 1000,
+      "logHitOverHP_min": 2.13,
+      "median": 2.58,
+      "max": 3.06
+    },
+    {
+      "world": 1,
+      "stage": 5000,
+      "logHitOverHP_min": -1.27,
+      "median": -0.57,
+      "max": 0.35
+    },
+    {
+      "world": 1,
+      "stage": 24000,
+      "logHitOverHP_min": 1.45,
+      "median": 4.39,
+      "max": 9.06
+    },
+    {
+      "world": 2,
+      "stage": 55,
+      "logHitOverHP_min": -0.97,
+      "median": 1.97,
+      "max": 6.66
+    },
+    {
+      "world": 2,
+      "stage": 250,
+      "logHitOverHP_min": -2.59,
+      "median": 0.38,
+      "max": 5.11
+    },
+    {
+      "world": 2,
+      "stage": 1000,
+      "logHitOverHP_min": -6.22,
+      "median": -3.14,
+      "max": 1.77
+    },
+    {
+      "world": 2,
+      "stage": 5000,
+      "logHitOverHP_min": -10.76,
+      "median": -7.07,
+      "max": -1.15
+    },
+    {
+      "world": 2,
+      "stage": 24000,
+      "logHitOverHP_min": -7.71,
+      "median": -0.75,
+      "max": 10.64
+    },
+    {
+      "world": 3,
+      "stage": 55,
+      "logHitOverHP_min": -9.99,
+      "median": -3.06,
+      "max": 8.3
+    },
+    {
+      "world": 3,
+      "stage": 250,
+      "logHitOverHP_min": -11.54,
+      "median": -4.58,
+      "max": 6.83
+    },
+    {
+      "world": 3,
+      "stage": 1000,
+      "logHitOverHP_min": -15.14,
+      "median": -8.05,
+      "max": 3.59
+    },
+    {
+      "world": 3,
+      "stage": 5000,
+      "logHitOverHP_min": -19.49,
+      "median": -11.64,
+      "max": 1.26
+    },
+    {
+      "world": 3,
+      "stage": 24000,
+      "logHitOverHP_min": -15.83,
+      "median": -4.08,
+      "max": 15.36
+    },
+    {
+      "world": 4,
+      "stage": 55,
+      "logHitOverHP_min": -17.28,
+      "median": -5.61,
+      "max": 13.7
+    },
+    {
+      "world": 4,
+      "stage": 250,
+      "logHitOverHP_min": -18.75,
+      "median": -7.05,
+      "max": 12.33
+    },
+    {
+      "world": 4,
+      "stage": 1000,
+      "logHitOverHP_min": -22.28,
+      "median": -10.41,
+      "max": 9.23
+    },
+    {
+      "world": 4,
+      "stage": 5000,
+      "logHitOverHP_min": -26.5,
+      "median": -13.76,
+      "max": 7.36
+    },
+    {
+      "world": 4,
+      "stage": 24000,
+      "logHitOverHP_min": -22.29,
+      "median": -5.17,
+      "max": 23.3
+    },
+    {
+      "world": 5,
+      "stage": 55,
+      "logHitOverHP_min": -23.4,
+      "median": -6.27,
+      "max": 22.21
+    },
+    {
+      "world": 5,
+      "stage": 250,
+      "logHitOverHP_min": -24.86,
+      "median": -7.68,
+      "max": 20.87
+    },
+    {
+      "world": 5,
+      "stage": 1000,
+      "logHitOverHP_min": -28.34,
+      "median": -10.98,
+      "max": 17.88
+    },
+    {
+      "world": 5,
+      "stage": 5000,
+      "logHitOverHP_min": -32.44,
+      "median": -14.11,
+      "max": 16.37
+    },
+    {
+      "world": 5,
+      "stage": 24000,
+      "logHitOverHP_min": -27.76,
+      "median": -4.63,
+      "max": 33.89
+    }
+  ],
+  "boundaries": [
+    {
+      "world": 2,
+      "oldHP": 293.7094124645724,
+      "newHP": 295.7094124645723,
+      "ratioHPlog10": 1.9999999999999432,
+      "oldDPS": 4.381911522907842,
+      "newDPS": 2.383336299951111,
+      "playerLvlOld": 10545,
+      "playerLvlNew": 10545
+    },
+    {
+      "world": 3,
+      "oldHP": 588.2388249291447,
+      "newHP": 590.2388249291447,
+      "ratioHPlog10": 2,
+      "oldDPS": -0.7830871449842789,
+      "newDPS": -2.7441041519333567,
+      "playerLvlOld": 21089,
+      "playerLvlNew": 21090
+    },
+    {
+      "world": 4,
+      "oldHP": 882.7682373937171,
+      "newHP": 884.768237393717,
+      "ratioHPlog10": 1.9999999999998863,
+      "oldDPS": -4.145043254969437,
+      "newDPS": -5.9142847574374855,
+      "playerLvlOld": 31634,
+      "playerLvlNew": 31634
+    },
+    {
+      "world": 5,
+      "oldHP": 1177.2976498582896,
+      "newHP": 1179.2976498582893,
+      "ratioHPlog10": 1.9999999999997726,
+      "oldDPS": -5.26847332799025,
+      "newDPS": -6.745622616257833,
+      "playerLvlOld": 42178,
+      "playerLvlNew": 42179
+    }
+  ],
+  "docs": "Snapshots sintéticos do motor matemático; builds NÃO representam inventários realmente obtidos pela economia nem simulam horas, prestígios ou drops.",
+  "rates": [
+    0.65,
+    1,
+    1.5
+  ]
+}

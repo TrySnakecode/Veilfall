@@ -1,0 +1,37 @@
+{
+  "results": {
+    "standalone": {
+      "errors": [],
+      "classAndNodesPass": true,
+      "skillCount": 9,
+      "allTabs": 12,
+      "selected": "shadow_n18",
+      "dimensions": {
+        "screen": 1304.09375,
+        "sidebar": 264,
+        "treeHeight": 1393,
+        "scrollMax": 1013,
+        "selected": "shadow_n18",
+        "oldCount": 9,
+        "mode": true
+      }
+    },
+    "mobile": {
+      "errors": [],
+      "classAndNodesPass": true,
+      "skillCount": 9,
+      "allTabs": 12,
+      "selected": "shadow_n18",
+      "dimensions": {
+        "screen": 313,
+        "sidebar": 313,
+        "treeHeight": 1430.75,
+        "scrollMax": 1744,
+        "selected": "shadow_n18",
+        "oldCount": 9,
+        "mode": true
+      }
+    }
+  },
+  "note": "Validated headless Chromium; Windows physical and multi-hour endgame not covered."
+}

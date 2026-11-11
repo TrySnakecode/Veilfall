@@ -1,0 +1,10 @@
+VEILFALL R88 — Loot e Afixos
+
+Abra ABRIR_JOGO.bat ou VEILFALL.html.
+
+Arma: o afixo Épico "do Eclipse" agora concede Magia em vez de dano global em NOVOS drops; itens existentes preservam o efeito original.
+Aura: "dos Selos" agora concede Defesa; peças antigas são migradas no carregamento, mantendo valor e raridade.
+Equipamentos: novos filtros somente visuais — TODOS, GANHOS SEM PERDAS, TROCAS DE ATRIBUTOS e FAVORITOS.
+
+Não alteramos chances de drops, raridades, níveis, progressão, vida, dano-base ou economia.
+Faça EXPORTAR SAVE antes de atualizar. Nenhum sprite ou áudio foi modificado.

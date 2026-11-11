@@ -1,0 +1,36 @@
+{
+  "revision": 67,
+  "interfaceTests": {
+    "desktop": {
+      "passed": 20,
+      "total": 20
+    },
+    "390px": {
+      "passed": 20,
+      "total": 20
+    },
+    "768px": {
+      "passed": 20,
+      "total": 20
+    }
+  },
+  "visualInspection": [
+    "Constellation desktop",
+    "Constellation mobile",
+    "Constellation tablet",
+    "Skill catalog",
+    "Combat with groups and reactions"
+  ],
+  "standalone": {
+    "opened": true,
+    "newCampaign": true,
+    "catalog": true
+  },
+  "combatSample": {
+    "backgroundLoaded": true,
+    "assetsReady": true,
+    "applicationErrors": [],
+    "meanFrameRenderMs": 8.84
+  },
+  "note": "Browser QA through isolated test campaign; timing is one local sample, not a hardware benchmark."
+}

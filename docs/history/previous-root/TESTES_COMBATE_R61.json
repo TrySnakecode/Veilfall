@@ -1,0 +1,341 @@
+{
+  "tests": [
+    {
+      "id": "holy_spear",
+      "hp": "huge",
+      "ok": true,
+      "initial": 26,
+      "before": {
+        "orbs": 0,
+        "lightning": 0,
+        "chains": 0
+      },
+      "hits": 7,
+      "unique": 7,
+      "remaining": 26,
+      "maxLive": 0,
+      "maxFx": 2,
+      "stages": [
+        {
+          "t": 0.25,
+          "n": 26,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "fx": 1
+        },
+        {
+          "t": 0.8,
+          "n": 26,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "fx": 0
+        },
+        {
+          "t": 1.55,
+          "n": 26,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "fx": 0
+        }
+      ]
+    },
+    {
+      "id": "holy_spear",
+      "hp": "small",
+      "ok": true,
+      "initial": 26,
+      "before": {
+        "orbs": 0,
+        "lightning": 0,
+        "chains": 7
+      },
+      "hits": 17,
+      "unique": 17,
+      "remaining": 9,
+      "maxLive": 0,
+      "maxFx": 16,
+      "stages": [
+        {
+          "t": 0.25,
+          "n": 18,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 7,
+          "fx": 2
+        },
+        {
+          "t": 0.8,
+          "n": 15,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 7,
+          "fx": 3
+        },
+        {
+          "t": 1.55,
+          "n": 10,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 7,
+          "fx": 4
+        }
+      ]
+    },
+    {
+      "id": "flame_nova",
+      "hp": "huge",
+      "ok": true,
+      "initial": 26,
+      "before": {
+        "orbs": 4,
+        "lightning": 0,
+        "chains": 0
+      },
+      "hits": 63,
+      "unique": 20,
+      "remaining": 26,
+      "maxLive": 4,
+      "maxFx": 30,
+      "stages": [
+        {
+          "t": 0.25,
+          "n": 26,
+          "fire": 4,
+          "lightning": 0,
+          "holy": 0,
+          "fx": 9
+        },
+        {
+          "t": 0.8,
+          "n": 26,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "fx": 4
+        },
+        {
+          "t": 1.55,
+          "n": 26,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "fx": 0
+        }
+      ]
+    },
+    {
+      "id": "flame_nova",
+      "hp": "small",
+      "ok": true,
+      "initial": 26,
+      "before": {
+        "orbs": 4,
+        "lightning": 0,
+        "chains": 0
+      },
+      "hits": 26,
+      "unique": 26,
+      "remaining": 0,
+      "maxLive": 4,
+      "maxFx": 41,
+      "stages": [
+        {
+          "t": 0.25,
+          "n": 3,
+          "fire": 4,
+          "lightning": 0,
+          "holy": 0,
+          "fx": 4
+        },
+        {
+          "t": 0.8,
+          "n": 0,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "fx": 2
+        },
+        {
+          "t": 1.55,
+          "n": 0,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "fx": 0
+        }
+      ]
+    },
+    {
+      "id": "thunderstorm",
+      "hp": "huge",
+      "ok": true,
+      "initial": 26,
+      "before": {
+        "orbs": 0,
+        "lightning": 0,
+        "chains": 0
+      },
+      "hits": 16,
+      "unique": 16,
+      "remaining": 26,
+      "maxLive": 0,
+      "maxFx": 10,
+      "stages": [
+        {
+          "t": 0.25,
+          "n": 26,
+          "fire": 0,
+          "lightning": 3,
+          "holy": 0,
+          "fx": 6
+        },
+        {
+          "t": 0.8,
+          "n": 26,
+          "fire": 0,
+          "lightning": 10,
+          "holy": 0,
+          "fx": 9
+        },
+        {
+          "t": 1.55,
+          "n": 26,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "fx": 4
+        }
+      ]
+    },
+    {
+      "id": "thunderstorm",
+      "hp": "small",
+      "ok": true,
+      "initial": 26,
+      "before": {
+        "orbs": 0,
+        "lightning": 0,
+        "chains": 0
+      },
+      "hits": 16,
+      "unique": 16,
+      "remaining": 10,
+      "maxLive": 0,
+      "maxFx": 16,
+      "stages": [
+        {
+          "t": 0.25,
+          "n": 23,
+          "fire": 0,
+          "lightning": 3,
+          "holy": 0,
+          "fx": 6
+        },
+        {
+          "t": 0.8,
+          "n": 16,
+          "fire": 0,
+          "lightning": 10,
+          "holy": 0,
+          "fx": 9
+        },
+        {
+          "t": 1.55,
+          "n": 10,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "fx": 4
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "hp": "huge",
+      "ok": true,
+      "initial": 26,
+      "before": {
+        "orbs": 0,
+        "lightning": 0,
+        "chains": 0
+      },
+      "hits": 20,
+      "unique": 10,
+      "remaining": 26,
+      "maxLive": 0,
+      "maxFx": 3,
+      "stages": [
+        {
+          "t": 0.25,
+          "n": 26,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "fx": 0
+        },
+        {
+          "t": 0.8,
+          "n": 26,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "fx": 0
+        },
+        {
+          "t": 1.55,
+          "n": 26,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "fx": 1
+        }
+      ]
+    },
+    {
+      "id": "grace",
+      "hp": "small",
+      "ok": true,
+      "initial": 26,
+      "before": {
+        "orbs": 0,
+        "lightning": 0,
+        "chains": 0
+      },
+      "hits": 13,
+      "unique": 13,
+      "remaining": 4,
+      "maxLive": 0,
+      "maxFx": 13,
+      "stages": [
+        {
+          "t": 0.25,
+          "n": 17,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "fx": 0
+        },
+        {
+          "t": 0.8,
+          "n": 17,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "fx": 0
+        },
+        {
+          "t": 1.55,
+          "n": 8,
+          "fire": 0,
+          "lightning": 0,
+          "holy": 0,
+          "fx": 1
+        }
+      ]
+    }
+  ],
+  "js_errors": []
+}

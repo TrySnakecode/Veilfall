@@ -1,0 +1,25 @@
+VEILFALL R72 — INTERFACE ESTÁVEL E FEEDBACK VISUAL
+
+Base: R71 (capacetes de heróis e qualidades), sem alteração de combate, economia, saves, clãs ou raids.
+
+MUDANÇAS
+1. Botão RETOMAR AVANÇO ocupa uma célula de largura e altura constantes, inclusive quando oculto. Mensagens de combate não o empurram.
+2. Mensagens temporárias aparecem no interior da arena, sem ocupar espaço na lista de heróis nem bloquear cliques.
+3. 32 cartões de heróis possuem altura e controles fixos. Mudanças de ouro, nível e avisos não alteram sua geometria. Ao abrir deliberadamente detalhes, o cartão pode expandir.
+4. Botões UPAR possuem rótulo curto e previsível. O preço/resultado da próxima compra permanece em uma linha própria no cartão.
+5. Ao atualizar o painel de heróis, a posição de rolagem é preservada, inclusive quando a interface é reconstruída.
+6. Efeitos leves de feedback nos botões, leitura melhor das notificações, pequenos destaques luminosos e brilho sutil nas barras. Respeita a opção de redução de movimento do sistema.
+7. Nenhuma arte/sprite/áudio aprovado foi refeito.
+
+TESTES
+- Chromium desktop (1440x900) e celular (390x844): botão de avanço mantém exatamente o mesmo retângulo nas situações oculto, visível e com avisos.
+- 32 cartões de herói mantêm tamanho e posição após alterações de níveis e na atualização do painel.
+- Compra de nível de herói por clique real e expansão voluntária de detalhes funcionaram.
+- Sem erros de JavaScript nos testes de navegador realizados.
+- Testes anteriores de árvore, progressão, drops, qualidade de equipamentos e servidor de clãs/raids executados novamente.
+
+NOTA
+As mudanças de layout não tornam os elementos absolutamente fixos em qualquer situação. Alterar o tamanho da janela, mudar de aba ou abrir voluntariamente uma seção de detalhes continua afetando a organização da tela. O objetivo é eliminar movimentos inesperados durante a interação normal.
+
+MODO DE ABRIR
+Extraia o ZIP inteiro e execute ABRIR_JOGO.bat. Faça uma cópia de segurança de seu salvamento antes de atualizar.

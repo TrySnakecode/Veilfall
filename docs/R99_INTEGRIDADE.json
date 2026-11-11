@@ -1,0 +1,25 @@
+{
+  "baseline": "VEILFALL R98",
+  "originalFiles": 312,
+  "identicalFiles": 302,
+  "changedFiles": [
+    "VEILFALL.html",
+    "index.html",
+    "package.json",
+    "src/r75-ui.js",
+    "tests/r78-core.cjs",
+    "tests/r79-core.cjs",
+    "tests/r80-core.cjs",
+    "tests/r81-core.cjs",
+    "tests/r82-core.cjs",
+    "tools/build-standalone.cjs"
+  ],
+  "removedFiles": [],
+  "newFiles": [
+    "src/r99-premium.css",
+    "src/r99-premium.js",
+    "tests/r99-core.cjs"
+  ],
+  "mediaPreserved": "42/42",
+  "note": "Comparação SHA-256 antes de acrescentar relatório da R99"
+}

@@ -1,0 +1,63 @@
+{
+  "revision": 70,
+  "pass": 14,
+  "total": 14,
+  "results": [
+    {
+      "name": "Killing ordinary mobs cannot advance without a stage guardian",
+      "ok": true
+    },
+    {
+      "name": "A stage guardian cannot be queued more than once",
+      "ok": true
+    },
+    {
+      "name": "Stage guardian victory advances exactly one stage",
+      "ok": true
+    },
+    {
+      "name": "The next stage still requires its own guardian",
+      "ok": true
+    },
+    {
+      "name": "Maximum 1 monster gear per stage even after 100 guaranteed drops",
+      "ok": true
+    },
+    {
+      "name": "No equipment drops on previously conquered stages, even in same difficulty",
+      "ok": true
+    },
+    {
+      "name": "Boss loot permits only a single ROLL at frontier regardless of result",
+      "ok": true
+    },
+    {
+      "name": "Old stage boss gear cannot drop after record is exceeded",
+      "ok": true
+    },
+    {
+      "name": "Boss threshold victory no longer skips mandatory stage guardian",
+      "ok": true
+    },
+    {
+      "name": "Final stage requires its guardian before world prestige",
+      "ok": true
+    },
+    {
+      "name": "Damage threat continues scaling after stage 350",
+      "ok": true
+    },
+    {
+      "name": "No exponential hit can heal an entire health bar with lifesteal",
+      "ok": true
+    },
+    {
+      "name": "Real combat damage can kill knight against a strong boss",
+      "ok": true
+    },
+    {
+      "name": "R69 saves migrate drops and world prestige without removing skills/passives",
+      "ok": true
+    }
+  ]
+}

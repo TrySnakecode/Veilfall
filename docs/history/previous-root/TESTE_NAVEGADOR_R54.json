@@ -1,0 +1,39 @@
+{
+  "revision": 54,
+  "checks": [
+    {
+      "name": "tela inicial",
+      "pass": true
+    },
+    {
+      "name": "campanha inicializa",
+      "pass": true
+    },
+    {
+      "name": "botão de transcendência em massa visível",
+      "pass": true
+    },
+    {
+      "name": "rotulo e informativo",
+      "pass": true
+    },
+    {
+      "name": "transcendeu com click real",
+      "pass": true
+    },
+    {
+      "name": "sem erros JavaScript",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "hero_state": {
+    "lv": 1,
+    "tr": 1,
+    "paid": 8000,
+    "gold": "0"
+  },
+  "passed": 6,
+  "total": 6,
+  "failed": 0
+}

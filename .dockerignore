@@ -1,0 +1,10 @@
+.git
+.github
+*.zip
+var
+backups
+dist-web
+VEILFALL.html
+tests
+docs
+*.log

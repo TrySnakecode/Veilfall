@@ -1,0 +1,14 @@
+VEILFALL R99 — O VÉU DESPERTA
+
+Primeiro passe de polimento visual sobre a R98:
+- Iluminação atmosférica por mundo e poeira luminosa discreta na arena.
+- Reforço dos impactos das habilidades com orçamento de renderização.
+- Reformulação dos materiais, contraste, botões, HUD e painéis.
+- Melhor distinção visual das conquistas importantes.
+- Intensidade visual ajustável, movimento reduzido preservado.
+
+Nenhuma mudança de progressão, chances de drop, combate, saves, sprites ou sons.
+Não é a reformulação artística completa — leia VEILFALL_R99_RELATORIO.md.
+
+Exporte seu save atual antes da atualização.
+Abra ABRIR_JOGO.bat (Windows) ou VEILFALL.html (offline).

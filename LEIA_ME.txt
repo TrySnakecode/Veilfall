@@ -1,0 +1,17 @@
+VEILFALL R98 — VERSÃO ATUAL
+
+Para jogar: extraia todo o ZIP em uma pasta e abra ABRIR_JOGO.bat ou VEILFALL.html.
+Antes de atualizar: use EXPORTAR SAVE e mantenha uma cópia segura.
+
+R98 — COMBATE AUTOMÁTICO
+- PRIORITIZAR CHEFES também faz o cavaleiro perseguir o chefe ativo.
+- ALVO MAIS PRÓXIMO mantém sua lógica de movimento anterior.
+- O recuo de emergência continua reagindo à ameaça próxima, mesmo quando o chefe está distante.
+- O controle manual do cavaleiro sempre tem prioridade.
+
+EQUIPAMENTOS
+- A faixa de filtros de visualização permanece removida, conforme pedido na R97.
+- Mantidos categorias, comparação, raridades, favoritos e opções de venda.
+
+Não foram modificados dano/vida-base dos inimigos, drops, prestígio, custos ou arte original.
+Informações técnicas e limites dos testes: docs/R98_RELATORIO.md.

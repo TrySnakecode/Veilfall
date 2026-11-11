@@ -1,0 +1,281 @@
+{
+  "method": "Three deterministic 20-minute fresh campaigns per revision. Full real runtime, natural XP/gold/drops, auto heroes, legal earned-point spending, upgrades every 15 seconds. No prestige, no free power, defeat retains safe farm. A regression smoke check, not a late-game forecast.",
+  "results": [
+    {
+      "revision": 66,
+      "seed": 17,
+      "seconds": 1200,
+      "peak": 80,
+      "stage": 80,
+      "level": 43,
+      "kills": 1567,
+      "deaths": 0,
+      "points": 3,
+      "heroLevels": 88,
+      "checkpoints": [
+        {
+          "seconds": 300,
+          "stage": 23,
+          "level": 16,
+          "kills": 315,
+          "deaths": 0,
+          "points": 0
+        },
+        {
+          "seconds": 600,
+          "stage": 42,
+          "level": 26,
+          "kills": 686,
+          "deaths": 0,
+          "points": 1
+        },
+        {
+          "seconds": 900,
+          "stage": 59,
+          "level": 34,
+          "kills": 1054,
+          "deaths": 0,
+          "points": 2
+        },
+        {
+          "seconds": 1200,
+          "stage": 80,
+          "level": 43,
+          "kills": 1567,
+          "deaths": 0,
+          "points": 3
+        }
+      ]
+    },
+    {
+      "revision": 66,
+      "seed": 67,
+      "seconds": 1200,
+      "peak": 80,
+      "stage": 80,
+      "level": 43,
+      "kills": 1568,
+      "deaths": 0,
+      "points": 3,
+      "heroLevels": 84,
+      "checkpoints": [
+        {
+          "seconds": 300,
+          "stage": 23,
+          "level": 16,
+          "kills": 313,
+          "deaths": 0,
+          "points": 0
+        },
+        {
+          "seconds": 600,
+          "stage": 42,
+          "level": 26,
+          "kills": 683,
+          "deaths": 0,
+          "points": 1
+        },
+        {
+          "seconds": 900,
+          "stage": 58,
+          "level": 34,
+          "kills": 1051,
+          "deaths": 0,
+          "points": 2
+        },
+        {
+          "seconds": 1200,
+          "stage": 80,
+          "level": 43,
+          "kills": 1568,
+          "deaths": 0,
+          "points": 3
+        }
+      ]
+    },
+    {
+      "revision": 66,
+      "seed": 117,
+      "seconds": 1200,
+      "peak": 80,
+      "stage": 80,
+      "level": 43,
+      "kills": 1565,
+      "deaths": 0,
+      "points": 3,
+      "heroLevels": 82,
+      "checkpoints": [
+        {
+          "seconds": 300,
+          "stage": 23,
+          "level": 16,
+          "kills": 317,
+          "deaths": 0,
+          "points": 0
+        },
+        {
+          "seconds": 600,
+          "stage": 42,
+          "level": 26,
+          "kills": 685,
+          "deaths": 0,
+          "points": 1
+        },
+        {
+          "seconds": 900,
+          "stage": 59,
+          "level": 34,
+          "kills": 1057,
+          "deaths": 0,
+          "points": 2
+        },
+        {
+          "seconds": 1200,
+          "stage": 80,
+          "level": 43,
+          "kills": 1565,
+          "deaths": 0,
+          "points": 3
+        }
+      ]
+    },
+    {
+      "revision": 67,
+      "seed": 17,
+      "seconds": 1200,
+      "peak": 83,
+      "stage": 83,
+      "level": 44,
+      "kills": 1648,
+      "deaths": 0,
+      "points": 3,
+      "heroLevels": 87,
+      "checkpoints": [
+        {
+          "seconds": 300,
+          "stage": 23,
+          "level": 17,
+          "kills": 317,
+          "deaths": 0,
+          "points": 0
+        },
+        {
+          "seconds": 600,
+          "stage": 42,
+          "level": 26,
+          "kills": 686,
+          "deaths": 0,
+          "points": 1
+        },
+        {
+          "seconds": 900,
+          "stage": 59,
+          "level": 34,
+          "kills": 1059,
+          "deaths": 0,
+          "points": 2
+        },
+        {
+          "seconds": 1200,
+          "stage": 83,
+          "level": 44,
+          "kills": 1648,
+          "deaths": 0,
+          "points": 3
+        }
+      ]
+    },
+    {
+      "revision": 67,
+      "seed": 67,
+      "seconds": 1200,
+      "peak": 82,
+      "stage": 82,
+      "level": 44,
+      "kills": 1626,
+      "deaths": 0,
+      "points": 3,
+      "heroLevels": 87,
+      "checkpoints": [
+        {
+          "seconds": 300,
+          "stage": 23,
+          "level": 17,
+          "kills": 314,
+          "deaths": 0,
+          "points": 0
+        },
+        {
+          "seconds": 600,
+          "stage": 42,
+          "level": 26,
+          "kills": 682,
+          "deaths": 0,
+          "points": 1
+        },
+        {
+          "seconds": 900,
+          "stage": 59,
+          "level": 34,
+          "kills": 1053,
+          "deaths": 0,
+          "points": 2
+        },
+        {
+          "seconds": 1200,
+          "stage": 82,
+          "level": 44,
+          "kills": 1626,
+          "deaths": 0,
+          "points": 3
+        }
+      ]
+    },
+    {
+      "revision": 67,
+      "seed": 117,
+      "seconds": 1200,
+      "peak": 83,
+      "stage": 83,
+      "level": 44,
+      "kills": 1650,
+      "deaths": 0,
+      "points": 3,
+      "heroLevels": 93,
+      "checkpoints": [
+        {
+          "seconds": 300,
+          "stage": 23,
+          "level": 17,
+          "kills": 316,
+          "deaths": 0,
+          "points": 0
+        },
+        {
+          "seconds": 600,
+          "stage": 42,
+          "level": 26,
+          "kills": 686,
+          "deaths": 0,
+          "points": 1
+        },
+        {
+          "seconds": 900,
+          "stage": 59,
+          "level": 34,
+          "kills": 1057,
+          "deaths": 0,
+          "points": 2
+        },
+        {
+          "seconds": 1200,
+          "stage": 83,
+          "level": 44,
+          "kills": 1650,
+          "deaths": 0,
+          "points": 3
+        }
+      ]
+    }
+  ]
+}

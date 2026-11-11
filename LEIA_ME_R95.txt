@@ -1,0 +1,18 @@
+VEILFALL R95 — HERÓIS, PETS E PERGAMINHOS
+
+COMO JOGAR
+1. Exporte uma cópia do seu save pela versão antiga.
+2. Extraia o ZIP em uma pasta do Windows.
+3. Abra ABRIR_JOGO.bat ou VEILFALL.html.
+
+NOVIDADE DA R95
+- Potência dos Equipamentos agora fortalece os atributos PRINCIPAIS das peças equipadas, até +6% no conjunto, sem multiplicar afixos.
+- Talven (Herói), Forgeling (Pet), Escritura de Talven (Pergaminho), Estandarte dos Ossos Silentes e Cinzel do Martirizado passam a ter contribuição útil.
+- A seleção de Pets não muda quando você apenas abre a tela.
+- Inimigos, prestígios, preços, chances de drops e sprites não foram alterados.
+
+VERIFICACOES
+- Testes automatizados de compatibilidade, combate e progresso.
+- Testes manuais no Windows físico e campanhas longas de endgame ainda pendentes.
+
+Detalhes: docs/R95_RELATORIO.md

@@ -1,0 +1,52 @@
+
+/* R72 - UX steadiness: stable geometry + quiet, rewarding feedback. No source art changed. */
+.r72 .lower-strip{display:grid;grid-template-columns:minmax(110px,1fr) 186px minmax(130px,1.05fr);align-items:center;gap:12px;height:64px;min-height:64px;max-height:64px;overflow:hidden;contain:layout}
+.r72 .lower-strip>div:first-child{min-width:0!important;overflow:hidden}
+.r72 .lower-strip #world-tip{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.r72 #stage-advance{grid-column:2;grid-row:1;display:inline-flex!important;align-items:center;justify-content:center;width:186px;min-width:186px;max-width:186px;height:40px;min-height:40px;padding:6px 8px!important;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:background .15s,border-color .15s,box-shadow .15s!important}
+.r72 #stage-advance.hidden{display:inline-flex!important;visibility:hidden;pointer-events:none;animation:none}
+.r72 .lower-msg{grid-column:3;grid-row:1;display:block;max-width:100%!important;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:right;font-size:10px}
+.r72 #combat-feed{pointer-events:none;max-width:48%;max-height:125px;overflow:hidden}
+.r72 #toast-root{position:fixed;top:94px;right:18px;left:auto;bottom:auto;z-index:900;display:flex;flex-direction:column;align-items:flex-end;gap:8px;pointer-events:none;width:min(360px,calc(100vw - 30px));max-height:45dvh;overflow:hidden}
+.r72 #toast-root .toast{width:auto;max-width:100%;margin:0;padding:11px 14px 11px 35px;background:linear-gradient(115deg,#152634ed,#0c1722f5);border:1px solid #bfa57779;border-left:3px solid #d5b47e;color:#eedbc1;box-shadow:0 8px 30px #000b;line-height:1.45;font-size:11px;border-radius:6px;position:relative;overflow:hidden;animation:r72ToastIn .25s ease-out both}
+.r72 #toast-root .toast:before{content:'✦';position:absolute;left:12px;top:10px;color:#d5b47e;text-shadow:0 0 12px #ddc2828a}
+.r72 #toast-root .r72-toast-reward{border-left-color:#dfc27b;box-shadow:0 8px 28px #000b,0 0 20px #d6b56c18}
+.r72 #toast-root .r72-toast-danger{border-left-color:#cc6270;color:#ffdde0}
+.r72 #toast-root .r72-toast-danger:before{content:'✝';color:#e78b9b}
+@keyframes r72ToastIn{from{opacity:0;transform:translateX(10px)}to{opacity:1;transform:translateX(0)}}
+/* Do not let fast-changing prices, hero levels or messages resize the roster. */
+.r72 #panel-body .r72-hero-card{height:183px;min-height:183px;max-height:183px;overflow:hidden;display:flex;flex-direction:column;position:relative;contain:layout;transition:border-color .15s,box-shadow .15s,background .15s}
+.r72 #panel-body .r72-hero-card:hover{border-color:#c7a97891;background:linear-gradient(125deg,#233541,#172734)}
+.r72 #panel-body .r72-hero-card .entry-main{min-width:0;overflow:hidden}
+.r72 #panel-body .r72-hero-card .entry-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.r72 #panel-body .r72-hero-card .entry-sub{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;line-height:1.4;min-height:17px}
+.r72 #panel-body .r72-hero-card .description{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden;height:40px;min-height:40px;max-height:40px;line-height:20px;margin:7px 0 0}
+.r72 #panel-body .r72-hero-card .entry-action{display:grid;grid-template-columns:minmax(0,1fr) 108px;gap:7px;align-items:stretch;flex:none;margin-top:auto}
+.r72 #panel-body .r72-hero-card .entry-action .gamebtn{height:40px;min-height:40px;max-height:40px;display:block;min-width:0;width:100%;padding:8px 6px!important;white-space:nowrap!important;overflow:hidden;text-overflow:ellipsis;line-height:22px}
+.r72 #panel-body .r72-hero-card .entry-action .gamebtn:focus-visible{outline:2px solid #ffe2ad;outline-offset:-2px}
+/* Decorative life without moving controls or altering the existing sprite assets. */
+.r72 .pane-title{position:relative;overflow:hidden}
+.r72 .pane-title:after{content:'';position:absolute;bottom:0;left:18px;right:18px;height:1px;background:linear-gradient(90deg,transparent,#d6b87e88,transparent);pointer-events:none}
+.r72 .nav-btn.active .r66-nav-symbol,.r72 .nav-btn.active .pixel-icon{filter:drop-shadow(0 0 6px #d3b47e79)}
+.r72 .gamebtn:focus-visible,.r72 .mini-button:focus-visible,.r72 #stage-advance:focus-visible{outline:2px solid #f8dca5;outline-offset:2px}
+.r72 .gamebtn:not(:disabled):hover{border-color:#e0c28eaa;box-shadow:inset 0 0 9px #caa66c18,0 0 12px #b89c6220}
+.r72 .gamebtn:active:not(:disabled){background:#5b4338;box-shadow:inset 0 0 12px #f3d18b3a}
+.r72 .bar-track>div{position:relative;overflow:hidden}
+.r72 .bar-track>div:after{content:'';position:absolute;inset:0;background:linear-gradient(100deg,transparent 8%,#fff2 43%,transparent 64%);background-size:180% 100%;animation:r72BarGleam 5s linear infinite;pointer-events:none}
+@keyframes r72BarGleam{from{background-position:200% 0}to{background-position:-200% 0}}
+.r72 .r72-press-feedback{position:fixed;z-index:999;pointer-events:none;width:24px;height:24px;line-height:24px;text-align:center;color:#ffe4a6;text-shadow:0 0 10px #caa66d;animation:r72Press .42s ease-out forwards;font-size:17px}
+@keyframes r72Press{from{opacity:.95;transform:translate(-50%,-50%) scale(.65)}to{opacity:0;transform:translate(-50%,-135%) scale(1.35)}}
+@media(max-width:900px){.r72 .lower-strip{grid-template-columns:minmax(135px,170px) minmax(0,1fr);gap:8px;padding:6px 8px;height:55px;min-height:55px;max-height:55px}.r72 .lower-strip>div:first-child{display:none!important}.r72 #stage-advance{grid-column:1;width:100%;min-width:0;max-width:none;height:40px}.r72 .lower-msg{grid-column:2;text-align:left;max-width:none!important;font-size:9px}.r72 #toast-root{right:10px;top:15px}}
+@media(max-width:570px){.r72 #panel-body .r72-hero-card{height:192px;min-height:192px;max-height:192px}.r72 #panel-body .r72-hero-card .entry-action{grid-template-columns:minmax(0,1fr) 98px}}
+@media(prefers-reduced-motion:reduce){.r72 .bar-track>div:after{animation:none;display:none}.r72 #toast-root .toast,.r72 .r72-press-feedback{animation:none}.r72 #stage-advance{animation:none!important}}
+
+.r72 #panel-body .r72-hero-card:has(details[open]){height:auto;max-height:none;min-height:183px;overflow:visible;contain:none}
+.r72 #panel-body .r72-hero-card:has(details[open]) .description{height:auto;max-height:none;min-height:0;display:block;-webkit-line-clamp:unset;overflow:visible}
+.r72 #panel-body .r72-hero-card:has(.r52-campaign-buff):not(:has(details[open])){height:215px;min-height:215px;max-height:215px}
+
+.r72 #panel-body .r72-hero-card .r72-hero-price{margin-top:auto;flex:none;height:18px;line-height:18px;font-size:10px;color:#b7d1c5;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.r72 #panel-body .r72-hero-card .entry-action{margin-top:5px}
+
+/* Keep transient messages entirely inside the combat canvas, never over hero controls. */
+.r72 .battle-stage #toast-root{position:absolute;top:106px;right:14px;left:auto;bottom:auto;width:min(320px,46%);max-height:48%;z-index:30;overflow:hidden}
+@media(max-width:570px){.r72 .battle-stage #toast-root{top:132px;right:6px;width:min(205px,53%);max-height:38%}.r72 #toast-root .toast{font-size:9px;padding:7px 8px 7px 24px}.r72 #toast-root .toast:before{left:7px;top:7px}}

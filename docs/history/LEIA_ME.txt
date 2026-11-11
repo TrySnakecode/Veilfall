@@ -1,0 +1,7 @@
+VEILFALL - REVISAO 48 (Windows / navegador)
+Abra ABRIR_JOGO.bat ou VEILFALL.html.
+
+ALTERACOES: Almas = 36 Ecos + 10 pesquisas; Runas = 24 gravuras com duplicatas, principal Nv1 e secundario Nv10. Reza removida integralmente e progresso antigo convertido com reembolso.
+Antes de substituir sua versao anterior, exporte uma copia do save nas configuracoes do jogo.
+
+Visual/sprites PNG preservados (sem alteracao de imagem).

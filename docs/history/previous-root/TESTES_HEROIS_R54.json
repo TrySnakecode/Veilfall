@@ -1,0 +1,58 @@
+{
+  "revision": 54,
+  "tests": 10,
+  "passed": 10,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Botão aparece como UPAR / TRANSCENDER",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Transcende herói 8000 sem dinheiro nem consumo de ouro",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Novo clique nao duplica transcendencia sem chegar outra vez a 8000",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Botao continua comprando niveis depois de transcender",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Todos prontos em 8000: transcende os 32 uma unica vez",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Compra 7999→8000 e transcende dentro do mesmo clique",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Botao action usa compra + transcendencia e persiste progresso",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Transcendencia individual usa mesma regra do botao em massa",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Salvar e carregar preserva nivel pago e transcendencias",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Sem upgrades ou transcendencias nao gasta dinheiro",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

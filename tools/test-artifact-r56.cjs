@@ -1,0 +1,31 @@
+const fs=require('node:fs');
+const vm=require('node:vm');
+const path=require('node:path');
+const root=path.resolve(__dirname,'..');
+const memory={};
+function fakeEl(){return new Proxy({style:{},classList:{add(){},remove(){},toggle(){}},dataset:{},append(){},children:[],getContext(){return new Proxy({}, {get:()=>()=>{}})},setAttribute(){},addEventListener(){}},{get(obj,key){return key in obj?obj[key]:()=>{}},set(obj,key,val){obj[key]=val;return true}})}
+const context={console,document:{querySelector:()=>fakeEl(),querySelectorAll:()=>[],createElement:()=>fakeEl(),addEventListener(){},hidden:true},Image:class{},Audio:class{play(){return Promise.resolve()}},performance:{now:()=>0},setTimeout(){},setInterval(){},Math,Date,Map,Set,JSON,Intl};
+context.window=context;
+context.window.__assetUrls={arena:''};
+context.window.localStorage={getItem:k=>memory[k]??null,setItem:(k,v)=>memory[k]=v};
+context.window.addEventListener=()=>{};
+vm.createContext(context);
+for(const f of ['data','game'])vm.runInContext(fs.readFileSync(path.join(root,'src',f+'.js'),'utf8'),context,{filename:f+'.js'});
+const run=code=>vm.runInContext(code,context);
+const checks=[];
+function verify(name,test){checks.push({name,pass:!!test});if(!test)console.error('FAILED:',name)}
+verify('catalog unchanged: 106 artifacts',run('D.artifacts.length')===106);
+verify('only Memória do Retorno produces Relíquias',run("D.artifacts.filter(a=>a.effect==='relic').map(a=>a.id).join(',')")==='a014');
+verify('Memória do Retorno remains guaranteed 5th artifact',run("GUARANTEED_RELIC_ARTIFACT==='a014'"));
+verify('Fêmur ID and old economy statistics retained',run("(()=>{let a=D.artifacts.find(x=>x.id==='a073');return a.name==='Fêmur do Voto Solene'&&a.base_cost===10957914&&a.new_base_cost===112071&&a.power===.048&&a.power_exponent===.77})()"));
+verify('Fêmur now boosts boss gold only',run("(()=>{let a=D.artifacts.find(x=>x.id==='a073');return a.group==='Ouro e Descobertas'&&a.effect==='gold_boss'})()"));
+verify('Fêmur accessible before 25th discovery when applicable',run("(()=>{g=fresh();g.artifactLevels.a014=1;return artifactEligible(D.artifacts.find(x=>x.id==='a073'),1)})()"));
+verify('Fêmur still uses existing owned level and increases boss payouts',run(`(()=>{g=fresh();g.artifactLevels.a073=0;let before=economySourceMultipliers('boss');g.artifactLevels.a073=80;let after=economySourceMultipliers('boss');return after>before&&g.artifactLevels.a073===80})()`));
+verify('Fêmur does not improve prestige Relíquias',run(`(()=>{g=fresh();g.stage=1170;g.runPeak=1170;g.artifactLevels.a073=0;const before=prestigeReward();g.artifactLevels.a073=80;const after=prestigeReward();return before.cmp(after)===0})()`));
+verify('Memória still improves prestige Relíquias',run(`(()=>{g=fresh();g.stage=1170;g.runPeak=1170;const before=prestigeReward();g.artifactLevels.a014=80;const after=prestigeReward();return after.cmp(before)>0})()`));
+verify('other gold sources not modified by Fêmur',run(`(()=>{g=fresh();const keys=['monsters','fairy','mimic','idle'];const before=keys.map(k=>economySourceMultipliers(k));g.artifactLevels.a073=80;const after=keys.map(k=>economySourceMultipliers(k));return before.every((n,i)=>n===after[i])})()`));
+verify('no gold specialization user controls added',!fs.readFileSync(path.join(root,'src/game.js'),'utf8').includes('goldFocus'));
+const report={revision:56,base:'R55',scope:'a073 relic => boss gold only',total:checks.length,passed:checks.filter(x=>x.pass).length,failed:checks.filter(x=>!x.pass).length,checks};
+fs.writeFileSync(path.join(root,'TESTES_REVISAO_56_ARTEFATO.json'),JSON.stringify(report,null,2));
+console.log('R56 artifact',report.passed,'/',report.total);
+if(report.failed)process.exitCode=1;

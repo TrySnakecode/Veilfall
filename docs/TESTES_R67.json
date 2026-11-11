@@ -1,0 +1,445 @@
+{
+  "revision": 67,
+  "passed": 57,
+  "total": 57,
+  "checks": [
+    {
+      "name": "574 unique nodes, 27 transformations, five pacts",
+      "pass": true
+    },
+    {
+      "name": "Every node connected to origin; all costs integral",
+      "pass": true
+    },
+    {
+      "name": "Every legal route is connected and has the displayed cost",
+      "pass": true
+    },
+    {
+      "name": "Unreachable, unknown, malformed and overspent plans are rejected atomically",
+      "pass": true
+    },
+    {
+      "name": "Mutually exclusive transformations and maximum two pacts",
+      "pass": true
+    },
+    {
+      "name": "Deleting a node preserves an alternate connected route",
+      "pass": true
+    },
+    {
+      "name": "Deleting a sole entry refunds the entire isolated branch exactly",
+      "pass": true
+    },
+    {
+      "name": "Laboratory maximization cannot grant campaign points",
+      "pass": true
+    },
+    {
+      "name": "Legacy refund preserves all 4890 earned points without doubling",
+      "pass": true
+    },
+    {
+      "name": "R66 load / save / reload and exported record preserve campaign and graph",
+      "pass": true
+    },
+    {
+      "name": "Corrupt save prunes disconnected nodes without generating points",
+      "pass": true
+    },
+    {
+      "name": "Knowledge boss can award only once per world and stage",
+      "pass": true
+    },
+    {
+      "name": "Gold passives are applied exactly once and per source",
+      "pass": true
+    },
+    {
+      "name": "Village production ignores every passive and artifact bonus",
+      "pass": true
+    },
+    {
+      "name": "Shared cost helper respects mana, cooldown and duration bounds",
+      "pass": true
+    },
+    {
+      "name": "Arsenal retains campaign support passives and the 80% cap",
+      "pass": true
+    },
+    {
+      "name": "All nine skills reject unequipped, locked and insufficient-mana casts",
+      "pass": true
+    },
+    {
+      "name": "Every accepted cast pays the shared cost exactly; no visual on rejection",
+      "pass": true
+    },
+    {
+      "name": "One loot/XP reward per victim, finite curse reactions at 320 enemies",
+      "pass": true
+    },
+    {
+      "name": "Clear/load clears delayed waves and zones",
+      "pass": true
+    },
+    {
+      "name": "Zone and delayed-event limits are enforced",
+      "pass": true
+    },
+    {
+      "name": "Lab snapshot restores earned points and build",
+      "pass": true
+    },
+    {
+      "name": "Fury rupture reaches remote packs on the third basic attack",
+      "pass": true
+    },
+    {
+      "name": "Fury momentum refunds at most one cooldown second per simulation second",
+      "pass": true
+    },
+    {
+      "name": "Fury bloodroad damages enemies along the path and at the distant pack",
+      "pass": true
+    },
+    {
+      "name": "LEGION vanguard expands every damaging skill during its active window",
+      "pass": true
+    },
+    {
+      "name": "LEGION concord improves cooldown and acquisition without exceeding caps",
+      "pass": true
+    },
+    {
+      "name": "LEGION harvest grants combat gold only and respects shared mana refund limit",
+      "pass": true
+    },
+    {
+      "name": "Arcane overdrive trades mana for reduced cooldown",
+      "pass": true
+    },
+    {
+      "name": "Arcane prism reaches an extra group with reduced power per impact",
+      "pass": true
+    },
+    {
+      "name": "Arcane flow restores mana, lowers cost and shares the eight-per-second kill cap",
+      "pass": true
+    },
+    {
+      "name": "Burn damage keeps its originating skill instead of borrowing Nova scaling",
+      "pass": true
+    },
+    {
+      "name": "Furnace places its persistent fields on three distinct groups",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: grace/base",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: grace/pilgrim",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: grace/cathedral",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: grace/procession",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: shadow/base",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: shadow/ricochet",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: shadow/rift",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: shadow/afterimage",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: curse/base",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: curse/contagion",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: curse/miasma",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: curse/eclipse",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: flame_nova/base",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: flame_nova/comets",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: flame_nova/supernova",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: flame_nova/furnace",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: thunderstorm/base",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: thunderstorm/wildfire",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: thunderstorm/meteor",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: thunderstorm/brand",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: holy_spear/base",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: holy_spear/harvest",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: holy_spear/echo",
+      "pass": true
+    },
+    {
+      "name": "Distributed coverage: holy_spear/wake",
+      "pass": true
+    }
+  ],
+  "coverage": [
+    {
+      "id": "grace",
+      "variant": null,
+      "hit": 60,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "grace",
+      "variant": "pilgrim",
+      "hit": 120,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "grace",
+      "variant": "cathedral",
+      "hit": 120,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "grace",
+      "variant": "procession",
+      "hit": 150,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "shadow",
+      "variant": null,
+      "hit": 150,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "shadow",
+      "variant": "ricochet",
+      "hit": 150,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "shadow",
+      "variant": "rift",
+      "hit": 150,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "shadow",
+      "variant": "afterimage",
+      "hit": 150,
+      "total": 150,
+      "zones": 8,
+      "events": 0
+    },
+    {
+      "id": "curse",
+      "variant": null,
+      "hit": 120,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "curse",
+      "variant": "contagion",
+      "hit": 150,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "curse",
+      "variant": "miasma",
+      "hit": 150,
+      "total": 150,
+      "zones": 6,
+      "events": 0
+    },
+    {
+      "id": "curse",
+      "variant": "eclipse",
+      "hit": 150,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "flame_nova",
+      "variant": null,
+      "hit": 60,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "flame_nova",
+      "variant": "comets",
+      "hit": 150,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "flame_nova",
+      "variant": "supernova",
+      "hit": 150,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "flame_nova",
+      "variant": "furnace",
+      "hit": 90,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "thunderstorm",
+      "variant": null,
+      "hit": 90,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "thunderstorm",
+      "variant": "wildfire",
+      "hit": 150,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "thunderstorm",
+      "variant": "meteor",
+      "hit": 150,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "thunderstorm",
+      "variant": "brand",
+      "hit": 150,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "holy_spear",
+      "variant": null,
+      "hit": 90,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "holy_spear",
+      "variant": "harvest",
+      "hit": 150,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "holy_spear",
+      "variant": "echo",
+      "hit": 150,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    },
+    {
+      "id": "holy_spear",
+      "variant": "wake",
+      "hit": 90,
+      "total": 150,
+      "zones": 0,
+      "events": 0
+    }
+  ],
+  "scripts": [
+    "shared/raid-engine.js",
+    "src/data.js",
+    "src/game.js",
+    "src/r67-tree.js",
+    "src/r67-combat.js",
+    "src/visual.js",
+    "src/polish.js",
+    "src/r52-core.js",
+    "src/r52-combat.js",
+    "src/r52-ui.js",
+    "src/r65-bridge.js",
+    "src/r66-ux.js",
+    "src/r66-vfx.js",
+    "src/r67-ui.js"
+  ]
+}

@@ -1,0 +1,19 @@
+VEILFALL R74 — MENU PRINCIPAL E HUD REFORMULADOS
+
+Abra ABRIR_JOGO.bat ou VEILFALL.html no navegador.
+
+NOVIDADES:
+- Menu principal em tela própria: nenhuma HUD de combate aparece atrás.
+- Voltar ao menu da campanha (salvamento antes de retornar).
+- Botões Continuar, Nova Jornada, Laboratório, Clãs/Raids, Configurações, Backup/Importação.
+- Interface de campanha refinada: recursos, combate, chefes, habilidades, inventário e cartões de heróis.
+- Botões de avanço e evolução permanecem com área reservada, sem deslocamento por notificações.
+
+INTEGRIDADE:
+- Código de combate e de Clãs/Raids não alterado.
+- Imagens/áudios existentes não alterados.
+- Salvamentos R72 mantidos; faça backup antes de atualizar.
+- Backup exportado como JSON pode ser importado pelo menu.
+
+OBSERVAÇÃO:
+Clãs/Raids online continuam exigindo um servidor próprio. O modo treino funciona offline.

@@ -1,0 +1,96 @@
+{
+  "total_arquivos": 15,
+  "diferencas": 0,
+  "arquivos": [
+    {
+      "arquivo": "knight-manifest.json",
+      "r51_sha256": "85d1213b7aa98d8c2314a02540061a3493086f97a91e0d5ff1192732d5c0094f",
+      "r52_sha256": "85d1213b7aa98d8c2314a02540061a3493086f97a91e0d5ff1192732d5c0094f",
+      "identico": true
+    },
+    {
+      "arquivo": "audio/sound-0.wav",
+      "r51_sha256": "59f9cf4dd1e7e19c1466a63637436cba58af1ee7b0c78d6b207929f7a30d732e",
+      "r52_sha256": "59f9cf4dd1e7e19c1466a63637436cba58af1ee7b0c78d6b207929f7a30d732e",
+      "identico": true
+    },
+    {
+      "arquivo": "audio/sound-2.wav",
+      "r51_sha256": "ba8a92072c8c12cfcaf23738153629faa44f0e72dc085d418791106f92865476",
+      "r52_sha256": "ba8a92072c8c12cfcaf23738153629faa44f0e72dc085d418791106f92865476",
+      "identico": true
+    },
+    {
+      "arquivo": "audio/sound-1.wav",
+      "r51_sha256": "d3e079b01b3d57ce811063fdb93e6faf50efb09ca34adb302c20e464613bb140",
+      "r52_sha256": "d3e079b01b3d57ce811063fdb93e6faf50efb09ca34adb302c20e464613bb140",
+      "identico": true
+    },
+    {
+      "arquivo": "environment/arena.png",
+      "r51_sha256": "e76343d3c6b4465bef558b7c74e3a4d279a3fb3c325e7bff5385da15dac8ed1f",
+      "r52_sha256": "e76343d3c6b4465bef558b7c74e3a4d279a3fb3c325e7bff5385da15dac8ed1f",
+      "identico": true
+    },
+    {
+      "arquivo": "ui/relics1.png",
+      "r51_sha256": "6912f650ee101ebbd8d55b3862068822af19b4b6a4aa2d5307afe6fcab24ed56",
+      "r52_sha256": "6912f650ee101ebbd8d55b3862068822af19b4b6a4aa2d5307afe6fcab24ed56",
+      "identico": true
+    },
+    {
+      "arquivo": "ui/icons.png",
+      "r51_sha256": "0c38b023ed55169fcf129eadafc4ac7293e6375cab7a799e8d2d56080cd0a955",
+      "r52_sha256": "0c38b023ed55169fcf129eadafc4ac7293e6375cab7a799e8d2d56080cd0a955",
+      "identico": true
+    },
+    {
+      "arquivo": "ui/companions.png",
+      "r51_sha256": "8e1efd1db84c4ef53a128666eafd3233d25f0ba9a89168ceceb19d40de44bf8d",
+      "r52_sha256": "8e1efd1db84c4ef53a128666eafd3233d25f0ba9a89168ceceb19d40de44bf8d",
+      "identico": true
+    },
+    {
+      "arquivo": "ui/relics2.png",
+      "r51_sha256": "a36287a1ffd15988a7d6bd8c87f773d09b56b7b892be703baba5d2418965c3e5",
+      "r52_sha256": "a36287a1ffd15988a7d6bd8c87f773d09b56b7b892be703baba5d2418965c3e5",
+      "identico": true
+    },
+    {
+      "arquivo": "characters/enemies.png",
+      "r51_sha256": "fa78c5974f7d2c45c32acbb9b1c005b44e572680855ee143258d9e46a8f932f7",
+      "r52_sha256": "fa78c5974f7d2c45c32acbb9b1c005b44e572680855ee143258d9e46a8f932f7",
+      "identico": true
+    },
+    {
+      "arquivo": "characters/knight.png",
+      "r51_sha256": "e68d371feab99131e085d79ff9fcc29f6999ab6c0f36e01978f160abfec09fd9",
+      "r52_sha256": "e68d371feab99131e085d79ff9fcc29f6999ab6c0f36e01978f160abfec09fd9",
+      "identico": true
+    },
+    {
+      "arquivo": "characters/bosses.png",
+      "r51_sha256": "fa2e94c7f37de91515662359b3ec1c9d22de5b8e5e6ce14b94eb3fdc0138b821",
+      "r52_sha256": "fa2e94c7f37de91515662359b3ec1c9d22de5b8e5e6ce14b94eb3fdc0138b821",
+      "identico": true
+    },
+    {
+      "arquivo": "source/characters/knight-combat.png",
+      "r51_sha256": "abdb9c0cde1918f0e5c67fb4e035e237c0797a2365ebe846330a2739814d76d5",
+      "r52_sha256": "abdb9c0cde1918f0e5c67fb4e035e237c0797a2365ebe846330a2739814d76d5",
+      "identico": true
+    },
+    {
+      "arquivo": "source/characters/knight-reactions.png",
+      "r51_sha256": "9c32a13f6b587ed056561e4e2f24932f273977244c59cbf6e9e49df6f75da5f3",
+      "r52_sha256": "9c32a13f6b587ed056561e4e2f24932f273977244c59cbf6e9e49df6f75da5f3",
+      "identico": true
+    },
+    {
+      "arquivo": "source/characters/knight-locomotion.png",
+      "r51_sha256": "ebf9b5caf29281410d71556d88c9e8b4e6fae26973fb76002a8198d7a4c29469",
+      "r52_sha256": "ebf9b5caf29281410d71556d88c9e8b4e6fae26973fb76002a8198d7a4c29469",
+      "identico": true
+    }
+  ]
+}

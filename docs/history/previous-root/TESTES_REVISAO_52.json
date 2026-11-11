@@ -1,0 +1,134 @@
+{
+  "versao": "52-candidata",
+  "data": "2026-10-27",
+  "metodo": "simulador do motor JavaScript em Node VM, com bot heuristico de compras; 20 ticks/s",
+  "status": "Candidata de balanceamento, endgame não comprovado",
+  "comparativo": {
+    "R51_30min": {
+      "amostras": 4,
+      "seeds": [
+        11,
+        13,
+        17,
+        23
+      ],
+      "fases_maximas": [
+        84,
+        89,
+        90,
+        84
+      ],
+      "mortes": [
+        8,
+        9,
+        8,
+        6
+      ],
+      "prestigios": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "R52_30min": {
+      "amostras": 4,
+      "seeds": [
+        11,
+        13,
+        17,
+        23
+      ],
+      "fases_maximas": [
+        125,
+        122,
+        122,
+        121
+      ],
+      "mortes": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "prestigios": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "R51_60min": {
+      "amostras": 2,
+      "seeds": [
+        11,
+        31
+      ],
+      "fases_maximas": [
+        93,
+        96
+      ],
+      "mortes": [
+        28,
+        32
+      ],
+      "prestigios": [
+        1,
+        1
+      ]
+    },
+    "R52_60min": {
+      "amostras": 2,
+      "seeds": [
+        11,
+        31
+      ],
+      "fases_maximas": [
+        177,
+        178
+      ],
+      "mortes": [
+        1,
+        0
+      ],
+      "prestigios": [
+        1,
+        1
+      ]
+    },
+    "R52_120min": {
+      "amostras": 2,
+      "seeds": [
+        11,
+        31
+      ],
+      "fases_maximas": [
+        310,
+        307
+      ],
+      "mortes": [
+        0,
+        0
+      ],
+      "prestigios": [
+        3,
+        3
+      ]
+    }
+  },
+  "testes_motor": {
+    "total": 396,
+    "aprovados": 396,
+    "falhas": 0
+  },
+  "instantaneos_sinteticos": {
+    "quantidade": 7200,
+    "mundos": 5,
+    "observacao": "não simulam uma economia real nem passagem de 120.000 fases"
+  },
+  "limites": [
+    "Sem campanha de ponta a ponta até dificuldade V na fase 24.000",
+    "Sem validação visual no navegador ou execução no Windows físico",
+    "Curvas de Souls/Runes preservadas; interações de todas as builds não inteiramente validadas"
+  ]
+}

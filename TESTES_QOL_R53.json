@@ -1,0 +1,116 @@
+{
+  "revision": 53,
+  "pass": 27,
+  "fail": 0,
+  "total": 27,
+  "results": [
+    {
+      "title": "intervalo da fábrica: 2h inicial; 1h no nv 11; não fica abaixo de 1h",
+      "ok": true
+    },
+    {
+      "title": "o botão não permite aumentar fábrica no nível máximo",
+      "ok": true
+    },
+    {
+      "title": "nível da fase de retorno cresce, respeitando teto, nas 5 dificuldades",
+      "ok": true
+    },
+    {
+      "title": "cavaleiro no Mundo I não retorna ao nível 1 da fase 500",
+      "ok": true
+    },
+    {
+      "title": "prestígio avançado devolve nível compatível, gold inicial e compra heróis auto",
+      "ok": true
+    },
+    {
+      "title": "prestígio no Mundo III preserva nível proporcional ao mundo",
+      "ok": true
+    },
+    {
+      "title": "auto heróis pode ser desativado e reativado",
+      "ok": true
+    },
+    {
+      "title": "comprar todos os heróis gasta ouro válido e distribui níveis",
+      "ok": true
+    },
+    {
+      "title": "auto compra o primeiro herói mesmo antes do primeiro nível de skill",
+      "ok": true
+    },
+    {
+      "title": "auto-compra mantém reserva para skills",
+      "ok": true
+    },
+    {
+      "title": "sem ouro não compra heróis",
+      "ok": true
+    },
+    {
+      "title": "progresso acumulado de heróis não pula níveis em compras em massa",
+      "ok": true
+    },
+    {
+      "title": "compra automática de heróis não reserva ouro para habilidades removidas",
+      "ok": true
+    },
+    {
+      "title": "fábrica nível 1 produz após 7200 segundos de jogo",
+      "ok": true
+    },
+    {
+      "title": "fábrica nível 11 produz após 3600 segundos de jogo",
+      "ok": true
+    },
+    {
+      "title": "habilidades ativas não usam níveis de compra",
+      "ok": true
+    },
+    {
+      "title": "ouro não é gasto em melhorias de habilidades",
+      "ok": true
+    },
+    {
+      "title": "desbloqueio continua dependente do nível do cavaleiro",
+      "ok": true
+    },
+    {
+      "title": "equipamentos favoritos e equipados são poupados da venda em massa",
+      "ok": true
+    },
+    {
+      "title": "venda individual não vende favorito",
+      "ok": true
+    },
+    {
+      "title": "clicar no favorito alterna e persiste",
+      "ok": true
+    },
+    {
+      "title": "interface dos heróis contém o AUTO e botão de compra total",
+      "ok": true
+    },
+    {
+      "title": "interface de skills não oferece compras de ranks",
+      "ok": true
+    },
+    {
+      "title": "interface de equipamento tem favoritos e venda em massa",
+      "ok": true
+    },
+    {
+      "title": "salvamento carrega autoHeroes e favoritos sem alterar coleções",
+      "ok": true
+    },
+    {
+      "title": "R52 salva com prestígio avançado e nível 1 é reparada ao carregar",
+      "ok": true
+    },
+    {
+      "title": "conversão salva a partida com autoHeroes true por padrão no save antigo",
+      "ok": true
+    }
+  ]
+}

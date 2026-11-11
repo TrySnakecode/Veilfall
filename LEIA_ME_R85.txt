@@ -1,0 +1,8 @@
+VEILFALL R85 — HABILIDADES E BUILDS
+
+- Base: R84, com arte, efeitos e sprites originais intactos.
+- Mundo > Prioridade de ataque > Priorizar chefes agora direciona UMA area existente para o boss ao alcance, sem adicionar impactos.
+- Ira do Martir: ataque principal causa dano uma vez; explosao atinge somente os demais inimigos proximos.
+- Ceifa do Veu: +18% apenas sobre cada inimigo que ja estava amaldicoado no momento do acerto.
+- A vida/dano-base dos inimigos, prestígio, relíquias, ouro, drops, nivel e estrutura do save nao foram alterados.
+- Recomenda-se exportar o save antes de substituir a versao.
